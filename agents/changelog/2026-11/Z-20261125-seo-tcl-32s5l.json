@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261125-seo-tcl-32s5l",
+  "datum": "2026-11-25",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "TCL 32S5L: názov podľa šablóny, titulok a meta z parametrov.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002206315",
+      "guid": "879d02f6-e85b-11f1-998e-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/tcl-32s5l-fullhd-qled-android-tv/",
+      "polia": {
+        "name": {
+          "pred": "TCL 32S5L FullHD QLED Android TV",
+          "po": "Televízor TCL 32S5L QLED Full HD, 32\", Android TV"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "TCL 32S5L QLED televízor 32\", Full HD, Android TV"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Televízor TCL 32S5L: 32\" QLED, Full HD, HDR10, tuner DVB-T2/C/S2, 2× HDMI, Wi‑Fi, Bluetooth, Chromecast, Android TV, VESA 100×100."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-25",
+    "ok": true,
+    "poznamka": "product_update potvrdil name, metaTitle, metaDescription."
+  }
+}
