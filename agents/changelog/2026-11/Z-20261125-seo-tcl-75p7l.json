@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261125-seo-tcl-75p7l",
+  "datum": "2026-11-25",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "TCL 75P7L (nový produkt): názov podľa šablóny, titulok a meta z parametrov.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002206280",
+      "guid": "852bb990-e85b-11f1-9ed0-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/tcl-75p7l-qled-4k-google-tv/",
+      "polia": {
+        "name": {
+          "pred": "TCL 75P7L QLED 4K Google TV",
+          "po": "Televízor TCL 75P7L QLED 4K, 75\", Google TV"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "TCL 75P7L QLED televízor 75\", 4K, Google TV"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Televízor TCL 75P7L: 75\" QLED, 4K, Dolby Vision, HDR10+, 3× HDMI 2.1, Dolby Atmos, DTS:X, Game Accelerator 120 Hz, Google TV."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-25",
+    "ok": true,
+    "poznamka": "product_update potvrdil name, metaTitle, metaDescription."
+  }
+}

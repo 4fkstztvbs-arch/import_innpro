@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261125-seo-tcl-55t8d",
+  "datum": "2026-11-25",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "TCL 55T8D (nový produkt): názov podľa šablóny, titulok a meta z parametrov.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002206290",
+      "guid": "863dadd4-e85b-11f1-ae15-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/tcl-55t8d-qd-miniled-4k-144hz-google-tv/",
+      "polia": {
+        "name": {
+          "pred": "TCL 55T8D QD-MiniLED 4K 144Hz Google TV",
+          "po": "Televízor TCL 55T8D QD-Mini LED 4K, 55\", 144 Hz, Google TV"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "TCL 55T8D QD-Mini LED televízor 55\", 4K, 144 Hz"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Televízor TCL 55T8D: 55\" QD-Mini LED, 4K, 144 Hz, Dolby Vision, HDR10+, Dolby Atmos, 4× HDMI, FreeSync Premium, Google TV."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-25",
+    "ok": true,
+    "poznamka": "product_update potvrdil name, metaTitle, metaDescription."
+  }
+}
