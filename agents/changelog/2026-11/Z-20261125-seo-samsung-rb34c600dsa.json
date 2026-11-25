@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261125-seo-samsung-rb34c600dsa",
+  "datum": "2026-11-25",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "Samsung RB34C600DSA/EF: názov s typom produktu, titulok a meta z parametrov v popise (UE98U9072H skontrolovaný, bez zmeny).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100001947514",
+      "guid": "5a807ec6-d96d-11f1-aee7-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/samsung-rb34c600dsa-ef/",
+      "polia": {
+        "name": {
+          "pred": "Samsung RB34C600DSA/EF",
+          "po": "Chladnička s mrazničkou dole Samsung RB34C600DSA/EF, 344 l, No Frost, trieda D"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "Samsung RB34C600DSA/EF chladnička 344 l, Total No Frost"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Chladnička Samsung RB34C600DSA/EF: 344 l (230 + 114), Total No Frost, trieda D, Wi‑Fi, hlučnosť 35 dB, strieborná, výška 185,3 cm."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-25",
+    "ok": true,
+    "poznamka": "product_update potvrdil name, metaTitle, metaDescription."
+  }
+}
