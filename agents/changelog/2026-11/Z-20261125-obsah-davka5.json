@@ -1,0 +1,247 @@
+{
+  "id": "Z-20261125-obsah-davka5",
+  "datum": "2026-11-25",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 15 (25. 11., 18:10): 15 produktov: Ancel W655, Magcubic HY300X-2, HY300X-3, HY350 sivý a čierny a SJCAM (S10 64 a 128 GB, SJ30, SJ20, C400 s ovládačom a Pocket, SJ11 Active, SJ6 Ultra, C200 Pro, SJ4000 Wi-Fi). Nové slovenské krátke popisy a opravená meta; dlhé popisy boli už slovenské (s obrázkami dodávateľa), prepísané len pri W655 (angličtina) a SJ30 (český preklep).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "069082",
+      "guid": "90d707e4-9dc5-11f1-8fa0-bc2411e8af0e",
+      "model": "Ancel W655",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ancel W655 WiFi endoscopic camera The Ancel W655 endoscope camera is a highly advanced diagnostic tool that allows users to make accurate inspections in hard-to-reach or invisible areas. It is ideal…",
+          "po": "WiFi inšpekčná kamera Ancel W655 so snímačom 2 Mpx a videom 1080p. Kábel 5 m, Wi-Fi pre iOS a Android, IP67, batéria 450 mAh na 2,5 hodiny."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "086348",
+      "guid": "18098f62-92c6-11f1-8344-bc2411833e01",
+      "model": "Magcubic HY300X-2",
+      "polia": {
+        "shortDescription": {
+          "pred": "Projektor Magcubic HY300X-2 Projektor Magcubic HY300X-2 váži len 438 g, napriek tomu ponúka natívne rozlíšenie 1280 × 720p a plnú podporu dekódovania 4K obsahu. Môžete ho teda používať kdekoľvek a…",
+          "po": "Ľahký projektor Magcubic HY300X-2 s hmotnosťou 438 g, natívnym 720p a podporou 4K. Android 11, Wi-Fi 6, Bluetooth 5.0, elektrické zaostrenie, otočný o 180°."
+        },
+        "metaDescription": {
+          "pred": "Magcubic HY300X má natívne 720p, jas 200 ANSI lm a Wi‑Fi 6; variant ‑2 označuje vyhotovenie. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+          "po": "Projektor Magcubic HY300X-2: natívne 720p, podpora 4K, Android 11, Wi-Fi 6 a elektrické zaostrenie. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "090891",
+      "guid": "40dc3214-92c6-11f1-8314-bc2411833e01",
+      "model": "Magcubic HY300X-3",
+      "polia": {
+        "shortDescription": {
+          "pred": "Projektor Magcubic HY300X-3 Projektor Magcubic HY300X-3 váži len 438 g, napriek tomu ponúka natívne rozlíšenie 1280 × 720p a plnú podporu dekódovania 4K obsahu. Môžete ho teda používať kdekoľvek a…",
+          "po": "Ľahký projektor Magcubic HY300X-3 s hmotnosťou 438 g, natívnym 720p a podporou 4K. Android 11, Wi-Fi 6, Bluetooth 5.0, elektrické zaostrenie, otočný o 90°."
+        },
+        "metaDescription": {
+          "pred": "HY300X‑3 ponúka natívne 720p a Wi‑Fi 6; otočné telo umožňuje nastaviť projekciu podľa miestnosti. Ďalšie produkty nájdete v kategórii Projektory.",
+          "po": "Projektor Magcubic HY300X-3: natívne 720p, podpora 4K, Android 11, Wi-Fi 6 a elektrické zaostrenie. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "086341",
+      "guid": "87b8ad5c-938e-11f1-8986-bc2411e8af0e",
+      "model": "Magcubic HY350 sivý",
+      "polia": {
+        "shortDescription": {
+          "pred": "Projektor Magcubic HY350 (sivý) Magcubic HY350 je projektor, ktorý spája natívne rozlíšenie 1080p, jas 580 ANSI lumenov a kontrastný pomer 20 000:1 s modernými inteligentnými funkciami. Zariadenie…",
+          "po": "Sivý projektor Magcubic HY350 s natívnym 1080p, jasom 580 ANSI lm a kontrastom 20 000:1. Android 11, Wi-Fi 6, Bluetooth 5.0, automatické zaostrenie a korekcia."
+        },
+        "metaDescription": {
+          "pred": "Sivý projektor Magcubic HY350 s natívnym rozlíšením 1080p, jasom 580 ANSI lm, Wi-Fi 6 a Bluetooth 5.0. Všetko, čo potrebujete, je v jednom zariadení!",
+          "po": "Sivý projektor Magcubic HY350: 1080p, 580 ANSI lm, Android 11, Wi-Fi 6, Bluetooth 5.0. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "092522",
+      "guid": "907504ea-938e-11f1-9ccf-bc2411e8af0e",
+      "model": "Magcubic HY350 čierny",
+      "polia": {
+        "shortDescription": {
+          "pred": "Projektor Magcubic HY350 (čierny) Magcubic HY350 je projektor, ktorý spája natívne rozlíšenie 1080p, jas 580 ANSI lumenov a kontrastný pomer 20 000:1 s modernými inteligentnými funkciami. Zariadenie…",
+          "po": "Čierny projektor Magcubic HY350 s natívnym 1080p, jasom 580 ANSI lm a kontrastom 20 000:1. Android 11, Wi-Fi 6, Bluetooth 5.0, automatické zaostrenie a korekcia."
+        },
+        "metaDescription": {
+          "pred": "Čierny projektor Magcubic HY350 s natívnym rozlíšením 1080p, jasom 580 ANSI lm, Wi-Fi 6 a Bluetooth 5.0. Všetko, čo potrebujete, je v jednom zariadení!",
+          "po": "Čierny projektor Magcubic HY350: 1080p, 580 ANSI lm, Android 11, Wi-Fi 6, Bluetooth 5.0. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093520",
+      "guid": "09c296a0-b234-11f1-86d3-bc2411e8af0e",
+      "model": "SJCAM S10 64 GB čierna",
+      "polia": {
+        "shortDescription": {
+          "pred": "Akčná kamera SJCAM S10 64G (čierna) SJCAM S10 vám umožňuje jednoducho zaznamenávať každodenné okamihy, cesty, aktivity a spontánne zábery v 4K kvalite. Kamera váži len 46 g a disponuje širokým zorným…",
+          "po": "Akčná kamera SJCAM S10 (64 GB, čierna) s videom 4K/30 fps, uhlom 150° a stabilizáciou SteadyMotion 2.0. Modul Boost Pod s 2,51″ displejom, záznam až 290 minút."
+        },
+        "metaDescription": {
+          "pred": "Akčná kamera SJCAM S10 (64 GB, čierna) s videom 4K, uhlom záberu 150° a naklápacím dotykovým displejom. Pohyb nemusí znamenať roztrasený obraz.",
+          "po": "Akčná kamera SJCAM S10 (64 GB, čierna): 4K, uhol 150°, stabilizácia SteadyMotion 2.0, modul Boost Pod s displejom. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093522",
+      "guid": "09c6bc8a-b234-11f1-9d51-bc2411e8af0e",
+      "model": "SJCAM S10 128 GB čierna",
+      "polia": {
+        "shortDescription": {
+          "pred": "Akčná kamera SJCAM S10 128G (čierna) SJCAM S10 vám umožňuje jednoducho zaznamenávať každodenné okamihy, cesty, aktivity a spontánne zábery v kvalite 4K. Kamera váži len 46 g, ponúka široké zorné pole…",
+          "po": "Akčná kamera SJCAM S10 (128 GB, čierna) s videom 4K/30 fps, uhlom 150° a stabilizáciou SteadyMotion 2.0. Modul Boost Pod s 2,51″ displejom, záznam až 290 minút."
+        },
+        "metaDescription": {
+          "pred": "Akčná kamera SJCAM S10 (128 GB, čierna) s videom 4K, uhlom záberu 150° a naklápacím dotykovým displejom. Pohyb nemusí znamenať roztrasený obraz.",
+          "po": "Akčná kamera SJCAM S10 (128 GB, čierna): 4K, uhol 150°, stabilizácia SteadyMotion 2.0, modul Boost Pod s displejom. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093524",
+      "guid": "09cb33dc-b234-11f1-9fd4-bc2411e8af0e",
+      "model": "SJCAM SJ30",
+      "polia": {
+        "shortDescription": {
+          "pred": "Akčná kamera SJCAM SJ30 SJCAM SJ30 vám umožňuje zaznamenať dynamickú akciu v rozlíšení až 8K pri 20 fps a robiť detailné fotografie s rozlíšením 48 MP. Systém dvoch objektívov určený pre denné i…",
+          "po": "Akčná kamera SJCAM SJ30 s videom až 8K/20 fps a fotografiami 48 MP. Dva objektívy pre deň a noc, SteadyMotion 2.0, 2,51″ naklápací displej, hlasové ovládanie."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093526",
+      "guid": "09cf4e5e-b234-11f1-b9aa-bc2411e8af0e",
+      "model": "SJCAM SJ20",
+      "polia": {
+        "shortDescription": {
+          "pred": "Akčná kamera SJCAM SJ20 SJCAM SJ20 je vybavená dvoma objektívmi určenými na nahrávanie v rôznych svetelných podmienkach – objektívom F2.0 pre denné natáčanie a objektívom F1.3 pre nočné natáčanie – a…",
+          "po": "Akčná kamera SJCAM SJ20 s dvoma objektívmi (f/2,0 deň, f/1,3 noc) a videom až 4K/30 fps. 6-osový gyroskop a EIS, uhol 135°, dva displeje, vodotesná do 5 m."
+        },
+        "metaDescription": {
+          "pred": "Akčná kamera SJCAM SJ20 s dvoma objektívmi pre deň a noc, videom až 4K pri 30 fps a stabilizáciou. Ďalšie produkty nájdete v kategórii Foto a príslušenstvo.",
+          "po": "Akčná kamera SJCAM SJ20: dva objektívy pre deň a noc, video 4K/30 fps, 6-osová stabilizácia a dva displeje. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093528",
+      "guid": "09d72cfa-b234-11f1-b1e0-bc2411e8af0e",
+      "model": "SJCAM C400 s ovládačom čierna",
+      "polia": {
+        "shortDescription": {
+          "pred": "Akčná kamera SJCAM C400 (čierna) SJCAM C400 spája kompaktný dizajn s nahrávaním v rozlíšení 4K Ultra HD pri 30 fps, vďaka čomu je ideálna na zaznamenávanie každodenných vlogov aj dynamických záberov…",
+          "po": "Odnímateľná akčná kamera SJCAM C400 (čierna) s bezdrôtovým ovládačom a otočným dotykovým displejom 2,29″. Video 4K/30 fps, dosah ovládača 8 m, výdrž až 7 hodín."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093530",
+      "guid": "09db08b6-b234-11f1-82f6-bc2411e8af0e",
+      "model": "SJCAM C400 Pocket čierna",
+      "polia": {
+        "shortDescription": {
+          "pred": "Vrecková akčná kamera SJCAM C400 (čierna) SJCAM C400 spája kompaktný dizajn s nahrávaním v rozlíšení 4K Ultra HD pri 30 fps, vďaka čomu je ideálna tak pre každodenné vlogy, ako aj pre dynamické…",
+          "po": "Vrecková akčná kamera SJCAM C400 Pocket (čierna) s videom 4K/30 fps a 6-osovou stabilizáciou. Výdrž 172 minút, 1,3″ displej, Wi-Fi, 54 g, puzdro do 30 m."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093541",
+      "guid": "09f3d134-b234-11f1-8156-bc2411e8af0e",
+      "model": "SJCAM SJ11 Active",
+      "polia": {
+        "shortDescription": {
+          "pred": "Akčná kamera SJCAM SJ11 Active SJCAM SJ11 Active vám umožňuje zaznamenávať dynamické okamihy v rozlíšení 4K pri 30 fps, 2K pri až 60 fps a fotografovať s rozlíšením až 20 MP. Kvalitu obrazu…",
+          "po": "Akčná kamera SJCAM SJ11 Active s videom 4K/30 fps, fotografiami 20 MP a poľom 154°. 6-osová stabilizácia, dva displeje, vodotesná do 5 m, batéria 1300 mAh."
+        },
+        "metaDescription": {
+          "pred": "Akčná kamera SJCAM SJ11 Active s videom 4K pri 30 fps, fotografiami 20 MP a zorným poľom 154°. Kamera je vybavená aj dodatočným 1,3-palcovým displejom.",
+          "po": "Akčná kamera SJCAM SJ11 Active: video 4K/30 fps, fotografie 20 MP, zorné pole 154° a dva displeje. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093542",
+      "guid": "09f7e31e-b234-11f1-b04f-bc2411e8af0e",
+      "model": "SJCAM SJ6 Ultra",
+      "polia": {
+        "shortDescription": {
+          "pred": "Akčná kamera SJCAM SJ6 Ultra Akčná kamera SJCAM SJ6 Ultra nahráva video v rozlíšení True 4K pri 30 FPS a ponúka až 120 FPS v rozlíšení Full HD, vďaka čomu je ideálna na zaznamenávanie dynamických…",
+          "po": "Akčná kamera SJCAM SJ6 Ultra s videom True 4K/30 fps, Full HD až 120 fps a uhlom 166°. SteadyMotion 2.0, dva displeje, hlasové ovládanie, batéria 1000 mAh."
+        },
+        "metaDescription": {
+          "pred": "Akčná kamera SJCAM SJ6 Ultra s videom True 4K pri 30 fps, Full HD do 120 fps a uhlom záberu 166°. Ďalšie produkty nájdete v kategórii Foto a príslušenstvo.",
+          "po": "Akčná kamera SJCAM SJ6 Ultra: True 4K/30 fps, Full HD 120 fps, uhol 166°, stabilizácia SteadyMotion 2.0. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093536",
+      "guid": "09e86182-b234-11f1-8f82-bc2411e8af0e",
+      "model": "SJCAM C200 Pro",
+      "polia": {
+        "shortDescription": {
+          "pred": "Akčná kamera SJCAM C200 Pro SJCAM C200 Pro vám umožňuje zaznamenať vaše dynamické dobrodružstvá vo videu v rozlíšení 4K pri 30 fps a na fotografiách s rozlíšením až 20 MP, pričom jej šesťosová…",
+          "po": "Kompaktná akčná kamera SJCAM C200 Pro s videom 4K/30 fps, fotografiami 20 MP, HDR a 6-osovou stabilizáciou. 1,3″ displej, Wi-Fi, vodotesná do 5 m, 88 g."
+        },
+        "metaDescription": {
+          "pred": "Akčná kamera SJCAM C200 Pro s videom 4K pri 30 fps, fotografiami 20 MP a šesťosovou stabilizáciou. Ďalšie produkty nájdete v kategórii Foto a príslušenstvo.",
+          "po": "Akčná kamera SJCAM C200 Pro: video 4K/30 fps, fotografie 20 MP, HDR, 6-osová stabilizácia a Wi-Fi. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093544",
+      "guid": "0a00404a-b234-11f1-9950-bc2411e8af0e",
+      "model": "SJCAM SJ4000 Wi-Fi 4K",
+      "polia": {
+        "shortDescription": {
+          "pred": "Akčná kamera SJCAM SJ4000 Wi-Fi Akčná kamera SJCAM SJ4000 Wi-Fi vám umožňuje zaznamenávať vaše dobrodružstvá v rozlíšení 4K pri 30 fps a fotografovať s rozlíšením až 12 MP. Širokouhlý objektív so…",
+          "po": "Akčná kamera SJCAM SJ4000 Wi-Fi s videom 4K/30 fps, fotografiami 12 MP a uhlom 170°. 2″ displej, Wi-Fi s aplikáciou SJCAM Zone, puzdro do 30 m, 60 g."
+        },
+        "metaDescription": {
+          "pred": "Akčná kamera SJCAM SJ4000 Wi-Fi s videom 4K pri 30 fps, fotografiami 12 MP a zorným uhlom 170°. Ďalšie produkty nájdete v kategórii Foto a príslušenstvo.",
+          "po": "Akčná kamera SJCAM SJ4000 Wi-Fi: video 4K/30 fps, fotografie 12 MP, uhol 170° a puzdro do 30 m. Objednajte na PremiumStore.sk."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
