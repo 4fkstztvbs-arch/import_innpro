@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-24 14:24 UTC.
+Kontrola z 2026-11-25 00:14 UTC.
 
-InnPro pri **389** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **386** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -31,10 +31,8 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `025657` | Čelovka Superfire HL51 – 160 lm, micro-USB, 4 režimy, 300 m | — | 5 |
 | `025583` | Inteligentná žiarovka Yeelight W1 GU10 (biela) 1 kus | — | 5 |
 | `025924` | LED lampa Puluz pre fotoaparát 860 lúmenov | — | 5 |
-| `026131` | Základňa snímača pohybu Sonoff (PIR3, SNZB-03) | — | 5 |
 | `025646` | Baseus Tungsten Gold kábel USB na iP 2,4A 2 m (čierny) | — | 5 |
 | `026648` | Ochranná taška / puzdro Telesin pre GoPro Hero 9 / Hero 10 / | — | 5 |
-| `026651` | Súprava vodotesných filtrov Telesin pre objektív GoPro Hero  | — | 5 |
 | `026660` | Držiak na batoh Telesin s klipom pre športové kamery (GP-JFM | — | 5 |
 | `026662` | Hlavový popruh Telesin pre športové kamery (GP-HMS-T04) | — | 5 |
 | `026663` | Dvojitý držiak Telesin J-Hook pre športové kamery (GP-MTB-T0 | — | 5 |
@@ -43,9 +41,10 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `027972` | Náhradný filter pre eliminátor zápachu PetKit Pura Air (2 ks | — | 5 |
 | `029295` | Čelovka Superfire HL55 – 150 lm, USB-C, 4 režimy, 270 m | — | 5 |
 | `030322` | Baseus Crystal Shine kábel USB na Lightning, 2,4A, 1,2 m (mo | — | 5 |
+| `030694` | Filter PGYTECH VND 2-5 stop pre DJI Mavic 3 / Mavic 3 CINE ( | — | 4 |
 | `032351` | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 | — | 3 |
 | `031871` | Plávajúci ručný grip Telesin pre akčné a športové kamery (GP | — | 5 |
-| `035742` | Vertikálny úložný držiak pre vysávač Dreame P10/P10Pro | — | 5 |
+| `035742` | Vertikálny úložný držiak pre vysávač Dreame P10/P10Pro | — | 4 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
 | `036334` | Montážna konzola na lištu DIN Sonoff DR | — | 5 |
@@ -170,6 +169,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `068840` | Mäkká kefa pre Dreame Z20/Z30/Z20 AquaCycle™/Z30 AquaCycle™ | — | 5 |
 | `064183` | Záves na Dreame Glory | — | 5 |
 | `070385` | Puluz headband with sports camera mount (including Osmo Acti | — | 5 |
+| `069448` | TELESIN flexible mount for phones (blue) | — | 5 |
 | `070758` | Thermal labels Niimbot stickers 40x30 mm - 900 pcs. White | — | 5 |
 | `070767` | Thermal Labels Niimbot stickers 50x30 mm - 225 pcs Silver | — | 5 |
 | `070768` | Thermal labels Niimbot stickers 50x70 mm - 100 pcs. White | — | 5 |
@@ -183,7 +183,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071017` | Počítačový ventilátor Darkflash DM20 (čierny) | — | 5 |
 | `071018` | Počítačový ventilátor Darkflash DM20 (biely) | — | 5 |
 | `071861` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 2 |
-| `071868` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 3 |
+| `071868` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 4 |
 | `071859` | Sunnylife landing gear upgrade for DJI Neo (gray) | — | 5 |
 | `071860` | Sunnylife landing gear upgrade for DJI Neo (orange) | — | 5 |
 | `071853` | SUNNYLIFE lens hoods for DJI Neo | — | 5 |
@@ -203,7 +203,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `073743` | Kryt kardanu Sunnylife A3S-G913 pre AIR 3S | — | 5 |
 | `074189` | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát A | — | 5 |
 | `074200` | Sunnylife EP2-BHM917 sada fólií na tvrdené sklo pre Insta360 | — | 5 |
-| `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 5 |
 | `070369` | Filter pre Dreame H14 Dual | — | 5 |
 | `072361` | Chladiaci ventilátor Darkflash DM8 ARGB (čierny) | — | 5 |
 | `071777` | Magnetický držiak telefónu Joyroom JR-ZS418 čierny | — | 5 |
@@ -280,12 +279,10 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `083026` | Sada tvrdeného skla Telesin pre DJI Osmo Action 6 ( 2x objek | — | 5 |
 | `083028` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (or | — | 5 |
 | `083029` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (si | — | 5 |
-| `083367` | Taška Sunnylife pre Action 6 (oranžová) | — | 5 |
 | `083376` | Torba v prístroji Sunnylife zariadenia Osmo Nano (szara) | — | 5 |
 | `083377` | Torba v prístroji Sunnylife spoločnosti Osmo Nano (tsarna) | — | 5 |
 | `083378` | Taška na fotoaparát Sunnylife pre Osmo Nano (oranžová) | — | 5 |
-| `083382` | Krytky objektívov Sunnylife 2+2+2 pre Action 6 | — | 5 |
-| `083384` | Slnečná clona Sunnylife pre Mini 5 PRO | — | 5 |
+| `083384` | Slnečná clona Sunnylife pre Mini 5 PRO | — | 2 |
 | `083387` | Šasi Sunnylife pre Mini 5 Pro (sivé) | — | 5 |
 | `083389` | Stojan Sunnylife pre Mini 5/4/3 Pro | — | 5 |
 | `083385` | Kryt kardanu Sunnylife pre Mini 5 Pro | — | 5 |
@@ -303,7 +300,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `079180` | Puzdro Flytec – čierne | — | 5 |
 | `086285` | Stierka trysky vyhrievanej podložky Anycubic pre modely Kobr | — | 5 |
 | `087726` | BALDRTHERM E0587TH – termohygrometer napájaný solárnou energ | — | 5 |
-| `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 4 |
+| `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 5 |
 | `086444` | Ponorné čerpadlo SUNSUN YQP-300 | — | 5 |
 | `086451` | Filtračné čerpadlo SUNSUN JP-093 | — | 5 |
 | `086452` | Filtračné čerpadlo SUNSUN YQP-300F | — | 5 |
