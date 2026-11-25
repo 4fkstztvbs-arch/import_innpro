@@ -117,59 +117,59 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092086 | 6922572218680 | Sun Filament PLA+HS 1,75 mm 1 kg (horčicovo zelená) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092087 | 6922572218413 | Sun Filament PLA+HS 1,75 mm 1 kg (modrá s oparom) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092088 | 6922572218697 | Filament eSun PLA+HS 1,75 mm, 1 kg (jadeitovo zelená) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092089 | 6922572218420 | Filament eSun PLA+HS 1.75mm 1kg (green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092090 | 6922572224889 | Filament eSun PLA+HS 1.75mm 1kg (soft pink) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092091 | 6922572218468 | Filament eSun PLA+HS 1.75mm 1kg (coral orange) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092092 | 6922572218376 | Filament eSun PLA+HS 1.75mm 1kg (red) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092093 | 6922572218475 | Filament eSun PLA+HS 1.75mm 1kg (blue) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092094 | 6922572221765 | Filament eSun PLA+HS 1.75mm 1kg (RGB green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092095 | 6922572218703 | Filament eSun PLA+HS 1.75mm 1kg (mint green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092096 | 6922572224872 | Filament eSun PLA+HS 1.75mm 1kg (soft blue) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092097 | 6922572218710 | Filament eSun PLA+HS 1.75mm 1kg (light khaki) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092098 | 6922572218451 | Filament eSun PLA+HS 1.75mm 1kg (lilac) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092099 | 6922572218383 | Filament eSun PLA+HS 1.75mm 1kg (matcha green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092100 | 6922572218727 | Filament eSun PLA+HS 1.75mm 1kg (peach pink) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092101 | 6922572218437 | Filament eSun PLA+HS 1.75mm 1kg (milky white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092102 | 6922572218390 | Filament eSun PLA+HS 1.75mm 1kg (almond yellow) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092103 | 6922572218352 | Filament eSun PLA+HS 1.75mm 1kg (apricot) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092104 | 6922572222892 | Filament eSun PLA+HS 1.75mm 1kg (brick red) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092105 | 6922572222922 | Filament eSun PLA+HS 1.75mm 1kg (concrete grey) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092106 | 6922572204867 | Filament eSun PETG+HS 1.75mm 1kg (white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092107 | 6922572204904 | Filament eSun PETG+HS 1.75mm 1kg (orange) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092108 | 6922572204874 | Filament eSun PETG+HS 1.75mm 1kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092109 | 6922572204935 | Filament eSun PETG+HS 1.75mm 1kg (red) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092110 | 6922572204928 | Filament eSun PETG+HS 1.75mm 1kg (yellow) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092111 | 6922572204881 | Filament eSun PETG+HS 1.75mm 1kg (grey) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092112 | 6922572204911 | Filament eSun PETG+HS 1.75mm 1kg (blue) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092113 | 6922572204942 | Filament eSun PETG+HS 1.75mm 1kg (green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092114 | 6922572204959 | Filament eSun PETG+HS 1.75mm 1kg (red) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092115 | 6922572204898 | Filament eSun PETG+HS 1.75mm 1kg (silver) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092116 | 6922572201491 | Filament eSun PLA-LW 1.75mm 1kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092117 | 6922572201606 | Filament eSun PLA-LW 1.75mm 1kg (white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092118 | 6922572200746 | Filament eSun PLA-ST 1.75mm 1kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092119 | 6922572200753 | Filament eSun PLA-ST 1.75mm 1kg (grey) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092120 | 6922572212510 | Filament eSun PLA-ST 1.75mm 1kg (white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092121 | 6922572204331 | Filament eSun PLA-CF 1.75mm 1kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092122 | 6922572204706 | Filament eSun PLA-CF 1.75mm 1kg (brown) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092123 | 6922572204713 | Filament eSun PLA-CF 1.75mm 1kg (green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092124 | 6922572204720 | Filament eSun PLA-CF 1.75mm 1kg (red) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092125 | 6922572204737 | Filament eSun PLA-CF 1.75mm 1kg (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092126 | 6922572277021 | Filament eSun TPU-95A 1.75mm 1kg (white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092127 | 6922572277014 | Filament eSun TPU-95A 1.75mm 1kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092128 | 6922572277038 | Filament eSun TPU-95A 1.75mm 1kg (grey) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092129 | 6922572223912 | Filament eSun TPU-95A 1.75mm 1kg (orange) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092130 | 6922572223929 | Filament eSun TPU-95A 1.75mm 1kg (red) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092131 | 6922572223936 | Filament eSun TPU-95A 1.75mm 1kg (yellow) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092132 | 6922572223943 | Filament eSun TPU-95A 1.75mm 1kg (blue) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092133 | 6922572223950 | Filament eSun TPU-95A 1.75mm 1kg (green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092134 | 6922572277106 | Filament eSun TPU-95A 1.75mm 1kg (translucent orange) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092135 | 6922572277090 | Filament eSun TPU-95A 1.75mm 1kg (translucent pink) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092136 | 6922572277052 | Filament eSun TPU-95A 1.75mm 1kg (translucent red) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092137 | 6922572277069 | Filament eSun TPU-95A 1.75mm 1kg (translucent yellow) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092138 | 6922572277083 | Filament eSun TPU-95A 1.75mm 1kg (translucent blue) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092139 | 6922572277076 | Filament eSun TPU-95A 1.75mm 1kg (translucent green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092140 | 6922572277045 | Filament eSun TPU-95A 1.75mm 1kg (clear) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092141 | 6922572228320 | Filament eSun TPU-95A 1.75mm (translucent light purple) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092089 | 6922572218420 | Filament eSun PLA+HS 1,75 mm, 1 kg (zelený) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092090 | 6922572224889 | Sun Filament PLA+HS 1,75 mm 1 kg (jemne ružová) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092091 | 6922572218468 | Filament eSun PLA+HS 1,75 mm, 1 kg (koralovo oranžová) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092092 | 6922572218376 | Filament eSun PLA+HS 1,75 mm, 1 kg (červený) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092093 | 6922572218475 | Filament eSun PLA+HS 1,75 mm, 1 kg (modrý) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092094 | 6922572221765 | Sun Filament PLA+HS 1,75 mm 1 kg (RGB zelená) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092095 | 6922572218703 | Sun Filament PLA+HS 1,75 mm 1 kg (mätovo zelená) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092096 | 6922572224872 | Filament eSun PLA+HS 1,75 mm, 1 kg (svetlo modrá) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092097 | 6922572218710 | Sun Filament PLA+HS 1,75 mm 1 kg (svetlo khaki) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092098 | 6922572218451 | Filament eSun PLA+HS 1,75 mm, 1 kg (lila) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092099 | 6922572218383 | Filament eSun PLA+HS 1,75 mm 1 kg (zelená farba „matcha“) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092100 | 6922572218727 | Filament eSun PLA+HS 1,75 mm, 1 kg (broskyňovo-ružová) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092101 | 6922572218437 | Filament eSun PLA+HS 1,75 mm, 1 kg (mliečno biela) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092102 | 6922572218390 | Sun Filament PLA+HS 1,75 mm 1 kg (mandľovožltá) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092103 | 6922572218352 | Sun Filament PLA+HS 1,75 mm 1 kg (marhuľová) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092104 | 6922572222892 | Filament eSun PLA+HS 1,75 mm, 1 kg (tehlovo červená) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092105 | 6922572222922 | Filament eSun PLA+HS 1,75 mm, 1 kg (betónovo šedá) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092106 | 6922572204867 | Filament eSun PETG+HS 1,75 mm, 1 kg (biely) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092107 | 6922572204904 | Filament Sun PETG+HS 1,75 mm, 1 kg (oranžový) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092108 | 6922572204874 | Filament eSun PETG+HS 1,75 mm, 1 kg (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092109 | 6922572204935 | Filament eSun PETG+HS 1,75 mm, 1 kg (červený) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092110 | 6922572204928 | Filament eSun PETG+HS 1,75 mm, 1 kg (žltý) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092111 | 6922572204881 | Filament Sun PETG+HS 1,75 mm 1 kg (sivý) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092112 | 6922572204911 | Filament eSun PETG+HS 1,75 mm, 1 kg (modrý) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092113 | 6922572204942 | Filament eSun PETG+HS 1,75 mm 1 kg (zelený) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092114 | 6922572204959 | Filament eSun PETG+HS 1,75 mm, 1 kg (červený) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092115 | 6922572204898 | Filament eSun PETG+HS 1,75 mm, 1 kg (strieborný) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092116 | 6922572201491 | Sun Filament PLA-LW 1,75 mm 1 kg (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092117 | 6922572201606 | Sun Filament PLA-LW 1,75 mm 1 kg (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092118 | 6922572200746 | Sun Filament PLA-ST 1,75 mm 1 kg (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092119 | 6922572200753 | Sun Filament PLA-ST 1,75 mm 1 kg (sivá) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092120 | 6922572212510 | Sun Filament PLA-ST 1,75 mm 1 kg (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092121 | 6922572204331 | Filament eSun PLA-CF 1,75 mm, 1 kg (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092122 | 6922572204706 | Sun Filament PLA-CF 1,75 mm 1 kg (hnedá) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092123 | 6922572204713 | Sun Filament PLA-CF 1,75 mm 1 kg (zelená) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092124 | 6922572204720 | Filament eSun PLA-CF 1,75 mm, 1 kg (červený) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092125 | 6922572204737 | Filament eSun PLA-CF 1,75 mm, 1 kg (fialový) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092126 | 6922572277021 | Filament Sun TPU-95A 1,75 mm, 1 kg (biely) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092127 | 6922572277014 | Filament Sun TPU-95A 1,75 mm, 1 kg (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092128 | 6922572277038 | Vlákno Sun TPU-95A 1,75 mm, 1 kg (sivé) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092129 | 6922572223912 | Vlákno Sun TPU-95A 1,75 mm, 1 kg (oranžové) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092130 | 6922572223929 | Vlákno Sun TPU-95A 1,75 mm, 1 kg (červené) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092131 | 6922572223936 | Vlákno Sun TPU-95A 1,75 mm, 1 kg (žlté) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092132 | 6922572223943 | Filament Sun TPU-95A, 1,75 mm, 1 kg (modrý) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092133 | 6922572223950 | Vlákno Sun TPU-95A, 1,75 mm, 1 kg (zelené) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092134 | 6922572277106 | Vlákno eSun TPU-95A 1,75 mm 1 kg (priehľadná oranžová) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092135 | 6922572277090 | Filament eSun TPU-95A 1,75 mm, 1 kg (priehľadná ružová) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092136 | 6922572277052 | Vlákno eSun TPU-95A 1,75 mm 1 kg (priehľadná červená) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092137 | 6922572277069 | Vlákno eSun TPU-95A 1,75 mm, 1 kg (priehľadná žltá) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092138 | 6922572277083 | Vlákno eSun TPU-95A 1,75 mm 1 kg (priehľadná modrá) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092139 | 6922572277076 | Vlákno eSun TPU-95A 1,75 mm 1 kg (priehľadná zelená) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092140 | 6922572277045 | Filament Sun TPU-95A 1,75 mm, 1 kg (priehľadný) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092141 | 6922572228320 | Vlákno eSun TPU-95A 1,75 mm (priehľadná svetlofialová) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092142 | 6922572228313 | Vlákno eSun TPU-95A 1,75 mm, 1 kg (priehľadná tyrkysová) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092143 | 6922572225589 | Sun Filament TPU-95A 1,75 mm 1 kg (duhová farba C) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092144 | 6922572209244 | Filament Sun TPU-LW 1,75 mm, 0,75 kg (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -240,13 +240,13 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092209 | 6922572241619 | Filament eSun PA 1,75 mm, 1 kg (priehľadný) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092210 | 6922572222267 | Filament Sun PA 1,75 mm, 1 kg (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091977 | 6922572204034 | Vákuová súprava eSun eVacuum Kit Pro 3 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091978 | 6922572221383 | Accessory eSun eBox Pro | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091979 | 6922572272019 | Filament eSun TPU-87A 1.75mm 1kg (clear) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091980 | 6922572288713 | Filament eSun ABS-FR 1.75mm 1kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091981 | 6922572212534 | Filament eSun PLA-GF 1.75mm 1kg (white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091982 | 6922572200692 | Filament eSun PLA-Twinkling 1.75mm 1kg (silver) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091983 | 6922572243965 | Filament eSun PLA Marble 1.75mm 1kg (grey) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091984 | 6922572201576 | Filament eSun PLA-Stars 1.75mm 1kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091978 | 6922572221383 | Príslušenstvo eSun eBox Pro | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091979 | 6922572272019 | Filament Sun TPU-87A 1,75 mm, 1 kg (priehľadný) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091980 | 6922572288713 | Filament eSun ABS-FR 1,75 mm, 1 kg (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091981 | 6922572212534 | Sun Filament PLA-GF 1,75 mm 1 kg (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091982 | 6922572200692 | Vlákno eSun PLA-Twinkling 1,75 mm 1 kg (strieborné) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091983 | 6922572243965 | Sun Filament PLA Marble 1,75 mm 1 kg (sivá) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091984 | 6922572201576 | Vlákno eSun PLA-Stars 1,75 mm, 1 kg (čierne) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091985 | 6922572205512 | Filament eSun PLA-Magic 1,75 mm, 1 kg (tmavá trblietavá zlatá) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091986 | 6922572205529 | Filament eSun PLA-Magic 1,75 mm, 1 kg (tmavomodrá s trblietavým efektom) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091987 | 6922572205536 | Filament eSun PLA-Magic 1,75 mm (tmavozelená s trblietavým efektom) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -300,15 +300,15 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093470 | 6975274260457 | Solárny panel Allpowers SP039 600 W, monokryštalický, prenosný | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094052 | 6975828005206 | Nabíjacia stanica Wallbox dé  11 kW s 5 m káblom | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094334 | 6972792470351 | Mechanical keyboard ATTACK SHARK K75 (Translucent White) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094335 | 6979033730144 | Headphones ATTACK SHARK L30PRO (white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094336 | 6979033730205 | Headphones ATTACK SHARK L30PRO (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094337 | 6979033730137 | Headphones ATTACK SHARK L30PRO (black and red) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094335 | 6979033730144 | Slúchadlá ATTACK SHARK L30PRO (biele) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094336 | 6979033730205 | Slúchadlá ATTACK SHARK L30PRO (čierne) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094337 | 6979033730137 | Slúchadlá ATTACK SHARK L30PRO (čierne a červené) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094338 | 6979033730519 | Headphones ATTACK SHARK L50PRO (white) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094339 | 6979033730502 | Headset ATTACK SHARK L50PRO (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094340 | 6972792471983 | Headphones ATTACK SHARK L80 PRO (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094341 | 6972792470610 | Headphones ATTACK SHARK L80 PRO (white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094342 | 6979033730359 | Mechanical Keyboard ATTACK SHARK M36HE (white and black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094343 | 6979033730342 | Mechanical Keyboard ATTACK SHARK M36HE (white) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094340 | 6972792471983 | Slúchadlá ATTACK SHARK L80 PRO (čierne) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094341 | 6972792470610 | Slúchadlá ATTACK SHARK L80 PRO (biele) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094342 | 6979033730359 | Klávesnica ATTACK SHARK M36HE (moonlight) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094343 | 6979033730342 | Klávesnica ATTACK SHARK M36HE (biely obrys) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094344 | 6972792470474 | Wireless Keyboard ATTACK SHARK M86 (white and gray) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094345 | 6972792471525 | Keyboard ATTACK SHARK M86 (black and white) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094346 | 6972792471648 | Wireless Keyboard ATTACK SHARK M87PROV2RGB (white) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -328,10 +328,10 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094360 | 6972792472539 | Mechanical Keyboard ATTACK SHARK R85HE (black and green) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094361 | 6972792472553 | Mechanical Keyboard ATTACK SHARK R85HE (black and white) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094362 | 6972792472522 | Mechanical Keyboard ATTACK SHARK R85HE (white and black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094363 | 6979033730663 | Mechanical Keyboard ATTACK SHARK R98HE (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094364 | 6979033730670 | Mechanical Keyboard ATTACK SHARK R98HE (white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094365 | 6979033730649 | Mechanical Keyboard ATTACK SHARK R98HE (black and green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094366 | 6979033730656 | Mechanical Keyboard ATTACK SHARK R98HE (black and white) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094363 | 6979033730663 | Klávesnica ATTACK SHARK R98HE (ink) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094364 | 6979033730670 | Klávesnica ATTACK SHARK R98HE (ice) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094365 | 6979033730649 | Klávesnica ATTACK SHARK R98HE (zelená) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094366 | 6979033730656 | Klávesnica ATTACK SHARK R98HE (moonlight) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094367 | 6972792472607 | Computer mouse ATTACK SHARK V3 (white) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094368 | 6972792472614 | Computer mouse ATTACK SHARK V3 (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094372 | 6972792472584 | Computer mouse ATTACK SHARK V3PRO (white) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -343,7 +343,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094378 | 6972792472621 | Computer mouse ATTACK SHARK V6 (red) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094379 | 6979033730014 | Wireless mouse ATTACK SHARK V8 3-Mode (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094380 | 6979033730007 | Wireless mouse ATTACK SHARK V8 3-Mode (white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094381 | 6972792470771 | Computer mouse ATTACK SHARK X11 (black) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094381 | 6972792470771 | Myš ATTACK SHARK X11 (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094382 | 6972792470344 | Computer mouse ATTACK SHARK X11 (white) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094383 | 6972792471174 | Computer mouse ATTACK SHARK X11SE 3-Mode (white) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094384 | 6972792471167 | Computer mouse ATTACK SHARK X11SE 3-Mode (black) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -412,8 +412,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094933 | 6924922272151 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096061 | 6934915213405 | Autokamera DDPAI Z60 Pro 2026 4G Wi-Fi 2CH | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096143 | 6976037363446 | AVATTO GW40-W Brána pre inteligentnú domácnosť ZigBee, Wi-Fi (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095953 | 6976143802532 | AR okuliare XREAL 1 pro+ (veľkosť M) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095954 | 6976143802549 | AR okuliare XREAL 1 pro+ (veľkosť L) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096506 | 6942580510460 | Smartfón FOSSIBOT F117 s operačným systémom Android 16 a 8 GB RAM (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096511 | 6942580510514 | Tablet FOSSIBOT Tab 12 s operačným systémom Android 14, uhlopriečka 10,95 palca, | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096335 | 5905156114005 | Paint sprayer HILDA SP500I 500W | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -421,24 +419,24 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 096337 | 5905156114029 | Power Tool Battery HILDA B12V 12V | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096338 | 5905156114036 | Power Tool Battery HILDA B16V 16.8V | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096339 | 5905156114135 | Cordless Grass and Hedge Shears HILDA SYJ08 3.6V | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096340 | 5905156114708 | Cordless drill with charger HILDA D3012 12V | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096341 | 5905156114166 | Vŕtačka - skrutkovač HILDA D3012-24, 12V, 24 ks | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096340 | 5905156114708 | Vŕtačka-skrutkovač HILDA D3012 12V | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096341 | 5905156114166 | Vŕtačka-skrutkovač HILDA D3012-24 12V 24 ks | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096342 | 5905156114173 | Cordless drill D3016 16.8V | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096343 | 5905156114180 | Vŕtačka - skrutkovač HILDA D3016-24, 16.8V, 24 ks | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096343 | 5905156114180 | Vŕtačka-skrutkovač HILDA D3016-24 16.8V 24 ks | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096344 | 5905156114197 | Cordless drill D3021 30-Series 21V | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096345 | 5905156114203 | Vŕtací skrutkovač HILDA D3021-24 30 Series, 21V, 24 ks | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096346 | 5905156114210 | Akumulátor HILDA B21-13, 21V, 1300mAh | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096347 | 5905156114227 | Akumulátor HILDA B21-26, 21V, 2600mAh | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096348 | 5905156114685 | Cordless rotary tool HILDA R36-46, 46pcs | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096345 | 5905156114203 | Vŕtací skrutkovač HILDA D3021-24 30 Series 21V 24 ks | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096346 | 5905156114210 | Akumulátor HILDA B21-13 21V 1300mAh | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096347 | 5905156114227 | Akumulátor HILDA B21-26 21V 2600mAh | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096348 | 5905156114685 | Priama brúska HILDA R36-46 46 ks | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096349 | 5905156114265 | Cordless scissors HILDA ES3601 3.6V | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096350 | 5905156114258 | Cordless Staple Gun HILDA SG3701 3.7V | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096351 | 5905156114326 | Cordless Ratchet Wrench HILDA RW4512 21V | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096352 | 5905156114296 | Cordless drill HILDA BD13 21V | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096353 | 5905156114302 | Glue Gun HILDA HG100 100W | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096353 | 5905156114302 | Lepiaca pištoľ HILDA HG100 21V 100W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096354 | 5905156114319 | Cordless Angle Grinder HILDA AG2101 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096355 | 5905156114333 | Cordless Grout Cleaning Tool HILDA GC1601 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096356 | 5905156114340 | Krížový laser HILDA LR02 2-líniový (zelený), 30m | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096357 | 5905156114357 | Račňový kľúč HILDA RW4521, 21V, 45Nm | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096356 | 5905156114340 | Krížový laser HILDA LR02 2-líniový 30m (zelený) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096357 | 5905156114357 | Račňový kľúč HILDA RW4521 21V 45Nm | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096358 | 5905156114364 | Cordless Belt Sander HILDA BS2101 700W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096359 | 5905156114371 | Cordless cleaning brush HILDA FW2101 with accessories | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096360 | 5905156114388 | Cordless heat gun HILDA HG21C 300W | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -447,16 +445,16 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 096363 | 5905156114418 | Cordless rotary tool HILDA R8046 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096364 | 5905156114425 | Electric grill brush HILDA EB37 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096365 | 5905156114432 | Cordless Sheet Metal Shears HILDA MS2190 21V | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096366 | 5905156114449 | Mini angle grinder HILDA RW550C | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096385 | 5905156114630 | Cordless angle grinder HILDA AG36001 with accessories, 12V | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096386 | 5905156114692 | Cross line laser HILDA LR1602D42P,30m | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096366 | 5905156114449 | Uhlová brúska HILDA RW550C 550W 76mm | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096385 | 5905156114630 | Uhlová brúska HILDA AG36001 12V 76mm | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096386 | 5905156114692 | Krížový laser HILDA LR1602D42 16-líniový 30m | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096387 | 5905156114159 | Cross Line Laser Battery HILDA LRB01 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096388 | 5905156114142 | Mini Cordless Chainsaw HILDA CS775FA with accesories 21V,15cm | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096389 | 5905156114128 | Rezný kotúč na kov HILDA MC03, 3"" | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096390 | 5905156114111 | Lamelový kotúč HILDA MG03 pre kov, 3"" | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096391 | 5905156114104 | Diamantový kotúč HILDA SGC03, 3"" | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096392 | 5905156114098 | Rezný kotúč HILDA WPMC03, 3"" | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096393 | 5905156114081 | Diamond cutting disc for stone and glass HILDA SGC04, 4" | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096388 | 5905156114142 | Reťazová píla HILDA CS775FA 21V 15cm | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096389 | 5905156114128 | Rezný kotúč HILDA MC03 na kov 75mm 3" | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096390 | 5905156114111 | Lamelový kotúč HILDA MG03 pre kov 75mm 3" | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096391 | 5905156114104 | Diamantový kotúč HILDA SGC03 75mm 3" | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096392 | 5905156114098 | Kotúč HILDA WPMC03 75mm 3" | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096393 | 5905156114081 | Diamantový kotúč HILDA SGC04 4" | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096394 | 5905156114074 | Wood cutting disc HILDA WC04 4" | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096395 | 5905156114067 | Metal Cutting Disc HILDA MC04 4" | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096396 | 5905156114050 | Metal flap disc HILDA MG04, 4" | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -482,7 +480,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 096575 | 5905156115118 | Inspection camera with screen INSKAM G30-M 10m | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096574 | 5905156115101 | WiFi Inspection camera INSKAM 315-W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096573 | 5905156115064 | WiFi Inspection camera INSKAM W300 7.9mm 3m dual lens | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096568 | 5905156114937 | Kids microscope INSKAM 370 (black) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096568 | 5905156114937 | Microscope INSKAM 370 (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096566 | 5905156115040 | Microscope with screen INSKAM 306 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096565 | 5905156115033 | Kids microscope INSKAM 355 (pink) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096564 | 5905156115026 | Microscope with screen INSKAM 330H | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -607,7 +605,5 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 097133 | 6976654463260 | Thermal Label Printer XPRINTER MP2, USB+BT (gold) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 097134 | 6974657415361 | Portable printer A4 XPRINTER P83 thermal, USB+BT (grey) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 097219 | 5905156115392 | Inspection camera 3in1 INSKAM Y101 3.9mm | nulová/neplatná cena |  | 0.00 € |  |  |
-| 035845 | 6941565916839 | Luminiscenčná letová mapa DJI RoboMaster TT | zmena ceny > 5x oproti minulému importu | 801.00 € | 102.50 € | 1/7.8x |  |
-| 061857 | 6976788020391 | Joyroom PN-14F2 Starry Case pre iPhone 14 Pro (ružové) | zmena ceny > 5x oproti minulému importu | 16.00 € | 3.10 € | 1/5.2x |  |
-| 083142 | 0810098388061 | Sedátko FUNWATER SOP1820001 pre SUP dosku | cena mimo 8x rozsah mediánu kategórie | 141.00 € | 16.00 € | 1/8.8x | 13 |
-| 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 141.00 € | 8.10 € | 1/17.4x | 13 |
+| 083142 | 0810098388061 | Sedátko FUNWATER SOP1820001 pre SUP dosku | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 16.00 € | 1/9.0x | 13 |
+| 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 8.10 € | 1/17.8x | 13 |
