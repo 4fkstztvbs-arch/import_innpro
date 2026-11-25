@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261125-seo-tcl-85p7l",
+  "datum": "2026-11-25",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "TCL 85P7L: názov podľa šablóny, titulok a meta z parametrov.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002206309",
+      "guid": "894fb896-e85b-11f1-911b-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/tcl-85p7l-qled-4k-google-tv/",
+      "polia": {
+        "name": {
+          "pred": "TCL 85P7L QLED 4K Google TV",
+          "po": "Televízor TCL 85P7L QLED 4K, 85\", Google TV"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "TCL 85P7L QLED televízor 85\", 4K, Google TV"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Televízor TCL 85P7L: 85\" QLED, 4K, Dolby Vision, HDR10+, 3× HDMI 2.1, Onkyo 2.1 so subwooferom 40 W, Game Accelerator 120 Hz, Google TV."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-25",
+    "ok": true,
+    "poznamka": "product_update potvrdil name, metaTitle, metaDescription."
+  }
+}

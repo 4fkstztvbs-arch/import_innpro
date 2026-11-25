@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261125-seo-tcl-50p7l",
+  "datum": "2026-11-25",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "TCL 50P7L: názov podľa šablóny, titulok a meta z parametrov.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002206281",
+      "guid": "861c7346-e3a4-11f1-ab2c-bc24110eff41",
+      "url": "https://www.premiumstore.sk/tcl-50p7l-qled-4k-google-tv/",
+      "polia": {
+        "name": {
+          "pred": "TCL 50P7L QLED 4K Google TV",
+          "po": "Televízor TCL 50P7L QLED 4K, 50\", Google TV"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "TCL 50P7L QLED televízor 50\", 4K, Google TV"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Televízor TCL 50P7L: 50\" QLED, 4K, Dolby Vision, HDR10+, 3× HDMI 2.1, Dolby Atmos, DTS:X, Google TV, Wi‑Fi 5."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-25",
+    "ok": true,
+    "poznamka": "product_update potvrdil name, metaTitle, metaDescription."
+  }
+}
