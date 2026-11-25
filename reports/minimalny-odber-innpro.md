@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-25 03:06 UTC.
+Kontrola z 2026-11-25 13:42 UTC.
 
-InnPro pri **386** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **380** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -14,7 +14,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `018159` | Baseus Cafule USB Lightning kábel 1,5 A 2 m (sivý+čierny) | — | 5 |
 | `018671` | Čiapka Puluz s držiakom pre športovú kameru (DJI, GoPro, Ins | — | 5 |
 | `018672` | Náramok Puluz s nástavcom na športovú kameru (vrátane Ace Pr | — | 5 |
-| `019094` | Baseus Cafule Lightning kábel 1,5A 2 m (zlatý+tmavomodrý) | — | 5 |
 | `019498` | Sada nálepiek a držiakov Puluz pre bodové kamery (vrátane In | — | 5 |
 | `019497` | Čelenka Puluz s držiakom športovej kamery (napr. Osmo Action | — | 5 |
 | `019499` | Držiak J-Hook Puluz pre športové kamery (DJI, GoPro, Insta36 | — | 5 |
@@ -68,7 +67,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `043032` | Stojanová základňa vypínača Sonoff NSPanel (čierny) | — | 5 |
 | `038164` | Solárna lampa Superfire FF6-B, 33W, 220lm, 1200mAh | — | 5 |
 | `043228` | Sáčky na psie exkrementy PetKit - 8 roliek | — | 5 |
-| `044841` | Joyroom JR-14D4 priehľadné puzdro pre iPhone 14 Pro Max | — | 5 |
 | `044828` | Joyroom JR-14S1 čierne puzdro pre iPhone 14 | — | 5 |
 | `044806` | Joyroom JR-G04 Glass iPhone 14 Pro Max 6.7 (ochrana očí) | — | 5 |
 | `044441` | Baseus Crystal Tvrdené sklo 0,3 mm pre tablet Huawei MatePad | — | 5 |
@@ -121,7 +119,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `060190` | Klip mikrofónu Puluz PU3045 3m, 3,5 mm Jack | — | 5 |
 | `060195` | Klip mikrofónu Puluz PU3045 3m, 3,5 mm Jack | — | 5 |
 | `060430` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 5 |
-| `060431` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 2 |
 | `058458` | Bezdrôtový diaľkový spínač SwitchBot-S1 (čierny) | — | 5 |
 | `061988` | Silicone case TELESIN for Insta360 Ace Pro | — | 5 |
 | `062224` | Termálne etikety Niimbot nálepky 12x40 mm, 160 ks (biela) | — | 5 |
@@ -199,7 +196,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `069353` | Decorative cover / cap for T5 SONOFF Star 3C touch switch | — | 5 |
 | `071272` | Senzorové nočné svetlo Yeelight Lite | — | 5 |
 | `071238` | Etui do iPhone 16 Plus Nillkin Super Frosted Pro (čierne) | — | 4 |
-| `073741` | Butterfly Sunnylife NE-SN908 ochranné puzdro pre NEO s karab | — | 5 |
 | `073743` | Kryt kardanu Sunnylife A3S-G913 pre AIR 3S | — | 5 |
 | `074189` | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát A | — | 5 |
 | `074200` | Sunnylife EP2-BHM917 sada fólií na tvrdené sklo pre Insta360 | — | 5 |
@@ -243,7 +239,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `080743` | Sunnylife BK03 rýchloupínač pre OP 3 (ružový) | — | 4 |
 | `080742` | Sunnylife BK03 rýchloupínač pre OP 3 (čierny) | — | 5 |
 | `080739` | Ochranné puzdro Sunnylife s popruhom a šnúrkou pre Osmo Pock | — | 5 |
-| `080731` | Torba Sunnylife pre OSMO 360 | — | 3 |
 | `080728` | Držiak Sunnylife na vztlak pre športové kamery | — | 5 |
 | `080584` | Kryt nástenného spínača SONOFF E1GS (s N) | — | 5 |
 | `080586` | Rám pre dvojitý spínač Orb SONOFF EF2G | — | 5 |
@@ -300,7 +295,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `079180` | Puzdro Flytec – čierne | — | 5 |
 | `086285` | Stierka trysky vyhrievanej podložky Anycubic pre modely Kobr | — | 5 |
 | `087726` | BALDRTHERM E0587TH – termohygrometer napájaný solárnou energ | — | 5 |
-| `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 5 |
 | `086444` | Ponorné čerpadlo SUNSUN YQP-300 | — | 5 |
 | `086451` | Filtračné čerpadlo SUNSUN JP-093 | — | 5 |
 | `086452` | Filtračné čerpadlo SUNSUN YQP-300F | — | 5 |
