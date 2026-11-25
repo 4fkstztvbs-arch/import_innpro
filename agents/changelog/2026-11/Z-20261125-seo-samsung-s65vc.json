@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261125-seo-samsung-s65vc",
+  "datum": "2026-11-25",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "Samsung S65VC: názov s typom produktu, titulok, meta bez neoverenej skladovosti.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002080504",
+      "guid": "d8113e4e-ca76-11f1-9597-bc24110eff41",
+      "url": "https://www.premiumstore.sk/samsung-s65vc-ls34c652vauxen/",
+      "polia": {
+        "name": {
+          "pred": "SAMSUNG S65VC (LS34C652VAUXEN)",
+          "po": "Monitor Samsung S65VC (LS34C652VAUXEN), 34\" UWQHD, 21:9"
+        },
+        "metaTitle": {
+          "pred": "SAMSUNG S65VC (LS34C652VAUXEN) | premiumstore.sk",
+          "po": "Samsung S65VC 34\" UltraWide QHD monitor, 3440 × 1440 px"
+        },
+        "metaDescription": {
+          "pred": "SAMSUNG S65VC (LS34C652VAUXEN) – 1-2 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk.",
+          "po": "Monitor Samsung S65VC: 34\" UltraWide QHD (3440 × 1440 px), 21:9, 5 ms, USB hub 3.2, reproduktory, nastaviteľná výška a VESA."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-25",
+    "ok": true,
+    "poznamka": "product_update potvrdil upravené polia."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261125-seo-wolfbox-megavolt-12",
+  "datum": "2026-11-25",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "Wolfbox MegaVolt 12: z názvu a meta odstránená nepotvrdená kapacita 16 000 mAh (popis kapacitu neuvádza, obsah hlásil rozpor s 12 000 mAh).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "089420",
+      "guid": "2f457b7e-b7b4-11f1-a32d-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/wolfbox-megavolt-12-16-000-mah-2-000-a-starter/",
+      "polia": {
+        "name": {
+          "pred": "Štartovacia powerbanka Wolfbox MegaVolt 12, 16 000 mAh, 2000 A",
+          "po": "Štartovacia powerbanka Wolfbox MegaVolt 12, 12 V, 2000 A"
+        },
+        "metaTitle": {
+          "pred": "Wolfbox MegaVolt 12, 16 000 mAh, 2000 A",
+          "po": "Wolfbox MegaVolt 12 štartovacia powerbanka 12 V, 2000 A"
+        },
+        "metaDescription": {
+          "pred": "Štartovacia powerbanka Wolfbox MegaVolt 12 s kapacitou 16 000 mAh a špičkovým prúdom 2000 A pre 12V vozidlá. Objednajte na PremiumStore.sk.",
+          "po": "Štartovacia powerbanka Wolfbox MegaVolt 12 pre 12 V vozidlá: štartovací prúd 300 A, špičkový 2000 A, až 20 štartov, USB-C 30 W, LED svetlo."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-25",
+    "ok": true,
+    "poznamka": "product_update potvrdil upravené polia."
+  }
+}

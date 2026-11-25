@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261125-seo-samsung-swa-9500s",
+  "datum": "2026-11-25",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "Samsung SWA-9500S/EN: názov s typom produktu, titulok, meta bez neoverenej skladovosti.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100001251807",
+      "guid": "8487846a-c8e4-11f1-a975-bc2411833e01",
+      "url": "https://www.premiumstore.sk/samsung-swa-9500s-en/",
+      "polia": {
+        "name": {
+          "pred": "Samsung SWA-9500S/EN",
+          "po": "Zadné reproduktory Samsung SWA-9500S/EN, 2.0.2, 140 W"
+        },
+        "metaTitle": {
+          "pred": "Samsung SWA-9500S/EN | premiumstore.sk",
+          "po": "Samsung SWA-9500S/EN zadné reproduktory k soundbaru, 140 W"
+        },
+        "metaDescription": {
+          "pred": "Samsung SWA-9500S/EN – 1-2 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk.",
+          "po": "Zadné reproduktory Samsung SWA-9500S/EN k soundbaru: 2.0.2 kanály, výkon 140 W, káblové aj bezdrôtové pripojenie, čierna farba."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-25",
+    "ok": true,
+    "poznamka": "product_update potvrdil upravené polia."
+  }
+}
