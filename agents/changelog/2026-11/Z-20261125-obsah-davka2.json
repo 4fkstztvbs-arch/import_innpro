@@ -1,0 +1,307 @@
+{
+  "id": "Z-20261125-obsah-davka2",
+  "datum": "2026-11-25",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 12 (25. 11., 12:10): 15 produktov: GameSir (G7 HE čierny, X5s, Nova Multiplatform HRG7111, T4n biely, G7 SE ×2, Nova Lite BP, MG, fialový), Ancel (BM200, BST600, BA101) a Magcubic (HY450C, HY450, L018). Nové slovenské krátke a dlhé popisy; opravené názvy a meta u vybraných; pri HY450 a L018 vynechaný jas kvôli rozporu medzi názvom a textom.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "068936",
+      "guid": "87465302-92c5-11f1-be4f-bc2411833e01",
+      "model": "GameSir G7 HE čierny",
+      "polia": {
+        "shortDescription": {
+          "pred": "GameSir G7 HE wired controller (black) The GameSir G7 HE is a wired controller that combines advanced technology, durability and convenience to offer gamers complete control and an exceptional gaming…",
+          "po": "Káblový ovládač GameSir G7 HE v čiernom pre Xbox Series X/S, Xbox One a Windows 10/11. Hallove páčky aj spúšte, Hair Trigger, 4 vibračné motory, vymeniteľný magnetický panel, kábel USB-C 3 m."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "080751",
+      "guid": "e01bd11e-92c5-11f1-a59d-bc2411833e01",
+      "model": "GameSir X5s čierny",
+      "polia": {
+        "shortDescription": {
+          "pred": "Mobilný ovládač GameSir X5s (čierny) GameSir X5s je mobilný ovládač, ktorý premení váš smartfón na skutočnú hernú konzolu - s ergonómiou, presnosťou a odozvou, akú očakávate od prémiového hardvéru.…",
+          "po": "Mobilný ovládač GameSir X5s pre Switch, Switch 2, Android, iOS a PC. Bluetooth, USB-C alebo 2,4 GHz, telefóny 105 – 213 mm, Hallove páčky a spúšte, gyroskop, batéria 840 mAh."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002089078",
+      "guid": "cba0d9f0-92ac-11f1-9172-bc2411833e01",
+      "model": "GameSir Nova Multiplatform HRG7111",
+      "polia": {
+        "shortDescription": {
+          "pred": "GameSir Nova MultiPlalform Gaming Controller NT",
+          "po": "Herný ovládač GameSir Nova Multiplatform na hranie na rôznych platformách. Záruka 24 mesiacov."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "067782",
+      "guid": "7bcf33b8-92c5-11f1-aaeb-bc2411833e01",
+      "model": "GameSir T4n biely",
+      "polia": {
+        "shortDescription": {
+          "pred": "GameSir T4n Wireless Controller (white) Increase your winning stats with GameSir. The T4n controller is compatible with Nintendo Switch, PC, iOS and Android. It comes with advanced features such as…",
+          "po": "Bezdrôtový ovládač GameSir T4n v bielom pre Switch, PC, iOS a Android. Hallove páčky, RGB osvetlenie, Bluetooth, 2,4 GHz alebo USB-C, vlasová spúšť, gyroskop, batéria 1200 mAh."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        },
+        "xmlFeedName": {
+          "pred": "GameSir Nova HD HRG7110",
+          "po": "Bezdrôtový herný ovládač GameSir T4n, biely"
+        },
+        "metaDescription": {
+          "pred": "Bezdrôtový ovládač GameSir T4n pre Switch, PC, iOS a Android s Hallovými páčkami a tromi spôsobmi pripojenia. Increase your winning stats with GameSir.",
+          "po": "Bezdrôtový ovládač GameSir T4n biely pre Switch, PC, iOS a Android s Hallovými páčkami, RGB a tromi spôsobmi pripojenia. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002103458",
+      "guid": "fbc2cacc-b79a-11f1-8722-bc2411e8af0e",
+      "model": "GameSir G7 SE sivo-fialový",
+      "polia": {
+        "shortDescription": {
+          "pred": "Oficiálne licencovaný ovládač GameSir G7 pre XBOX & PC s Hallovým efektom",
+          "po": "Káblový herný ovládač GameSir G7 SE pre Xbox a PC s oficiálnou licenciou a páčkami s Hallovým efektom. Záruka 24 mesiacov."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002103457",
+      "guid": "5f4eaf14-c364-11f1-8922-bc24110eff41",
+      "model": "GameSir G7 SE modrý",
+      "polia": {
+        "shortDescription": {
+          "pred": "Oficiálně licencovaný ovladač GameSir G7 pro XBOX & PC s Hallovým efektem",
+          "po": "Káblový herný ovládač GameSir G7 SE v modrom pre Xbox a PC s oficiálnou licenciou a páčkami s Hallovým efektom. Záruka 24 mesiacov."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        },
+        "name": {
+          "pred": "GS G7-SE Wired Controller XBOX&PC Blue",
+          "po": "Káblový herný ovládač GameSir G7 SE pre Xbox a PC, modrý"
+        },
+        "metaTitle": {
+          "pred": "GS G7-SE Wired Controller XBOX&PC Blue – GameSir | premiumstore.sk",
+          "po": "GameSir G7 SE pre Xbox a PC, modrý"
+        },
+        "metaDescription": {
+          "pred": "GS G7-SE Wired Controller XBOX&PC Blue od GameSir – 3-5 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk.",
+          "po": "Káblový ovládač GameSir G7 SE modrý pre Xbox a PC s oficiálnou licenciou a Hallovým efektom. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002103450",
+      "guid": "e7c0efbe-c108-11f1-a982-bc2411e8af0e",
+      "model": "GameSir Nova Lite BP",
+      "polia": {
+        "shortDescription": {
+          "pred": "GameSir Nova Lite je vybaven Hall Effect páčkami, které zajišťují dlouhou životnost ovladače…",
+          "po": "Herný ovládač GameSir Nova Lite (BP). Páčky s Hallovým efektom bez driftu, analógové spúšte, Turbo 20 Hz a dva vibračné motory."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002103452",
+      "guid": "33db764c-c29b-11f1-8830-bc24110eff41",
+      "model": "GameSir Nova Lite MG",
+      "polia": {
+        "shortDescription": {
+          "pred": "GameSir Nova Lite je vybaven Hall Effect páčkami, které zajišťují dlouhou životnost ovladače…",
+          "po": "Herný ovládač GameSir Nova Lite (MG). Páčky s Hallovým efektom bez driftu, analógové spúšte, Turbo 20 Hz a dva vibračné motory."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        },
+        "name": {
+          "pred": "GameSir Nova Lite Multipla.controller MG",
+          "po": "Herný ovládač GameSir Nova Lite Multiplatform, MG"
+        },
+        "metaDescription": {
+          "pred": "GameSir Nova Lite Multipla.controller MG – 1-2 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk.",
+          "po": "Herný ovládač GameSir Nova Lite MG s Hallovými páčkami, analógovými spúšťami a Turbo 20 Hz. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002089252",
+      "guid": "3043d64a-d8a4-11f1-a866-bc2411833e01",
+      "model": "GameSir Nova Lite fialový",
+      "polia": {
+        "shortDescription": {
+          "pred": "GameSir Nova Lite je vybaven Hall Effect páčkami, které zajišťují dlouhou životnost ovladače…",
+          "po": "Herný ovládač GameSir Nova Lite vo fialovom vyhotovení. Páčky s Hallovým efektom bez driftu, analógové spúšte, Turbo 20 Hz a dva vibračné motory."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        },
+        "name": {
+          "pred": "GameSir Nova Lite Multiplat. Purple",
+          "po": "Herný ovládač GameSir Nova Lite Multiplatform, fialový"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "GameSir Nova Lite Multiplatform, fialový"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Herný ovládač GameSir Nova Lite fialový s Hallovými páčkami, analógovými spúšťami a Turbo 20 Hz. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "069362",
+      "guid": "7efd49b2-92c5-11f1-a2a0-bc2411833e01",
+      "model": "Ancel BM200",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ancel BM200 wireless Bluetooth battery tester The Ancel BM200 is an innovative Bluetooth car battery tester that allows users to easily track battery health by connecting to a mobile app on iOS and…",
+          "po": "Bluetooth tester autobatérie Ancel BM200 pre 12 V batérie. Bluetooth 4.0, aplikácia pre iOS a Android až pre štyri vozidlá, test štartovania a nabíjania, záznam jázd."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "069365",
+      "guid": "7f12cc10-92c5-11f1-b617-bc2411833e01",
+      "model": "Ancel BST600",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ancel BST600 battery tester with printer The Ancel BST600 is a reliable and professional battery diagnostic tool that combines a wide range of test functions with the convenience of use and the…",
+          "po": "Profesionálny tester autobatérie Ancel BST600 so zabudovanou termotlačiarňou. Pre 12 V a 24 V batérie (olovené, AGM, GEL, VRLA), test napätia, štartu, nabíjania, vnútorného odporu a CCA."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "069079",
+      "guid": "7f361878-92c5-11f1-ba1e-bc2411833e01",
+      "model": "Ancel BA101",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ancel BA101 battery tester Ancel BA101 battery tester is a professional device designed for comprehensive diagnostics of car batteries. With three main test modes, it provides a comprehensive…",
+          "po": "Tester autobatérie Ancel BA101 s tromi testami: batérie, štartovania a nabíjania. CCA 100 – 2000, 30 – 220 Ah, tlač výsledkov cez USB do počítača."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        },
+        "metaDescription": {
+          "pred": "Ancel BA101 battery tester is a professional device designed for comprehensive diagnostics of car batteries. The Ancel BA101 offers three diagnostic modes.",
+          "po": "Tester autobatérie Ancel BA101: test batérie, štartu a nabíjania, CCA 100 – 2000, tlač výsledkov cez USB. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "086339",
+      "guid": "17bc04cc-92c6-11f1-8ce9-bc2411833e01",
+      "model": "Magcubic HY450C",
+      "polia": {
+        "shortDescription": {
+          "pred": "Projektor Magcubic HY450C Projektor Magcubic HY450C vyniká vďaka krátkej projekčnej vzdialenosti 0,6:1, vysokému jasu 900 ANSI lúmenov a natívnemu rozlíšeniu 1080p s podporou rozlíšení 4K a 8K. Zo…",
+          "po": "Projektor Magcubic HY450C s krátkou projekciou 0,6:1, natívnym 1080p a podporou 4K/8K. Android 11, Wi-Fi 6, Bluetooth 5.4, automatické zaostrenie, obraz až 200″."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        },
+        "metaDescription": {
+          "pred": "(pôvodné znenie s anglicky pôsobiacou koncovkou „Všetko, čo potrebujete na sledovanie, máte vždy na dosah ruky!“)",
+          "po": "Projektor Magcubic HY450C: krátka projekcia 0,6:1, Full HD, Android 11, Wi-Fi 6, automatické zaostrenie a korekcia. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "086340",
+      "guid": "17c6a72e-92c6-11f1-b841-bc2411833e01",
+      "model": "Magcubic HY450",
+      "polia": {
+        "shortDescription": {
+          "pred": "Projektor Magcubic HY450 Projektor Magcubic HY450 je navrhnutý tak, aby maximálne využil priestor vďaka ultra krátkej projekčnej vzdialenosti 0,6:1, natívnemu rozlíšeniu 1080p, jasu 700 ANSI lúmenov…",
+          "po": "Projektor Magcubic HY450 s ultrakrátkou projekciou 0,6:1, natívnym 1080p a podporou 4K/8K. Android 11, Wi-Fi 6, Bluetooth 5.4, elektrické zaostrenie, DLNA, AirPlay a Miracast."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        },
+        "metaDescription": {
+          "pred": "(pôvodné znenie uvádzalo 900 ANSI lm, v texte je 700 ANSI lm)",
+          "po": "Projektor Magcubic HY450: krátka projekcia 0,6:1, Full HD, Android 11, Wi-Fi 6, elektrické zaostrenie a automatická korekcia. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "086338",
+      "guid": "1814346c-92c6-11f1-8705-bc2411833e01",
+      "model": "Magcubic L018",
+      "polia": {
+        "shortDescription": {
+          "pred": "Projektor Magcubic L018 Magcubic L018 je univerzálny prenosný projektor, ktorý ponúka natívne rozlíšenie 1080p, jas 400 ANSI lúmenov, podporu signálu 8K a operačný systém Android 14. Vďaka…",
+          "po": "Prenosný projektor Magcubic L018 s natívnym 1080p, podporou 8K a systémom Android 14. Wi-Fi 6, Bluetooth 5.2, automatické zaostrenie, lichobežníková korekcia a vyhýbanie sa prekážkam."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
