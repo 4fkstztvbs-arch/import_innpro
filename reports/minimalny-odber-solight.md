@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-24 04:19 UTC.
+Kontrola z 2026-11-25 03:03 UTC.
 
-Solight pri **486** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **483** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -20,6 +20,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `1T07-T2` | Solight náhradné trubičky pre alkohol tester Solight 1T07, 2 | 11 | 200 |
 | `1P24` | Solight viazacie nylonové pásky, 3,6 x 150mm, čierna, 100ks | 11 | 250 |
 | `P70` | Solight zástrčka uhlová, IP20, biela | 11 | 100 |
+| `5e+61` | Solight bezpečnostná zátka - sada 5ks+1 kľúčik | 10 | 100 |
 | `SSV5310E` | Solight HDMI spojka, HDMI zdierka - HDMI zdierka, priama, sá | 10 | 500 |
 | `P50` | Solight zástrčka uhlová, nízky profil od steny, IP20, biela | 10 | 200 |
 | `P50B` | Solight zástrčka uhlová, nízky profil od steny, IP20, čierna | 10 | 200 |
@@ -253,7 +254,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `SSC11X0E` | Solight UTP CAT.5E kábel, RJ45 konektor - RJ45 konektor, 10m | 3 | 50 |
 | `DT06` | Solight časový spínač, 24 h., vypínač, 1 režim | 3 | 48 |
 | `SSV1215` | Solight HDMI kábel s Ethernetom, HDMI 1.4 A konektor - HDMI  | 3 | 100 |
-| `1V204` | Solight LED vianočná gula sklenená, 10LED, 2x AA, IP20 | 3 | 20 |
 | `1V53-W` | Solight LED vonkajšia vianočná reťaz, 50LED, 5m, 8 funkcií,  | 3 | 20 |
 | `DC70` | Solight USB-C 20W fast charger | 3 | 100 |
 | `PP21` | Solight predlžovací prívod, 4 zásuvky, biely, 2m | 3 | 50 |
@@ -275,7 +275,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `SSV1203` | Solight HDMI kábel s Ethernetom, HDMI 1.4 A konektor - HDMI  | 3 | 100 |
 | `WL911` | Solight nočné LED svetielko so svetelným senzorom, 3000K, 23 | 3 | 60 |
 | `SSV1223` | Solight HDMI kábel s Ethernetom, HDMI 2.0 A konektor - HDMI  | 3 | 40 |
-| `1V272` | Solight LED vianočná reťaz rolničky, 10x LED, zlatá, 1,5m, 2 | 3 | 24 |
 | `TE8S` | Solight bezdrôtový senzor k meteostaniciam TE81, TE81W, TE81 | 3 | 50 |
 | `DC51` | Solight USB nabíjací adaptér, fast charge: 1x USB Qualcomm,  | 3 | 100 |
 | `PF34` | Solight flexo šnúra, 3x 1mm2, gumová, čierna, 2,5m | 3 | 20 |
@@ -429,7 +428,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PO62` | Solight prepäťová ochrana, 150J, 6 zásuviek, 1,5m, biela | 2 | 40 |
 | `P99B-PD20` | Solight rozbočovač s USB A+C rychlonabíjačkou 20W PD, 2 x 10 | 2 | 100 |
 | `P97-PD20` | Solight rozbočovač 2 x 16A, USB A+C rychlonabíjačka 20W PD,  | 2 | 100 |
-| `1V253` | Solight LED zimná dedinka, modulárna, 14x prvkov, 10x LED, 2 | 2 | 24 |
 | `WD240-W` | Solight LED mini panel kúpeľňový 2v1, 3CCT, podhľadový / pri | 2 | 40 |
 | `PP13` | Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 5m | 2 | 40 |
 | `HN18` | Solight vonkajšia anténa, DVB-T2, 11dB | 2 | 1 |
@@ -447,7 +445,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PP112PD20` | Solight predlžovací prívod 3 zásuvky, USB A+C 20W PD, 3m, 3  | 2 | 50 |
 | `WN36` | Solight LED čelové nabíjacie svietidlo, 3W, 150lm, zoom, Li- | 2 | 72 |
 | `PP325` | Solight predlžovací prívod kocka 3m, 3 zásuvky IP44, 3 x 1mm | 2 | 10 |
-| `1V252` | Solight LED okenná reťaz snehuliaci, 6x LED, prísavná, 120cm | 2 | 48 |
 | `1V264` | Solight LED vianočné dekorácie, zasnežená krajina s domčekom | 2 | 24 |
 | `P112-PD20` | Solight rozbočovač 3x 16A, USB A+C rychlonabíjačka 20W PD, b | 2 | 100 |
 | `1V255` | Solight LED vianočná hviezda, závesná, 60cm, 20x LED, časova | 2 | 12 |
