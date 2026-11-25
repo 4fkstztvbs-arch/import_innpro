@@ -1,0 +1,323 @@
+{
+ "id": "Z-20261125-obsah-davka1",
+ "datum": "2026-11-25",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 11 (25. 11., 10:10): 15 produktov GameSir s organickou návštevnosťou (Super Nova, Nova Lite, Nova 2 Lite biely, G7 Pro 8K Aimlabs a Champion, G8+ Galileo a MFi, T4n Lite, G7 Pro BK, SuperNova T4n Pro). Nové slovenské krátke a dlhé popisy (staré boli anglické, české, strojové alebo s externými obrázkami); opravené názvy u Super Nova, Nova Lite a Nova Multiplatform (URL sa nemenili); opravená meta.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "KB_100002143665",
+   "guid": "61ef1c96-d4b6-11f1-b757-bc2411e8af0e",
+   "model": "GameSir Super Nova Whipped Pink",
+   "polia": {
+    "shortDescription": {
+     "pred": "Český text dodávateľa. Super Nova nově definuje herní pohodlí a přesnost díky mimořádně tichým a citlivým ovládacím prvkům…",
+     "po": "Herný ovládač GameSir Super Nova v ružovom vyhotovení Whipped Pink. Tiché tlačidlá ABXY a páčky GameSir s Hallovým efektom pre plynulú a presnú odozvu bez driftu."
+    },
+    "description": {
+     "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+     "po": "Nový slovenský popis s funkciami a parametrami."
+    },
+    "name": {
+     "pred": "GameSir Super Nova Whipped Pink",
+     "po": "Herný ovládač GameSir Super Nova, ružový (Whipped Pink)"
+    },
+    "metaDescription": {
+     "pred": "GameSir Super Nova Whipped Pink – 21 a viac ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk.",
+     "po": "Herný ovládač GameSir Super Nova Whipped Pink s tichými tlačidlami ABXY a Hallovými páčkami. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002096301",
+   "guid": "643060fa-d4b6-11f1-9709-bc2411e8af0e",
+   "model": "GameSir Nova Lite White",
+   "polia": {
+    "shortDescription": {
+     "pred": "Český text dodávateľa. GameSir Nova Lite je vybaven Hall Effect páčkami, které zajišťují dlouhou životnost ovladače…",
+     "po": "Herný ovládač GameSir Nova Lite v bielom vyhotovení. Páčky s Hallovým efektom bez driftu, analógové spúšte, funkcia Turbo 20 Hz a dva vibračné motory v rukovätiach."
+    },
+    "description": {
+     "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+     "po": "Nový slovenský popis s funkciami a parametrami."
+    },
+    "name": {
+     "pred": "GameSir Nova Lite Multiplat. White",
+     "po": "Herný ovládač GameSir Nova Lite Multiplatform, biely"
+    },
+    "metaDescription": {
+     "pred": "GameSir Nova Lite Multiplat. White – 3-5 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk.",
+     "po": "Herný ovládač GameSir Nova Lite biely s Hallovými páčkami, analógovými spúšťami a Turbo 20 Hz. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079045",
+   "guid": "5575cf1e-c2b4-11f1-bd21-bc24110eff41",
+   "model": "GameSir Nova 2 Lite biely",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový ovládač GameSir Nova 2 Lite (biely) Zoznámte sa s GameSir Nova 2 Lite - ovládačom vytvoreným pre konzoly Switch, stolové počítače a zariadenia so systémami Android a iOS, ktorý ponúka až…",
+     "po": "Bezdrôtový ovládač GameSir Nova 2 Lite v bielom pre Switch, PC, Android a iOS. Pripojenie cez Bluetooth, 2,4 GHz kľúč alebo USB-C, polling 1000 Hz, Hallove páčky a spúšte, mechanický D-pad, batéria 600 mAh."
+    },
+    "description": {
+     "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+     "po": "Nový slovenský popis s funkciami a parametrami."
+    },
+    "metaDescription": {
+     "pred": "Bezdrôtový herný ovládač GameSir Nova 2 Lite pre PC v bielom prevedení s nabíjaním cez USB-C. Ďalšie produkty nájdete v kategórii Herné podložky a mikrofóny.",
+     "po": "Bezdrôtový ovládač GameSir Nova 2 Lite biely pre Switch, PC, Android a iOS s Hallovými páčkami a tromi režimami pripojenia. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "086657",
+   "guid": "5d3414cc-c2b4-11f1-bcf1-bc24110eff41",
+   "model": "GameSir G7 Pro 8K Aimlabs Edition",
+   "polia": {
+    "shortDescription": {
+     "pred": "PC ovládač GameSir G7 Pro 8K Aimlabs Edition PC ovládač GameSir G7 Pro 8K Aimlabs Edition je pokročilý ovládač pre hráčov na PC, vyvinutý v spolupráci s Aimlabs – tréningovou platformou, ktorú…",
+     "po": "Ovládač GameSir G7 Pro 8K Aimlabs Edition pre PC s frekvenciou 8000 Hz (kábel aj 2,4 GHz), páčkami Mag-Res TMR Gen-2, optickými tlačidlami ABXY, 6-osovým gyroskopom, 4 makro tlačidlami a nabíjacou stanicou."
+    },
+    "description": {
+     "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+     "po": "Nový slovenský popis s funkciami a parametrami."
+    },
+    "metaDescription": {
+     "pred": "Ovladač pre PC GameSir G7 Pro 8K Aimlabs Edition – skladom. Kúpte na premiumstore.sk.",
+     "po": "Ovládač GameSir G7 Pro 8K Aimlabs Edition pre PC: 8000 Hz, TMR páčky, gyroskop, USB-C, 2,4 GHz a Bluetooth. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002103463",
+   "guid": "56141876-c364-11f1-8849-bc24110eff41",
+   "model": "GameSir G8+ Galileo Bluetooth",
+   "polia": {
+    "shortDescription": {
+     "pred": "Český text dodávateľa. Vylepšete svůj mobilní herní zážitek pomocí páček a tlačítek GameSir G8 Galileo konzolové velikosti…",
+     "po": "Bluetooth ovládač GameSir G8+ Galileo pre mobilné hry s pákami a tlačidlami konzolovej veľkosti. Pohodlný úchop aj pri dlhom hraní a ovládanie ako na konzole priamo v dlaniach."
+    },
+    "description": {
+     "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+     "po": "Nový slovenský popis s funkciami a parametrami."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002096302",
+   "guid": "63499908-c364-11f1-82f6-bc24110eff41",
+   "model": "GameSir Nova Multiplatform HRG7110",
+   "polia": {
+    "shortDescription": {
+     "pred": "GameSir Nova MultiPlalform Gaming Controller RW",
+     "po": "Herný ovládač GameSir Nova Multiplatform na ovládanie hier na podporovanej konzole, počítači alebo mobile. Záruka 24 mesiacov."
+    },
+    "description": {
+     "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+     "po": "Nový slovenský popis s funkciami a parametrami."
+    },
+    "name": {
+     "pred": "GameSir Nova MultiPlalform Gamin HRG7110",
+     "po": "Herný ovládač GameSir Nova Multiplatform HRG7110"
+    },
+    "metaDescription": {
+     "pred": "GameSir Nova MultiPlalform Gamin HRG7110 – 1-2 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk.",
+     "po": "Herný ovládač GameSir Nova Multiplatform HRG7110 na hranie na konzole, PC alebo mobile. Záruka 24 mesiacov. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "086658",
+   "guid": "5f18d314-d406-11f1-b533-bc24110eff41",
+   "model": "GameSir G7 Pro 8K Champion Edition",
+   "polia": {
+    "shortDescription": {
+     "pred": "PC ovládač GameSir G7 Pro 8K Xiaohai Edition GameSir G7 Pro 8K Xiaohai Edition PC je špeciálna edícia ovládača vytvorená v spolupráci s majstrom bojových hier XiaoHaiom. Model vyniká svojím nápadným…",
+     "po": "Herný ovládač GameSir G7 Pro 8K pre PC (špeciálna edícia) s frekvenciou 8000 Hz cez USB-C aj 2,4 GHz, páčkami Mag-Res TMR Gen-2, optickými tlačidlami ABXY, 6-osovým gyroskopom a nabíjacou stanicou."
+    },
+    "description": {
+     "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+     "po": "Nový slovenský popis s funkciami a parametrami."
+    },
+    "metaTitle": {
+     "pred": "Herný ovládač GameSir G7 Pro 8K Champion Edition…",
+     "po": "GameSir G7 Pro 8K Champion Edition pre PC"
+    },
+    "metaDescription": {
+     "pred": "Herný ovládač GameSir G7 Pro 8K Champion Edition pre PC – skladom. Kúpte na premiumstore.sk.",
+     "po": "Herný ovládač GameSir G7 Pro 8K pre PC: 8000 Hz, TMR páčky, optické ABXY, gyroskop, USB-C a 2,4 GHz. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002143666",
+   "guid": "56709f2c-e792-11f1-9d77-bc24110eff41",
+   "model": "GameSir Super Nova Nightfall Blue",
+   "polia": {
+    "shortDescription": {
+     "pred": "Český text dodávateľa. Super Nova nově definuje herní pohodlí a přesnost díky mimořádně tichým a citlivým ovládacím prvkům…",
+     "po": "Herný ovládač GameSir Super Nova v modrom vyhotovení Nightfall Blue. Tiché tlačidlá ABXY a páčky GameSir s Hallovým efektom pre plynulú a presnú odozvu bez driftu."
+    },
+    "description": {
+     "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+     "po": "Nový slovenský popis s funkciami a parametrami."
+    },
+    "name": {
+     "pred": "GameSir Super Nova Nightfall Blue",
+     "po": "Herný ovládač GameSir Super Nova, modrý (Nightfall Blue)"
+    },
+    "metaTitle": {
+     "pred": "",
+     "po": "GameSir Super Nova Nightfall Blue, herný ovládač"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Herný ovládač GameSir Super Nova Nightfall Blue s tichými tlačidlami ABXY a Hallovými páčkami. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002103453",
+   "guid": "228df898-c1d2-11f1-b1f2-bc2411833e01",
+   "model": "GameSir Nova Lite SB",
+   "polia": {
+    "shortDescription": {
+     "pred": "Český text dodávateľa. GameSir Nova Lite je vybaven Hall Effect páčkami, které zajišťují dlouhou životnost ovladače…",
+     "po": "Herný ovládač GameSir Nova Lite (SB). Páčky s Hallovým efektom bez driftu, analógové spúšte, funkcia Turbo 20 Hz a dva vibračné motory v rukovätiach."
+    },
+    "description": {
+     "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+     "po": "Nový slovenský popis s funkciami a parametrami."
+    },
+    "name": {
+     "pred": "GameSir Nova Lite Multipla.controller SB",
+     "po": "Herný ovládač GameSir Nova Lite Multiplatform, SB"
+    },
+    "metaDescription": {
+     "pred": "GameSir Nova Lite Multipla.controller SB – 1-2 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk.",
+     "po": "Herný ovládač GameSir Nova Lite SB s Hallovými páčkami, analógovými spúšťami a Turbo 20 Hz. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "082632",
+   "guid": "ee1731aa-92c5-11f1-914d-bc2411833e01",
+   "model": "GameSir G8+ MFi",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mobilný ovládač GameSir G8+ MFi (sivý) GameSir G8+ MFi je mobilný ovládač určený pre hráčov, ktorí chcú priniesť herný zážitok v kvalite konzoly na obrazovku svojho smartfónu alebo tabletu. Je plne…",
+     "po": "Mobilný ovládač GameSir G8+ MFi s káblovým USB-C pre iPhone, iPad a Android. Telefóny a tablety 125 – 215 mm, Hallove páčky aj spúšte, priechodné nabíjanie, konektor 3,5 mm, hmotnosť 304 g."
+    },
+    "description": {
+     "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+     "po": "Nový slovenský popis s funkciami a parametrami."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "070690",
+   "guid": "347bf5ce-b3c6-11f1-b3b3-bc2411833e01",
+   "model": "GameSir T4n Lite fialový",
+   "polia": {
+    "shortDescription": {
+     "pred": "GameSir-T4n Lite Wireless Controller (purple) GameSir-T4n Lite is the ideal choice for those looking for a controller that combines durability, precision and advanced features. With Hall effect…",
+     "po": "Bezdrôtový ovládač GameSir T4n Lite vo fialovom pre PC, Steam, Switch, Android a iOS. Hallove páčky, analógové spúšte, pripojenie cez Bluetooth, 2,4 GHz kľúč alebo USB-C, Turbo 20 Hz, 2 vibračné motory, 205 g."
+    },
+    "description": {
+     "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+     "po": "Nový slovenský popis s funkciami a parametrami."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "070689",
+   "guid": "dc54b6c4-b6ea-11f1-9045-bc2411e8af0e",
+   "model": "GameSir T4n Lite biely",
+   "polia": {
+    "shortDescription": {
+     "pred": "GameSir-T4n Lite Wireless Controller (white) GameSir-T4n Lite is the ideal choice for those looking for a controller that combines durability, precision and advanced features. With Hall effect…",
+     "po": "Bezdrôtový ovládač GameSir T4n Lite v bielom pre PC, Steam, Switch, Android a iOS. Hallove páčky, analógové spúšte, pripojenie cez Bluetooth, 2,4 GHz kľúč alebo USB-C, Turbo 20 Hz, 2 vibračné motory, 205 g."
+    },
+    "description": {
+     "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+     "po": "Nový slovenský popis s funkciami a parametrami."
+    },
+    "metaDescription": {
+     "pred": "Bezdrôtový ovládač GameSir T4n Lite v bielom vyhotovení s Hallovými páčkami a analógovými spúšťami. Enjoy gaming at the highest level with GameSir-T4n Lite!",
+     "po": "Bezdrôtový ovládač GameSir T4n Lite biely s Hallovými páčkami, analógovými spúšťami a tromi možnosťami pripojenia. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079688",
+   "guid": "c8789510-92c5-11f1-be1d-bc2411833e01",
+   "model": "GameSir G7 Pro BK TRI-MODE",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ovládač GameSir G7 Pro BK TRI-MODE Black and Red GameSir G7 Pro BK TRI-MODE je všestranný profesionálny ovládač kombinujúci tri režimy prevádzky (káblový Xbox, 2,4 GHz a Bluetooth Android), ktorý je…",
+     "po": "Bezdrôtový ovládač GameSir G7 Pro BK TRI-MODE v čierno-červenom pre Xbox, PC a Android: káblový režim, 2,4 GHz a Bluetooth, páčky Mag-Res TMR, polling 1000 Hz, gyroskop, 4 vibračné motory, batéria 1200 mAh."
+    },
+    "description": {
+     "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+     "po": "Nový slovenský popis s funkciami a parametrami."
+    },
+    "metaDescription": {
+     "pred": "Ovládač GameSir G7 Pro BK TRI-MODE s TMR joystickmi, gyroskopom a 1000 Hz ladením pre Xbox a PC. Toto je gadget, ktorý uspokojí potreby každého hráča!",
+     "po": "Ovládač GameSir G7 Pro BK TRI-MODE čierno-červený pre Xbox, PC a Android: páčky TMR, gyroskop, 1000 Hz. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "076269",
+   "guid": "ab30d1b6-92c5-11f1-9767-bc2411833e01",
+   "model": "GameSir SuperNova T4n Pro modrý",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový ovládač GameSir SuperNova T4n Pro (modrý) Podložka GameSir SuperNova T4n Pro je určená pre hráčov PC, Nintendo Switch, iOS a Android. Vďaka trom režimom pripojenia - káblovému, Bluetooth a…",
+     "po": "Bezdrôtový ovládač GameSir SuperNova T4n Pro v modrom pre PC, Switch, iOS a Android. Pripojenie cez kábel, Bluetooth a 2,4 GHz, polling 1000 Hz, Hallove páčky, 6-osový gyroskop, RGB, batéria 1000 mAh a nabíjacia stanica."
+    },
+    "description": {
+     "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+     "po": "Nový slovenský popis s funkciami a parametrami."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "076270",
+   "guid": "ab3b98bc-92c5-11f1-83c5-bc2411833e01",
+   "model": "GameSir SuperNova T4n Pro ružový",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový ovládač GameSir SuperNova T4n Pro (ružový) Podložka GameSir SuperNova T4n Pro je určená pre hráčov PC, Nintendo Switch, iOS a Android. Vďaka trom režimom pripojenia - káblovému, Bluetooth…",
+     "po": "Bezdrôtový ovládač GameSir SuperNova T4n Pro v ružovom pre PC, Switch, iOS a Android. Pripojenie cez kábel, Bluetooth a 2,4 GHz, polling 1000 Hz, Hallove páčky, 6-osový gyroskop, RGB, batéria 1000 mAh a nabíjacia stanica."
+    },
+    "description": {
+     "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+     "po": "Nový slovenský popis s funkciami a parametrami."
+    }
+   }
+  }
+ ],
+ "overenie": "updatedFields potvrdené pri každom zápise.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
