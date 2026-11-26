@@ -1,0 +1,207 @@
+{
+  "id": "Z-20261126-obsah-davka5",
+  "datum": "2026-11-26",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 5 (26. 11., 18:10): zvyšných 9 kusov SJCAM (zadné lišty, rámy, držiak s batériou C300B HG, sada SJ30, magnetický držiak C300, S10 64 GB biela, A10) a 6 produktov novej značky: OneOdio Fusion A70 (3 farby, nový krátky popis aj meta, dlhý popis kvalitný slovenský ponechaný) a Catlink toalety Scooper Young, Pro-X Luxury a Standard (krátky popis z názvu). SJCAM je tým hotový.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b51ad62",
+      "model": "Zadný držiak C100 Pro",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b559f76",
+      "model": "Zadná lišta C110+",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b5b0c72",
+      "model": "Zadná lišta C200 Pro",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b5ef1f2",
+      "model": "Rám C110 Plus",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b62be54",
+      "model": "Držiak s batériou C300B HG",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0691e146",
+      "model": "Nabíjacia sada SJ30",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "07e2ba0c",
+      "model": "Magnetický držiak C300",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0aa58c62",
+      "model": "SJCAM S10 64 GB biela",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0aa9f450",
+      "model": "SJCAM A10",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "d0c95ab2",
+      "model": "Catlink Scooper Young",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "d25e0a12",
+      "model": "Catlink Pro-X Luxury",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "d29a5a08",
+      "model": "Catlink Pro-X Standard",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "4e2766b0",
+      "model": "OneOdio Fusion A70 čierne",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis: Bluetooth 5.2, výdrž až 50 h, batéria 950 mAh, káblové pripojenie."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta zmiešaná z textu výrobcu bez názvu produktu a výzvy.",
+          "po": "Nová meta s názvom produktu a kľúčovými parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "4dfa891a",
+      "model": "OneOdio Fusion A70 ružové",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis: Bluetooth 5.2, výdrž až 50 h, batéria 950 mAh, káblové pripojenie."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta zmiešaná z textu výrobcu bez názvu produktu a výzvy.",
+          "po": "Nová meta s názvom produktu a kľúčovými parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "4e0efdd2",
+      "model": "OneOdio Fusion A70 zlaté",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis: Bluetooth 5.2, výdrž až 50 h, batéria 950 mAh, káblové pripojenie."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta zmiešaná z textu výrobcu bez názvu produktu a výzvy.",
+          "po": "Nová meta s názvom produktu a kľúčovými parametrami."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
