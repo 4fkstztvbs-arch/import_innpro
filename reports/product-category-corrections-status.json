@@ -1,7 +1,7 @@
 {
   "products": 32222,
-  "matched": 728,
-  "categoryChanges": 91,
+  "matched": 723,
+  "categoryChanges": 86,
   "nameChanges": 0,
   "descriptionChanges": 0,
   "automaticCategoryChanges": 0,
@@ -1919,6 +1919,18 @@
     },
     {
       "supplier": "monacor",
+      "code": "BAG-12M",
+      "ean": "4007754242492",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DC-100",
+      "ean": "4007754003840",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
       "code": "GD-04K",
       "ean": "8595614112956",
       "reason": "Changed name or category; needs review"
@@ -1927,6 +1939,12 @@
       "supplier": "monacor",
       "code": "KM-24120",
       "ean": "4016842817467",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SA-200",
+      "ean": "4007754249903",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -2593,6 +2611,18 @@
       "supplier": "solight",
       "code": "DSP-DYV8RG",
       "ean": "8592718038793",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "wiim",
+      "code": "NORWIISOUBK",
+      "ean": "3700795186893",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "wiim",
+      "code": "NORWIISOUWT",
+      "ean": "3700795186909",
       "reason": "Changed name or category; needs review"
     },
     {
