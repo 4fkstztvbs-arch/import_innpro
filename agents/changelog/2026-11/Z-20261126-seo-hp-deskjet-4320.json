@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261126-seo-hp-deskjet-4320",
+  "datum": "2026-11-26",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "HP DeskJet 4320 (A24HMB): nový produkt z importu, názov podľa šablóny, titulok a meta z údajov v popise.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002201525",
+      "guid": "a9de1a98-e924-11f1-90ec-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/hp-deskjet-4320-a24hmb/",
+      "polia": {
+        "name": {
+          "pred": "HP DeskJet 4320 (A24HMB)",
+          "po": "Multifunkčná atramentová tlačiareň HP DeskJet 4320 (A24HMB), Wi‑Fi"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "HP DeskJet 4320 multifunkčná tlačiareň, Wi‑Fi, AirPrint"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Bezdrôtová atramentová multifunkcia HP DeskJet 4320: tlač, kopírovanie a skenovanie, Wi‑Fi, USB, rozlíšenie 4800 × 1200 dpi, HP Smart a AirPrint."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-26",
+    "ok": true,
+    "poznamka": "product_update potvrdil name, metaTitle, metaDescription."
+  }
+}

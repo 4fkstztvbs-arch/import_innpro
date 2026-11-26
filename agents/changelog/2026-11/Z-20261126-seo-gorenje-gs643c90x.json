@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261126-seo-gorenje-gs643c90x",
+  "datum": "2026-11-26",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "Gorenje GS643C90X: nový produkt z importu, názov podľa šablóny, titulok a meta z údajov v popise. Rozpor kapacity: feed 16 sád, popis 14 súprav; kapacita sa v texte neuvádza.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002104833",
+      "guid": "a9d63120-e924-11f1-9627-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/gorenje-gs643c90x/",
+      "polia": {
+        "name": {
+          "pred": "Gorenje GS643C90X",
+          "po": "Umývačka riadu Gorenje GS643C90X, TotalDry, invertorový motor"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "Gorenje GS643C90X umývačka riadu s TotalDry"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Umývačka riadu Gorenje GS643C90X s funkciou TotalDry (automatické pootvorenie dvierok), umývaním 3v1 a invertorovým motorom PowerDrive."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-26",
+    "ok": true,
+    "poznamka": "product_update potvrdil name, metaTitle, metaDescription."
+  }
+}
