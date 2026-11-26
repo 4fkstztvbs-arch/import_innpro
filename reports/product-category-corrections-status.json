@@ -1,7 +1,7 @@
 {
   "products": 32296,
-  "matched": 679,
-  "categoryChanges": 28,
+  "matched": 678,
+  "categoryChanges": 6,
   "nameChanges": 0,
   "descriptionChanges": 0,
   "automaticCategoryChanges": 0,
@@ -199,6 +199,12 @@
       "supplier": "atos",
       "code": "V49IP",
       "ean": "5901436702856",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 722427-0020",
+      "ean": "",
       "reason": "Changed name or category; needs review"
     },
     {
