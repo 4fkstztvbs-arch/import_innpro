@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261126-seo-samsung-tab-a11-plus",
+  "datum": "2026-11-26",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "Samsung tab-a11-plus: nový produkt z importu, názov podľa šablóny, titulok a meta z parametrov.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002172265",
+      "guid": "ad3a5972-e924-11f1-b61d-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/samsung-galaxy-tab-a11-128gb-gray/",
+      "polia": {
+        "name": {
+          "pred": "Samsung Galaxy Tab A11+ 128GB Gray",
+          "po": "Tablet Samsung Galaxy Tab A11+, 11\", 6/128 GB, Android 16, sivý"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "Samsung Galaxy Tab A11+ tablet 11\", 128 GB, sivý"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Tablet Samsung Galaxy Tab A11+: 11\" displej 90 Hz, 8-jadrový procesor, 6 GB RAM, 128 GB, microSD, batéria 7040 mAh, Android 16, sivý."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-26",
+    "ok": true,
+    "poznamka": "product_update potvrdil name, metaTitle, metaDescription."
+  }
+}

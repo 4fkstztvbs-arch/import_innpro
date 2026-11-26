@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261126-seo-samsung-odyssey-g5",
+  "datum": "2026-11-26",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "Samsung odyssey-g5: nový produkt z importu, názov podľa šablóny, titulok a meta z parametrov.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002204661",
+      "guid": "aa968c18-e924-11f1-a54c-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/samsung-odyssey-g5-ls27fg502euxen/",
+      "polia": {
+        "name": {
+          "pred": "Samsung Odyssey G5 (LS27FG502EUXEN)",
+          "po": "Herný monitor Samsung Odyssey G5 (LS27FG502EUXEN), 27\" QHD, 180 Hz, IPS"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "Samsung Odyssey G5 27\" QHD herný monitor, 180 Hz, IPS"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Herný monitor Samsung Odyssey G5: 27\" QHD IPS (2560 × 1440), 180 Hz, odozva 1 ms, FreeSync, HDMI 2.0, DisplayPort 1.2, nastaviteľná výška a pivot."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-26",
+    "ok": true,
+    "poznamka": "product_update potvrdil name, metaTitle, metaDescription."
+  }
+}
