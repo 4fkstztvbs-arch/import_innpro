@@ -44,7 +44,7 @@ const OUT_PATH = process.env.WIIM_OUT || path.join(__dirname, '..', 'output', 'w
 const MARKUP_PCT = parseFloat(process.env.WIIM_MARKUP || '0');
 const STORE_NAME = process.env.WIIM_STORE_NAME || 'premiumstore.sk';
 const AVAILABILITY = 'Na objednávku';
-const FALLBACK_CATEGORY = 'TV, audio a video > Audio technika > HiFi komponenty';
+const FALLBACK_CATEGORY = 'TV, audio, video a foto technika > Audio technika';
 const CATEGORY_MAP = JSON.parse(fs.readFileSync(path.join(__dirname, 'wiim-mapping.json'), 'utf-8'));
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
