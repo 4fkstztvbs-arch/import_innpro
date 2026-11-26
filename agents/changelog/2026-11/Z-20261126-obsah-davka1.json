@@ -1,0 +1,207 @@
+{
+  "id": "Z-20261126-obsah-davka1",
+  "datum": "2026-11-26",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 1 (26. 11., 10:10): 15 produktov SJCAM (C300 a Pocket čierna aj biela, ZV200 čierny a biely, ZV100 čierny a biely, M60 1CH/2CH/3CH, SJ4000, S10 128 GB biela, C400 s ovládačom a Pocket biela). Nové slovenské krátke popisy, opravená meta u ZV100, M60 1CH a 2CH. Dlhé popisy boli už kvalitné slovenské, ponechané. Pri bielych variantoch bez načítaného detailu sú v krátkom popise len údaje zhodné s čiernym variantom.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "093532",
+      "guid": "09e06b3a-b234-11f1-859e-bc2411e8af0e",
+      "model": "SJCAM C300 čierna",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Akčná kamera SJCAM C300 s videom 4K/30 fps, fotkami 20 MP, 6-osovou stabilizáciou a dvoma dotykovými displejmi. Vodotesná do 30 m v puzdre, Wi-Fi, výdrž až 460 min s držiakom a batériou."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093534",
+      "guid": "09e46af0-b234-11f1-8abe-bc2411e8af0e",
+      "model": "SJCAM C300 Pocket čierna",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Vrecková akčná kamera SJCAM C300 Pocket, len 55 g. Video 4K/30 fps, fotky 20 MP, zorné pole 154°, 6-osová stabilizácia, Wi-Fi a vodotesné puzdro do 30 m v balení."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093546",
+      "guid": "0a25694c-b234-11f1-b5a0-bc2411e8af0e",
+      "model": "SJCAM ZV200 čierna",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Vlogová kamera SJCAM ZV200 s videom 5K/30 fps a fotkami 80 MP. Automatické zaostrovanie, 6-osová stabilizácia, 16x zoom, otočný 2,8″ IPS displej a vstavaný blesk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093548",
+      "guid": "0a2d63ea-b234-11f1-8545-bc2411e8af0e",
+      "model": "SJCAM ZV100 čierny",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Kompaktný fotoaparát SJCAM ZV100 s fotkami až 80 MP, videom 5K/30 fps, automatickým zaostrovaním, 16x digitálnym zoomom a 2,8″ TFT displejom. Hrúbka len 22 mm, USB-C, funkcia webkamery."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta s koncovkou „Ďalšie produkty nájdete…“ alebo otázkou.",
+          "po": "Fotoaparát SJCAM ZV100 v čiernej farbe s fotografiami až 80 MP, videom 5K pri 30 fps, automatickým zaostrovaním a 16x zoomom. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093551",
+      "guid": "0a364dd4-b234-11f1-822f-bc2411e8af0e",
+      "model": "SJCAM M60 1CH",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Jednokanálová autokamera SJCAM M60 s videom 4K/30 fps, snímačom 1/1,8″, zorným poľom 170°, HDR, GPS, G-senzorom a parkovacím režimom. Dvojpásmové Wi-Fi, microSD do 256 GB."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta s koncovkou „Ďalšie produkty nájdete…“ alebo otázkou.",
+          "po": "Jednokanálová autokamera SJCAM M60 1CH s videom 4K pri 30 fps, HDR, GPS, G-senzorom a parkovacím režimom. Dvojpásmové Wi-Fi. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093552",
+      "guid": "0a39f9fc-b234-11f1-a631-bc2411e8af0e",
+      "model": "SJCAM M60 2CH",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Dvojkanálová autokamera SJCAM M60 2CH: predná kamera 4K/30 fps, zadná 1080p/30 fps, HDR na oboch. GPS, G-senzor, parkovací režim, dvojpásmové Wi-Fi a microSD do 256 GB."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta s koncovkou „Ďalšie produkty nájdete…“ alebo otázkou.",
+          "po": "Dvojkanálová autokamera SJCAM M60 2CH s prednou kamerou 4K pri 30 fps, zadnou 1080p, HDR, GPS a parkovacím režimom. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a3e02fe-b234-11f1-96ca-bc2411e8af0e",
+      "model": "SJCAM M60 3CH",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Trojkanálová autokamera SJCAM M60 3CH s prednou kamerou 4K, HDR, GPS, G-senzorom, parkovacím režimom a dvojpásmovým Wi-Fi. Zaznamenáva dianie pred vozidlom aj v kabíne a za ním."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093545",
+      "guid": "0a218048-b234-11f1-99d8-bc2411e8af0e",
+      "model": "SJCAM SJ4000",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Akčná kamera SJCAM SJ4000 s videom Full HD 1080p/30 fps, fotkami 12 MP a zorným poľom 170°. 2″ displej, vodotesné puzdro do 30 m, USB-C, výdrž až 130 min. Hmotnosť len 60 g."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a29823e-b234-11f1-bea4-bc2411e8af0e",
+      "model": "SJCAM ZV200 biely",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Biely fotoaparát SJCAM ZV200 s videom 5K/30 fps a fotkami 80 MP. Automatické zaostrovanie, 6-osová stabilizácia, 16x zoom, otočný 2,8″ IPS displej a vstavaný blesk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a329fc2-b234-11f1-bfc6-bc2411e8af0e",
+      "model": "SJCAM ZV100 biely",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Biely kompaktný fotoaparát SJCAM ZV100 s videom 5K/30 fps, fotkami až 80 MP, automatickým zaostrovaním, 16x zoomom a 2,8″ TFT displejom. Hrúbka 22 mm, USB-C, funkcia webkamery."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a0439b6-b234-11f1-9756-bc2411e8af0e",
+      "model": "SJCAM S10 128 GB biela",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Biela akčná kamera SJCAM S10 s videom 4K a pamäťou 128 GB. Kompaktná kamera na šport a cestovanie, jednoduché ovládanie a nahrávanie kvalitných záberov v pohybe."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a09b7ec-b234-11f1-a57c-bc2411e8af0e",
+      "model": "SJCAM C400 s ovládačom biela",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Biela akčná kamera SJCAM C400 s ovládačom, video 4K. Kompaktná kamera na šport a cestovanie, v balení s diaľkovým ovládačom na pohodlné spúšťanie nahrávania."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a0d7d14-b234-11f1-b09d-bc2411e8af0e",
+      "model": "SJCAM C400 Pocket biela",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Biela vrecková akčná kamera SJCAM C400 s videom 4K. Miniatúrna, ľahká kamera, ktorá sa zmestí do vrecka, na šport, cestovanie a každodenné natáčanie."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a1149ee-b234-11f1-b893-bc2411e8af0e",
+      "model": "SJCAM C300 biela",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Biela akčná kamera SJCAM C300 s videom 4K/30 fps, fotkami 20 MP, 6-osovou stabilizáciou a dvoma dotykovými displejmi. Vodotesná do 30 m v puzdre, Wi-Fi, výdrž až 460 min."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a1549ea-b234-11f1-82e5-bc2411e8af0e",
+      "model": "SJCAM C300 Pocket biela",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Biela vrecková akčná kamera SJCAM C300 Pocket, len 55 g. Video 4K/30 fps, fotky 20 MP, zorné pole 154°, 6-osová stabilizácia, Wi-Fi a vodotesné puzdro do 30 m v balení."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
