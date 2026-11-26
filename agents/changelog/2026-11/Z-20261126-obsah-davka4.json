@@ -1,0 +1,195 @@
+{
+  "id": "Z-20261126-obsah-davka4",
+  "datum": "2026-11-26",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 4 (26. 11., 16:10): 15 kusov príslušenstva SJCAM (svetlá C400, držiak SJSFS, mikrofóny SJ10 Pro a C200 Pro, puzdrá, nabíjačky SJ6/SJ8/SJ10/C300, selfie tyč, ochranný rám C200 Pro). Krátke popisy len z údajov v názve.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b07b89c-b234-11f1",
+      "model": "Prídavné svetlo C400",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b0bd22e-b234-11f1",
+      "model": "Mini svetlo C400",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b0ff908-b234-11f1",
+      "model": "Držiak SJSFS na selfie tyč",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b13d168-b234-11f1",
+      "model": "Mikrofón SJ10 Pro",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b21da9c-b234-11f1",
+      "model": "Puzdro C200 Pro",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b25fc8a-b234-11f1",
+      "model": "Nabíjačka SJ6",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b2ae7f4-b234-11f1",
+      "model": "Nabíjačka SJ8",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b30ace8-b234-11f1",
+      "model": "Nabíjačka SJ10",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b34e006-b234-11f1",
+      "model": "Puzdro SJ6 Ultra",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b38d08a-b234-11f1",
+      "model": "Puzdro SJ8 Pro",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b3cdd38-b234-11f1",
+      "model": "Selfie tyč SJSFSM",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b410200-b234-11f1",
+      "model": "Nabíjačka C300",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b452862-b234-11f1",
+      "model": "Ochranný rám C200 Pro",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b493cae-b234-11f1",
+      "model": "Puzdro C300",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0b4d8732-b234-11f1",
+      "model": "Mikrofón C200 Pro",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
