@@ -165,7 +165,7 @@
   "Cestovanie, šport a outdoor > Hračky": 4
  },
  "Dům a Byt > Hračky > Hračky pro kluky > Dětské zbraně": {
-  "Cestovanie, šport a outdoor > Hračky": 3
+  "Cestovanie, šport a outdoor > Hračky": 2
  },
  "Dům a Byt > Hračky > Ostatní hračky": {
   "Cestovanie, šport a outdoor > Hračky": 1
@@ -734,11 +734,8 @@
  "Počítače, kancelář > Kalkulačky": {
   "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Kancelária a škola": 3
  },
- "Počítače, kancelář > Monitory": {
-  "Počítače, mobily a tablety > Monitory a PC periférie > Monitory": 1
- },
  "Počítače, kancelář > Monitory > LCD monitory": {
-  "Počítače, mobily a tablety > Monitory a PC periférie > Monitory": 9
+  "Počítače, mobily a tablety > Monitory a PC periférie > Monitory": 10
  },
  "Počítače, kancelář > Monitory > Plátna a projektory > Držáky k projektorům": {
   "Počítače, mobily a tablety > Monitory a PC periférie > Monitory": 1
@@ -965,6 +962,9 @@
  "TV, audio, video > Audio technika > HiFi komponenty > Zesilovače": {
   "TV, audio, video a foto technika > Audio technika": 7
  },
+ "TV, audio, video > Audio technika > HiFi systémy > Mikrosystémy": {
+  "TV, audio, video a foto technika > Audio technika": 1
+ },
  "TV, audio, video > Audio technika > Mikrofony": {
   "TV, audio, video a foto technika > Audio technika": 1
  },
@@ -1059,7 +1059,7 @@
   "TV, audio, video a foto technika > Televízory": 14
  },
  "TV, audio, video > Televizory > QLED, NeoQLED televize": {
-  "TV, audio, video a foto technika > Televízory": 65
+  "TV, audio, video a foto technika > Televízory": 64
  },
  "TV, audio, video > Televizory > UHD(4K) televize": {
   "TV, audio, video a foto technika > Televízory": 14
