@@ -1,0 +1,32 @@
+{
+  "id": "Z-20261126-seo-anycubic-p1-combo",
+  "datum": "2026-11-26",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "Anycubic Photon P1 Combo: titulok a meta z údajov v popise (názov už dobrý; stará meta tvrdila skladom pri sklade 0).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "092616",
+      "guid": "dbf16cf6-e93d-11f1-add9-bc2411833e01",
+      "url": "https://www.premiumstore.sk/3d-tlaciaren-anycubic-photon-p1-combo/",
+      "polia": {
+        "metaTitle": {
+          "pred": "3D tlačiareň ANYCUBIC Photon P1 Combo | premiumstore.sk",
+          "po": "Anycubic Photon P1 Combo 3D tlačiareň na živicu, 14K, 2 farby"
+        },
+        "metaDescription": {
+          "pred": "3D tlačiareň ANYCUBIC Photon P1 Combo – skladom. Kúpte na premiumstore.sk.",
+          "po": "3D tlačiareň na živicu Anycubic Photon P1 Combo: tlač v 2 farbách alebo 2 materiáloch, 10,1\" 14K LCD, objem 223 × 126 × 230 mm, Wave Release, 45 dB."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-26",
+    "ok": true,
+    "poznamka": "product_update potvrdil metaTitle, metaDescription."
+  }
+}
