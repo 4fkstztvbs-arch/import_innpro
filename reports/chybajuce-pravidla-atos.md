@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — atos
 
-Kontrola z 2026-11-25 03:29 UTC.
+Kontrola z 2026-11-26 02:45 UTC.
 
 **1 ciest bez pravidla, 153 produktov bez kategórie.**
 
@@ -9,4 +9,4 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 
 | Cesta z feedu | Produktov | Príklady |
 |---|---|---|
-| `Druhy > BLACK FRIDAY` | 153 | EMOS P4537 COB LED + SMD LED nabíjecí svítilna, 330 lm, 1200 mAh; Zahradní zásuvka ORNO OR-AE-13138, 2x2P + Z, 230V, IP44; Budík digitální projekční TechnoLine WT 536; Budík digitální TechnoLine WT 482 s FM rádiopřijímačem; Termokamera UNI-T UTi720M |
+| `Druhy > BLACK FRIDAY` | 153 | Budík digitální TechnoLine WT 482 s FM rádiopřijímačem; Gramofon KRUGER & MATZ TT-501; Budík digitální TechnoLine WT 235BS; Budík digitální projekční TechnoLine WT 538; Prodlužovací kabel EMOS P194253 na bubnu 25m / 4 zás. / s vypínačem / červený / PVC / 230V / 1,5 mm2 |

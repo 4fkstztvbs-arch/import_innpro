@@ -1,5 +1,5 @@
 # Kategórie mimo stromu — wiim
 
-Kontrola z 2026-11-26 02:21 UTC.
+Kontrola z 2026-11-26 02:45 UTC.
 
 Žiadne — všetky kategórie v tomto feede existujú v našom strome.
