@@ -1,0 +1,195 @@
+{
+  "id": "Z-20261126-obsah-davka3",
+  "datum": "2026-11-26",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 3 (26. 11., 14:10): 15 kusov príslušenstva SJCAM (popruhy, držiaky, nabíjačky, batéria SJ20, statívy, Floaty Bobber). Nové slovenské krátke popisy len z údajov v názve, detail nenačítaný. Texty `po` sú v Shoptete (products_list brandCode sjcam).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a66b578-b234-11f1",
+      "model": "Popruh na prilbu",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a6ada36-b234-11f1",
+      "model": "Popruh na krk C100/C110",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a6edcf8-b234-11f1",
+      "model": "Magnetický krčný popruh",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a72b724-b234-11f1",
+      "model": "Držiak na bicykel",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a76bf40-b234-11f1",
+      "model": "Čelenkový pás S10",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a7ab8c0-b234-11f1",
+      "model": "Nabíjačka SJ4000/SJ5000/M10",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a7ebc40-b234-11f1",
+      "model": "Nabíjačka A10/A20",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a843a30-b234-11f1",
+      "model": "Nabíjačka SJ20",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a8826fe-b234-11f1",
+      "model": "Batéria SJ20 1050 mAh",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a8c0896-b234-11f1",
+      "model": "Zadný držiak C300",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a8ff3d4-b234-11f1",
+      "model": "Držiak C100 Pro v ráme",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a940974-b234-11f1",
+      "model": "Držiak C300 Pocket",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a987d24-b234-11f1",
+      "model": "Malý statív 093578",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a9d0254-b234-11f1",
+      "model": "Stolný statív 093579",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0aa13a40-b234-11f1",
+      "model": "Floaty Bobber",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Nový slovenský krátky popis z údajov v názve produktu (bez načítaného detailu)."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
