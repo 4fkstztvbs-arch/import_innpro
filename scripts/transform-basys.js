@@ -78,6 +78,8 @@ const MIN_PROMO_MARGIN_PCT = parseFloat(process.env.BASYS_MIN_PROMO_MARGIN || '1
 const OUT_PATH = process.env.BASYS_OUT || path.join(__dirname, '..', 'output', 'basys.xml');
 const STORE_NAME = process.env.BASYS_STORE_NAME || 'premiumstore.sk';
 const EXCLUDE_UNAVAILABLE = process.env.BASYS_EXCLUDE_UNAVAILABLE === '1';
+// Max. dodacia lehota BASYS (dni), pri ktorej sa produkt ešte ponechá vo feede ako "Na objednávku".
+const MAX_LEAD_DAYS = Number.parseInt(process.env.BASYS_MAX_LEAD_DAYS || '14', 10);
 const SALE_STATE_PATH = path.join(__dirname, '..', 'data', 'vypredaj.json');
 const saleState = fs.existsSync(SALE_STATE_PATH)
   ? require('./lib/vypredaj-core').validateState(JSON.parse(fs.readFileSync(SALE_STATE_PATH, 'utf8')))
@@ -371,7 +373,12 @@ async function main() {
     const availability = typeof AVAILABILITY_OVERRIDE[item.objKod] === 'string' ? AVAILABILITY_OVERRIDE[item.objKod] : (isReturnStockSale ? 'Skladom' : supplierAvailability);
     if (availability === 'Skladom') stats.inStock = (stats.inStock || 0) + 1;
     // Produkty z cenníka sa exportujú vždy (nedostupné ako "Na objednávku"), rovnako Bose mimo cenníka z data/basys-bose-on-order.json.
-    const keepOnOrder = item.isFromPriceList || trackedOnOrder;
+    // Produkty, ktoré BASYS vo feede vedie s konkrétnou dodacou lehotou (DELIVERY_DATE 1–BASYS_MAX_LEAD_DAYS dní),
+    // sa tiež ponechajú ako "Na objednávku" — nevyraďujú sa (25. 11. 2026 BASYS plošne prepol 439 položiek na 7 dní).
+    const leadDays = hasEnrichment && /^\d+$/.test(enrich.deliveryDate || '') ? Number(enrich.deliveryDate) : null;
+    const hasSupplierLeadTime = leadDays !== null && leadDays > 0 && leadDays <= MAX_LEAD_DAYS;
+    if (hasSupplierLeadTime && supplierAvailability !== 'Skladom') stats.keptWithLeadTime = (stats.keptWithLeadTime || 0) + 1;
+    const keepOnOrder = item.isFromPriceList || trackedOnOrder || hasSupplierLeadTime;
     if (EXCLUDE_UNAVAILABLE && supplierAvailability !== 'Skladom' && !isReturnStockSale && !keepOnOrder) {
       stats.skippedUnavailable = (stats.skippedUnavailable || 0) + 1; continue;
     }
