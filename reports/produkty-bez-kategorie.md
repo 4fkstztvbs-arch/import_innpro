@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-11-26 21:26 UTC.
+Kontrola z 2026-11-26 21:28 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
