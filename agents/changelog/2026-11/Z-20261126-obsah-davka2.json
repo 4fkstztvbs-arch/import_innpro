@@ -1,0 +1,203 @@
+{
+  "id": "Z-20261126-obsah-davka2",
+  "datum": "2026-11-26",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 2 (26. 11., 12:10): 15 produktov SJCAM: SJ4000 Wi-Fi, SJ20 nabíjací set, C110+ (2 ks), C100PRO (2 ks) a 8 kusov príslušenstva (taška, vodotesné puzdrá C100 Pro, SJ4000, SJ10 Pro, mikrofón SJ8 Pro, držiaky A10, na prilbu, hrudný, postroj na psa). Nové slovenské krátke popisy; meta opravená u SJ20 set a C110+. Pri príslušenstve bez načítaného detailu sú v popise len údaje z názvu produktu. Dlhé popisy kamier ponechané (kvalitné slovenské).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "093543",
+      "guid": "09fbc736-b234-11f1-a6ee-bc2411e8af0e",
+      "model": "SJCAM SJ4000 Wi-Fi",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Akčná kamera SJCAM SJ4000 Wi-Fi s videom 4K/30 fps, fotkami 12 MP, objektívom 170° a 2,4 GHz Wi-Fi s aplikáciou SJCAM Zone. Vodotesné puzdro do 30 m, výdrž až 120 min, hmotnosť len 60 g."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093527",
+      "guid": "09d342de-b234-11f1-b7ea-bc2411e8af0e",
+      "model": "SJCAM SJ20 nabíjací set",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Akčná kamera SJCAM SJ20 s nabíjacím setom: dva objektívy (denný F2,0 a nočný F1,3), video 4K/30 fps, 6-osová stabilizácia, dva displeje a Wi-Fi. V balení selfie tyč s batériou, výdrž až 8 h."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta s koncovkou „Ďalšie produkty nájdete…“ alebo všeobecným textom.",
+          "po": "Akčná kamera SJCAM SJ20 s nabíjacím setom: dva objektívy, video 4K pri 30 fps, dva displeje, Wi-Fi a selfie tyč s batériou, výdrž až 8 hodín. PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093537",
+      "guid": "09ec32a8-b234-11f1-b653-bc2411e8af0e",
+      "model": "SJCAM C110+ (093537)",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Kompaktná akčná kamera SJCAM C110+ s videom 4K/30 fps, fotkami 20 MP, zorným poľom 170° a 6-osovou stabilizáciou. Magnetický dizajn, hmotnosť 82 g, vodotesné puzdro do 30 m v balení."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta s koncovkou „Ďalšie produkty nájdete…“ alebo všeobecným textom.",
+          "po": "Akčná kamera SJCAM C110+ s videom 4K pri 30 fps, fotografiami 20 MP, zorným poľom 170° a stabilizáciou. Magnetický dizajn, vodotesné puzdro. PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093538",
+      "guid": "0a198898-b234-11f1-a7f0-bc2411e8af0e",
+      "model": "SJCAM C110+ (093538)",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Kompaktná akčná kamera SJCAM C110+ s videom 4K/30 fps, fotkami 20 MP, zorným poľom 170° a 6-osovou stabilizáciou. Magnetický dizajn, hmotnosť 82 g, vodotesné puzdro do 30 m v balení."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093539",
+      "guid": "09effe88-b234-11f1-89d8-bc2411e8af0e",
+      "model": "SJCAM C100PRO čierna",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Mini akčná kamera SJCAM C100PRO s hmotnosťou len 32 g, videom 4K/30 fps a fotkami 20 MP. Magnetické uchytenie, Wi-Fi 5 GHz, výdrž až 170 min, vodotesné puzdro do 30 m v balení."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "093540",
+      "guid": "0a1d9b0e-b234-11f1-9990-bc2411e8af0e",
+      "model": "SJCAM C100PRO",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Mini akčná kamera SJCAM C100PRO na zábery z pohľadu prvej osoby, len 32 g. Video 4K/30 fps, fotky 20 MP, magnetický držiak, Wi-Fi 5 GHz, výdrž až 170 min a vodotesné puzdro do 30 m."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a421204-b234-11f1-b113-bc2411e8af0e",
+      "model": "Taška SJCAM veľká",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Veľká fotografická taška SJCAM na fotoaparát a príslušenstvo. Priestranná taška na prenášanie kamery, batérií, kábla a držiakov na jednom mieste pri cestovaní a výletoch."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a45e91a-b234-11f1-b652-bc2411e8af0e",
+      "model": "Puzdro C100 Pro",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Vodotesné puzdro SJCAM určené pre akčnú kameru C100 Pro. Chráni kameru pri nahrávaní pod vodou, v daždi aj v prašnom prostredí."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a49e1d2-b234-11f1-a977-bc2411e8af0e",
+      "model": "Puzdro SJ4000",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Vodotesné puzdro SJCAM určené pre akčnú kameru SJ4000. Chráni kameru pri nahrávaní pod vodou, v daždi aj v prašnom prostredí."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a4d9e12-b234-11f1-9852-bc2411e8af0e",
+      "model": "Puzdro SJ10 Pro",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Vodotesné puzdro SJCAM určené pre akčnú kameru SJ10 Pro. Chráni kameru pri nahrávaní pod vodou, v daždi aj v prašnom prostredí."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a5160b0-b234-11f1-a33d-bc2411e8af0e",
+      "model": "Mikrofón SJ8 Pro",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Klopový mikrofón SJCAM pre kameru SJ8 Pro so sponou na upevnenie a veternou clonou. Zlepšuje kvalitu zvuku pri natáčaní rozhovorov a vlogov."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a554662-b234-11f1-a01c-bc2411e8af0e",
+      "model": "Držiak A10 s prísavkou",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Držiak SJCAM A10 s prísavkou na upevnenie kamery na čelné sklo alebo okno. Pevné uchytenie pre nahrávanie jazdy z vozidla."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a5ae90a-b234-11f1-8e0a-bc2411e8af0e",
+      "model": "Držiak na prilbu (podbradník)",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Držiak SJCAM na podbradný remienok motocyklovej prilby pre akčné kamery. Umožňuje natáčať jazdu z pohľadu jazdca."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a5ee186-b234-11f1-959e-bc2411e8af0e",
+      "model": "Hrudný držiak SJCAM",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Hrudný držiak SJCAM pre akčné kamery s nastaviteľnými popruhmi. Umožňuje natáčať z pohľadu prvej osoby pri športe a jazde."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "0a62dde0-b234-11f1-92a3-bc2411e8af0e",
+      "model": "Postroj na psa SJCAM",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis z textu výrobcu (kopia začiatku dlhého popisu).",
+          "po": "Postroj SJCAM na hrudník psa s držiakom pre akčnú kameru. Zachytí svet z pohľadu vášho psa pri prechádzke aj hre."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
