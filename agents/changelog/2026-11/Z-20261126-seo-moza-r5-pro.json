@@ -1,0 +1,32 @@
+{
+  "id": "Z-20261126-seo-moza-r5-pro",
+  "datum": "2026-11-26",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "MOZA R5 Pro: titulok a meta začínajú dopytovým výrazom MOZA R5 (GSC: dotaz moza r5, 97 zobrazení, pozícia 10,7, 0 klikov). Názov nezmenený.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "091171",
+      "guid": "01575338-a8c6-11f1-bcdc-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/herny-volant-moza-racing-r5-pro/",
+      "polia": {
+        "metaTitle": {
+          "pred": "Herný volant MOZA R5 Pro so základňou 6 Nm a pedálmi",
+          "po": "MOZA R5 Pro: herný volant Direct Drive 6 Nm s pedálmi"
+        },
+        "metaDescription": {
+          "pred": "Simulačná súprava MOZA R5 Pro: základňa Direct Drive 6 Nm, volant ES Lite 280 mm, pedále SRP2 Lite a stolový držiak v balení.",
+          "po": "MOZA R5 Pro, kompletná sada pre sim racing: základňa Direct Drive 6 Nm, volant ES Lite 280 mm, pedále SRP2 Lite a stolový držiak v balení."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-26",
+    "ok": true,
+    "poznamka": "product_update potvrdil metaTitle, metaDescription."
+  }
+}
