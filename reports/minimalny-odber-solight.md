@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-25 03:03 UTC.
+Kontrola z 2026-11-26 02:12 UTC.
 
-Solight pri **483** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **481** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -456,11 +456,9 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `1V295` | Solight LED vianočná hviezda zlatá, závesná, časovač, 60cm,  | 2 | 12 |
 | `PP63` | Solight predlžovací prívod, 6 zásuviek, biely, 5m | 2 | 40 |
 | `AV05` | Solight ventilátor do kúpeľne | 2 | 24 |
-| `1V267` | Solight LED drevená vianočná dekorácia, zasnežené zimné kvet | 2 | 8 |
 | `WO744-G` | Solight LED vonkajšie osvetlenie oválne, 13W, 910lm, 4000K,  | 2 | 32 |
 | `AV06` | Solight ventilátor do kúpeľne | 2 | 24 |
 | `V51` | Solight kliešťový multimeter, 20 - 200A | 2 | 50 |
-| `1V268` | Solight LED vianočná hviezda stolná, pletená, 35x LED, 2x AA | 2 | 12 |
 | `WO745-G` | Solight LED vonkajšie osvetlenie guľaté, 13W, 910lm, 4000K,  | 2 | 20 |
 | `WZ6105` | Solight LED svetelný zdroj do stropných svetiel, 24W, 2400lm | 2 | 40 |
 | `PP53` | Solight predlžovací prívod, 5 zásuviek, biely, vypínač, 5m | 2 | 40 |
