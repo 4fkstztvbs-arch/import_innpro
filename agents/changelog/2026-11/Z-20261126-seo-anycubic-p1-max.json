@@ -1,0 +1,32 @@
+{
+  "id": "Z-20261126-seo-anycubic-p1-max",
+  "datum": "2026-11-26",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "3D tlačiareň ANYCUBIC Photon P1 Max: nový produkt z importu, titulok a meta z údajov v popise (názov už dobrý; stará meta tvrdila skladom pri sklade 0).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "092618",
+      "guid": "dbf14a14-e93d-11f1-819c-bc2411833e01",
+      "url": "https://www.premiumstore.sk/3d-tlaciaren-anycubic-photon-p1-max/",
+      "polia": {
+        "metaTitle": {
+          "pred": "3D tlačiareň ANYCUBIC Photon P1 Max | premiumstore.sk",
+          "po": "Anycubic Photon P1 Max 3D tlačiareň na živicu, 12K"
+        },
+        "metaDescription": {
+          "pred": "3D tlačiareň ANYCUBIC Photon P1 Max – skladom. Kúpte na premiumstore.sk.",
+          "po": "3D tlačiareň na živicu Anycubic Photon P1 Max: 14\" 12K LCD, objem tlače 285,5 × 214 × 300 mm, Wave Release, kamera, ovládanie cez aplikáciu."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-26",
+    "ok": true,
+    "poznamka": "product_update potvrdil upravené polia."
+  }
+}

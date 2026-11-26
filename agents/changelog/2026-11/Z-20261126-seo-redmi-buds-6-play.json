@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261126-seo-redmi-buds-6-play",
+  "datum": "2026-11-26",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "XIAOMI Redmi Buds 6 Play/ANC/BT/Be 57678: nový produkt z importu, titulok a meta z údajov v popise, názov podľa šablóny.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002121248",
+      "guid": "af15639a-e924-11f1-a999-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/xiaomi-redmi-buds-6-play-anc-bt-be-57678/",
+      "polia": {
+        "name": {
+          "pred": "XIAOMI Redmi Buds 6 Play/ANC/BT/Be 57678",
+          "po": "Bezdrôtové slúchadlá Xiaomi Redmi Buds 6 Play, ANC, Bluetooth 5.4"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "Xiaomi Redmi Buds 6 Play bezdrôtové slúchadlá s ANC"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Bezdrôtové slúchadlá Xiaomi Redmi Buds 6 Play: potlačenie hluku s AI, Bluetooth 5.4, výdrž 7,5 h (36 h s puzdrom), USB-C, Google Fast Pair."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-26",
+    "ok": true,
+    "poznamka": "product_update potvrdil upravené polia."
+  }
+}

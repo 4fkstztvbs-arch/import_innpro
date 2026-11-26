@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261126-seo-klipsch-nashville",
+  "datum": "2026-11-26",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "Klipsch Nashville BT speaker Black: nový produkt z importu, titulok a meta z údajov v popise, názov podľa šablóny.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002161398",
+      "guid": "ae3395aa-e924-11f1-8ec1-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/klipsch-nashville-bt-speaker-black/",
+      "polia": {
+        "name": {
+          "pred": "Klipsch Nashville BT speaker Black",
+          "po": "Bluetooth reproduktor Klipsch Nashville, 20 W, čierny"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "Klipsch Nashville Bluetooth reproduktor, 20 W, čierny"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Bluetooth reproduktor Klipsch Nashville: výkon 20 W, frekvenčný rozsah 60 Hz–20 kHz, citlivosť 89 dB, hmotnosť 0,85 kg, čierny."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-26",
+    "ok": true,
+    "poznamka": "product_update potvrdil upravené polia."
+  }
+}
