@@ -46,6 +46,8 @@ jobs:
       - name: Generate WiiM feed
         run: node scripts/transform-wiim.js
 
+      - uses: ./.github/actions/postprocess-categories
+
       - name: Apply internal sale state to original supplier products
         run: node scripts/apply-vypredaj-to-feeds.js
 
