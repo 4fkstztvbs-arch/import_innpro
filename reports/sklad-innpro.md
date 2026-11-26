@@ -1,6 +1,6 @@
 # Sklad — InnPro
 
-Kontrola z 2026-11-25 23:52 UTC.
+Kontrola z 2026-11-26 02:20 UTC.
 
 Produktov v full.xml: **7649**, z toho 6178 má záznam aj v light.xml.
 Dostupnosť: Skladom 6150, ostatné 1499 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
