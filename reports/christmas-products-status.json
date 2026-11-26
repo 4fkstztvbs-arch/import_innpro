@@ -1,14 +1,13 @@
 {
   "matched": 145,
-  "changed": 3,
+  "changed": 0,
   "missing": [
     "AT_EMO1550000163",
     "AT_EMO1550044029",
     "AT_EMO1550052006",
     "AT_EMO1550052003",
     "AT_EMO1550044027",
-    "AT_EMO1550040002",
-    "PEN_7821686"
+    "AT_EMO1550040002"
   ],
   "skippedUnavailable": [
     "AT_EMO1550000137",
@@ -105,7 +104,8 @@
     "SOL_1V56-WW",
     "SOL_1V57-W",
     "SOL_1V57-WW",
-    "KB_100002066203"
+    "KB_100002066203",
+    "PEN_7821686"
   ],
   "parameters": 565
 }

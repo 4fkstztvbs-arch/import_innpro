@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-11-26 02:49 UTC.
+Kontrola z 2026-11-26 13:22 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -63,7 +63,7 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `RBC2A` | Solight USB-C nabíjacie AA Li-Ion batérie, 1.5V, 1750mAh, 4ks |
 | `DSP-TF01` | Solight turbo fukár |
 
-## wiim — 24 ks
+## wiim — 26 ks
 
 | Kód | Produkt |
 |---|---|
@@ -90,5 +90,7 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `WiiM-Sound-Lite-White-2-pack` | WiiM Sound Lite Twin Pack White |
 | `WiiM_SUB_PRO_003` | WiiM Sub Pro Black |
 | `WiiM_SUB_PRO_013` | WiiM Sub Pro White |
+| `NORWIISOUBK` | WiiM Sound Floor Stand Black |
+| `NORWIISOUWT` | WiiM Sound Floor Stand White |
 | `WiiM_WVR_002` | WiiM Voice Remote 2 Silver |
 

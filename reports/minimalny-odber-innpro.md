@@ -1,14 +1,13 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-26 02:20 UTC.
+Kontrola z 2026-11-26 13:21 UTC.
 
-InnPro pri **387** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **388** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
 |---|---|---:|---:|
 | `016534` | Baseus Grain nabíjačka do auta 2x USB 5V 3,1A (čierna) | — | 5 |
-| `016540` | Kábel Baseus Cafule Micro USB 2,4A 1 m (sivý + čierny) | — | 2 |
 | `016562` | Baseus Yiven Lightning kábel 180 cm 2A (červený) | — | 5 |
 | `018164` | Baseus Cafule USB Lightning kábel 2,4 A 0,5 m (červený) | — | 5 |
 | `018159` | Baseus Cafule USB Lightning kábel 1,5 A 2 m (sivý+čierny) | — | 5 |
@@ -190,6 +189,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071867` | Sunnylife protective case for 3 batteries for DJI Neo | — | 5 |
 | `071892` | Sunnylife overlay for DJI Neo | — | 5 |
 | `071893` | Sunnylife tempered glass for DJI Action 5 Pro | — | 5 |
+| `072355` | Chladiaci ventilátor Darkflash DR08 (čierny) | — | 5 |
 | `069348` | Decorative cover / cap for T5 SONOFF Cartoon 1C touch switch | — | 5 |
 | `069349` | Decorative cover / cap for T5 SONOFF Cartoon 2C touch switch | — | 5 |
 | `069350` | Decorative cover / cap for T5 SONOFF Cartoon 3C touch switch | — | 5 |
@@ -304,6 +304,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `079180` | Puzdro Flytec – čierne | — | 5 |
 | `086285` | Stierka trysky vyhrievanej podložky Anycubic pre modely Kobr | — | 5 |
 | `087726` | BALDRTHERM E0587TH – termohygrometer napájaný solárnou energ | — | 5 |
+| `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 5 |
 | `086444` | Ponorné čerpadlo SUNSUN YQP-300 | — | 5 |
 | `086451` | Filtračné čerpadlo SUNSUN JP-093 | — | 5 |
 | `086452` | Filtračné čerpadlo SUNSUN YQP-300F | — | 5 |
