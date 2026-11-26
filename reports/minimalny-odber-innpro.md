@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-26 13:21 UTC.
+Kontrola z 2026-11-26 21:19 UTC.
 
-InnPro pri **388** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **394** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -41,6 +41,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `030694` | Filter PGYTECH VND 2-5 stop pre DJI Mavic 3 / Mavic 3 CINE ( | — | 4 |
 | `032351` | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 | — | 3 |
 | `031871` | Plávajúci ručný grip Telesin pre akčné a športové kamery (GP | — | 4 |
+| `035799` | Súprava príslušenstva DREAME pre modely D9 Pro/D9 Max/L10 Pr | — | 5 |
 | `035742` | Vertikálny úložný držiak pre vysávač Dreame P10/P10Pro | — | 5 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
@@ -52,6 +53,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `037421` | Hliníkové paličky na ovládače Sunnylife pre  DJI RC / DJI RC | — | 5 |
 | `037456` | Držiak Sunnylife AirTag pre drony | — | 5 |
 | `037507` | Puzdro na batérie Sunnylife pre DJI Mini 3 Pro/Mini 4 Pro  M | — | 5 |
+| `038492` | Sonoff 5V USB Zasilacz (Type-E/ F) | — | 5 |
 | `038335` | Snímač teploty a vlhkosti Sonoff THS01, RJ9 | — | 5 |
 | `060290` | Baseus Matné puzdro pre iPhone 13 PRO (čierne) + tvrdené skl | — | 5 |
 | `039235` | Tvrdené sklo Joyroom JR-P03 pre Apple iPhone 14 Plus 6,7 " | — | 5 |
@@ -248,6 +250,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `080728` | Držiak Sunnylife na vztlak pre športové kamery | — | 5 |
 | `080584` | Kryt nástenného spínača SONOFF E1GS (s N) | — | 5 |
 | `080586` | Rám pre dvojitý spínač Orb SONOFF EF2G | — | 5 |
+| `080587` | Rám pre trojitý prepínač Orb SONOFF EF3G | — | 5 |
 | `081353` | Sonoff Basic R5 Gen5 WiFi Smart Switch (10A, Matter) | — | 5 |
 | `081547` | Sunnylife tvrdené sklo (2 kusy) pre Osmo Nano | — | 5 |
 | `081548` | Silikónový opasok Sunnylife pre zariadenie Osmo Nano (čierny | — | 5 |
@@ -388,7 +391,10 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089386` | Čelovka SUPERFIRE HL05-L | — | 5 |
 | `089385` | Svetlo SUPERFIRE F1-X | — | 5 |
 | `093393` | UV baterka Supfire S11-H, 365 nm, USB-C | — | 5 |
+| `093563` | Popruh na prilbu SJCAM | — | 5 |
+| `093576` | Držiak SJCAM C100 Pro | — | 5 |
 | `093577` | Držiak SJCAM C300 POCKET | — | 5 |
+| `093578` | Malý statív SJCAM | — | 5 |
 | `093581` | SJCAM Floaty Bobber – držiak na zvýšenie vztlaku | — | 5 |
 | `093816` | Ochranná fólia TELESIN pre Pocket3/4 | — | 5 |
 | `093815` | Ochranná fólia TELESIN pre Luna | — | 5 |
