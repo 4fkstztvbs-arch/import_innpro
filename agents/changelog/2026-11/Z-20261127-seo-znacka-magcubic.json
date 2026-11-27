@@ -1,0 +1,32 @@
+{
+  "id": "Z-20261127-seo-znacka-magcubic",
+  "datum": "2026-11-27",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "Značka Magcubic: bohatší popis z overených modelov, meta bez neoverenej dodacej lehoty (GSC /znacka/magcubic/: 52 zobrazení, CTR 1,9 %).",
+  "polozky": [
+    {
+      "typ": "znacka",
+      "kod": "magcubic",
+      "guid": "1f18f3e0-b502-6708-bee1-bc2411cab27b",
+      "url": "https://www.premiumstore.sk/znacka/magcubic/",
+      "polia": {
+        "description": {
+          "pred": "<p>Magcubic je značka smart a prenosných projektorov so sídlom v Shenzhene. V ponuke nájdete projektory rady HY300, modely Full HD s automatickým zaostrením (napríklad X7 a HY350Max).</p><p>Značku Magcubic nájdete na PremiumStore.sk v kategórii <a href=\"/projektory-4/\">Projektory</a>.</p>",
+          "po": "<p>Magcubic je značka smart a prenosných projektorov so sídlom v Shenzhene. Projektory Magcubic majú vstavaný systém Android, Wi‑Fi a Bluetooth, takže filmy a seriály pustíte bez ďalšieho zariadenia.</p><p>V ponuke nájdete kompaktné modely rady HY300 s natívnym rozlíšením 720p a podporou 4K obsahu, vyššie modely rady HY310 a HY320 a Full HD projektory s automatickým zaostrením, napríklad HY350 Max. Pri výbere sledujte natívne rozlíšenie, jas v ANSI lúmenoch a to, či má projektor automatické zaostrenie a lichobežníkovú korekciu.</p><p>Všetky projektory Magcubic nájdete v kategórii <a href=\"/projektory-4/\">Projektory</a>.</p>"
+        },
+        "metaDescription": {
+          "pred": "Magcubic: smart a prenosné projektory Full HD s automatickým zaostrením. Doručenie už od 2 dní, vrátenie do 14 dní.",
+          "po": "Projektory Magcubic: smart a prenosné modely HY300, HY310, HY320 a HY350 Max s Androidom a Wi‑Fi, vybrané s automatickým zaostrením. Vrátenie do 14 dní."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-27",
+    "ok": true,
+    "poznamka": "brand_update potvrdil description a metaDescription."
+  }
+}
