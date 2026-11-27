@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-11-27 18:24 UTC.
+Kontrola z 2026-11-27 23:50 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -13,11 +13,18 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 |---|---|
 | `MS-GARNI 1NG3` | Integrované čidlo Garni 1NG pre meteostanice Garni (AT_MS-GARNI 1NG3) |
 
-## innpro — 18 ks
+## basys — 1 ks
+
+| Kód | Produkt |
+|---|---|
+| `BASYS-B112D2` | Aktívny PA reproduktor Behringer EUROLIVE B112D, 12″ |
+
+## innpro — 19 ks
 
 | Kód | Produkt |
 |---|---|
 | `081314` | Elektrický gril MOVA IG20 Pro |
+| `088540` | Monitor Darkflash 9,2" IPS V92 (biely) |
 | `087241` | GPS lokátor MOVA SureTrack Pro pre domáce zvieratá |
 | `091848` | Parkovacie kúrenie Hcalory HBS-3 |
 | `091849` | Parkovacie kúrenie Hcalory HBH-3 |

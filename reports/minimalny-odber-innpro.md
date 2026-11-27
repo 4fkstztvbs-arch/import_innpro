@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-27 13:18 UTC.
+Kontrola z 2026-11-27 23:49 UTC.
 
-InnPro pri **396** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **398** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -52,10 +52,10 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `037421` | Hliníkové paličky na ovládače Sunnylife pre  DJI RC / DJI RC | — | 5 |
 | `037456` | Držiak Sunnylife AirTag pre drony | — | 5 |
 | `037507` | Puzdro na batérie Sunnylife pre DJI Mini 3 Pro/Mini 4 Pro  M | — | 5 |
+| `038492` | Sonoff 5V USB Zasilacz (Type-E/ F) | — | 2 |
 | `038335` | Snímač teploty a vlhkosti Sonoff THS01, RJ9 | — | 5 |
 | `060290` | Baseus Matné puzdro pre iPhone 13 PRO (čierne) + tvrdené skl | — | 5 |
 | `039235` | Tvrdené sklo Joyroom JR-P03 pre Apple iPhone 14 Plus 6,7 " | — | 5 |
-| `038964` | Baseus Crystal Tvrdené sklo odolné voči prachu 0,3 mm pre iP | — | 2 |
 | `038947` | Baseus Glitter Priehľadné puzdro a sada tvrdeného skla pre i | — | 5 |
 | `038946` | Baseus Glitter Priehľadné puzdro a sada tvrdeného skla pre i | — | 5 |
 | `040287` | Prepravné puzdro Sunnylife pre DJI Osmo Mobile 6 | — | 5 |
@@ -146,7 +146,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `066874` | Multifunctional Adapter Mount SUNNYLIFE for DJI Avata 2 | — | 5 |
 | `067464` | Silicone Protective Case PULUZ for DJI RC 2 (grey) | — | 5 |
 | `067463` | Silicone protective case PULUZ for DJI RC 2 (black) | — | 5 |
-| `066276` | Lens Protector Nillkin for Samsung Galaxy S24+ (3 Pieces) | — | 4 |
+| `066276` | Lens Protector Nillkin for Samsung Galaxy S24+ (3 Pieces) | — | 5 |
 | `067767` | Anti-glare lens and gimbal cover Sunnylife for DJI Avata 2 | — | 5 |
 | `067770` | Protective case Sunnylife for Insta360 X4 | — | 5 |
 | `066322` | Case Nillkin Super Frosted Shield Pro for Samsung Galaxy A15 | — | 5 |
@@ -211,6 +211,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `075568` | Filtre Rojeco pre 2,5 l bezdrôtové vodné fontány 50 | — | 5 |
 | `075569` | Rojeco Filtre pre dávkovač vody pre domáce zvieratá 2600mAh  | — | 5 |
 | `075666` | Termálne etikety Niimbot nálepky 50x30 mm - 900ks (biela) | — | 5 |
+| `076054` | Pendrive Lexar JumpDrive V40 USB 2.0 16 GB | — | 5 |
 | `076066` | Pendrive Lexar JumpDrive M22 USB 2.0 32GB | — | 5 |
 | `076536` | Sunnylife mini ochranné puzdro FP-SN953-C pre DJI FLIP (oran | — | 5 |
 | `077572` | Antireflexná tvrdená fólia Sunnylife pre Osmo Pocket 3 | — | 5 |
@@ -305,7 +306,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `079180` | Puzdro Flytec – čierne | — | 5 |
 | `086285` | Stierka trysky vyhrievanej podložky Anycubic pre modely Kobr | — | 5 |
 | `087726` | BALDRTHERM E0587TH – termohygrometer napájaný solárnou energ | — | 5 |
-| `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 5 |
+| `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 4 |
 | `086444` | Ponorné čerpadlo SUNSUN YQP-300 | — | 5 |
 | `086451` | Filtračné čerpadlo SUNSUN JP-093 | — | 5 |
 | `086452` | Filtračné čerpadlo SUNSUN YQP-300F | — | 5 |
@@ -390,7 +391,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `091928` | Sunnylife Pocket 4P/4/3 – tvrdené ochranné sklo, balenie po  | — | 5 |
 | `091929` | Ochranná fólia Sunnylife Insta360 Luna Ultra, balenie po 2 k | — | 5 |
 | `089389` | Čelovka SUPERFIRE HL106 | — | 5 |
-| `089386` | Čelovka SUPERFIRE HL05-L | — | 4 |
+| `089386` | Čelovka SUPERFIRE HL05-L | — | 5 |
 | `089385` | Svetlo SUPERFIRE F1-X | — | 5 |
 | `093393` | UV baterka Supfire S11-H, 365 nm, USB-C | — | 5 |
 | `093563` | Popruh na prilbu SJCAM | — | 5 |
@@ -398,8 +399,9 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `093577` | Držiak SJCAM C300 POCKET | — | 5 |
 | `093578` | Malý statív SJCAM | — | 5 |
 | `093581` | SJCAM Floaty Bobber – držiak na zvýšenie vztlaku | — | 5 |
+| `093717` | Magnetický držiak na krk pre SJCAM C300 | — | 5 |
 | `093816` | Ochranná fólia TELESIN pre Pocket3/4 | — | 5 |
 | `093815` | Ochranná fólia TELESIN pre Luna | — | 5 |
 | `093797` | Silikónové puzdro a kryt objektívu TELESIN pre OSMO Action 6 | — | 5 |
-| `095291` | Pamäťová karta GODOX microSD 4 GB | — | 5 |
+| `095291` | Pamäťová karta GODOX microSD 4 GB | — | 3 |
 | `095292` | Pamäťová karta GODOX microSD s kapacitou 8 GB | — | 5 |

@@ -312,7 +312,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094341 | 6972792470610 | Slúchadlá ATTACK SHARK L80 PRO (biele) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094342 | 6979033730359 | Klávesnica ATTACK SHARK M36HE (moonlight) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094343 | 6979033730342 | Klávesnica ATTACK SHARK M36HE (biely obrys) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094344 | 6972792470474 | Wireless Keyboard ATTACK SHARK M86 (white and gray) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094344 | 6972792470474 | Klávesnica ATTACK SHARK M86 (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094345 | 6972792471525 | Keyboard ATTACK SHARK M86 (black and white) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094346 | 6972792471648 | Wireless Keyboard ATTACK SHARK M87PROV2RGB (white) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094347 | 6972792470191 | Computer mouse ATTACK SHARK R1 3-Mode (black) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -321,16 +321,16 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094350 | 6972792470573 | Myš ATTACK SHARK R5 Ultra (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094351 | 6972792470924 | Myš ATTACK SHARK R5 Ultra s 3 režimami (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094352 | 6972792470412 | Myš ATTACK SHARK R6 s 3 režimami (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094353 | 6972792471204 | Computer mouse ATTACK SHARK R6 (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094354 | 6979033730304 | Mechanical Keyboard ATTACK SHARK R68HE (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094355 | 6979033730298 | Mechanical Keyboard ATTACK SHARK R68HE (black) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094353 | 6972792471204 | Myš ATTACK SHARK R6 (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094354 | 6979033730304 | Klávesnica ATTACK SHARK R68HE (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094355 | 6979033730298 | Klávesnica ATTACK SHARK R68HE (odtieň atramentu) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094356 | 6979033730212 | Klávesnica ATTACK SHARK R82HE (moonlight) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094357 | 6972792471990 | Klávesnica ATTACK SHARK R82HE (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094358 | 6972792472003 | Mechanical Keyboard ATTACK SHARK R82HE (black) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094358 | 6972792472003 | Klávesnica ATTACK SHARK R82HE (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094359 | 6972792472546 | Klávesnica ATTACK SHARK R85HE (fialová) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094360 | 6972792472539 | Mechanical Keyboard ATTACK SHARK R85HE (black and green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094361 | 6972792472553 | Mechanical Keyboard ATTACK SHARK R85HE (black and white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094362 | 6972792472522 | Mechanical Keyboard ATTACK SHARK R85HE (white and black) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094360 | 6972792472539 | Klávesnica ATTACK SHARK R85HE (zelená) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094361 | 6972792472553 | Klávesnica ATTACK SHARK R85HE (moonlight) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094362 | 6972792472522 | Klávesnica ATTACK SHARK R85HE (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094363 | 6979033730663 | Klávesnica ATTACK SHARK R98HE (ink) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094364 | 6979033730670 | Klávesnica ATTACK SHARK R98HE (ice) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094365 | 6979033730649 | Klávesnica ATTACK SHARK R98HE (zelená) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -356,9 +356,9 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094390 | 6972792470238 | Bezdrôtová myš ATTACK SHARK X3 (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094391 | 6972792470801 | Bezdrôtová myš ATTACK SHARK X3 (červená) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094392 | 6972792470825 | Bezdrôtová myš ATTACK SHARK X3 (oranžová) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094393 | 6972792470436 | Wireless mouse ATTACK SHARK X3MAX Tri-mode (white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094395 | 6972792470931 | Computer mouse ATTACK SHARK X3MAX (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094396 | 6972792470870 | Computer mouse ATTACK SHARK X3PRO (white) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094393 | 6972792470436 | Bezdrôtová myš ATTACK SHARK X3MAX Tri-mode (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094395 | 6972792470931 | Myš ATTACK SHARK X3MAX (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094396 | 6972792470870 | Myš ATTACK SHARK X3PRO (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094397 | 6972792471013 | Bezdrôtová myš ATTACK SHARK X5 (čierno-biela) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094398 | 6972792470993 | Bezdrôtová myš ATTACK SHARK X5 (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094399 | 6972792471006 | Bezdrôtová myš ATTACK SHARK X5 (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -374,10 +374,10 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094410 | 6972792470634 | Klávesnica ATTACK SHARK X68 HE (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094411 | 6972792471037 | Klávesnica ATTACK SHARK X68 HE (moonglith n) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094412 | 6972792471044 | Klávesnica ATTACK SHARK X68 HE (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094413 | 6979033730403 | Mechanical Keyboard ATTACK SHARK X68 HE (white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094415 | 6972792471051 | Mechanical Keyboard ATTACK SHARK X68 HE (pink) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094416 | 6972792470740 | Mechanical Keyboard ATTACK SHARK X68MAX (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094417 | 6972792470733 | Mechanical Keyboard ATTACK SHARK X68MAX (white) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094413 | 6979033730403 | Klávesnica ATTACK SHARK X68 HE (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094415 | 6972792471051 | Klávesnica ATTACK SHARK X68 HE (ružovočervená) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094416 | 6972792470740 | Klávesnica ATTACK SHARK X68MAX (čierny rám) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094417 | 6972792470733 | Klávesnica ATTACK SHARK X68MAX (biele obrysy) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094418 | 6972792471068 | Wireless Keyboard ATTACK SHARK X68PRO HE (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094419 | 6972792471075 | Wireless Keyboard ATTACK SHARK X68PRO HE (white and black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094420 | 6972792470627 | Wireless Keyboard ATTACK SHARK X68PRO HE (white) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -386,10 +386,10 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094423 | 6972792470719 | Klávesnica ATTACK SHARK X82 PRO HE (manga) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094424 | 6972792470696 | Klávesnica ATTACK SHARK X82 PRO HE (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094425 | 6972792470702 | Bezdrôtová klávesnica ATTACK SHARK X82 PRO HE Tri-mode (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094427 | 6972792471303 | Wireless Keyboard ATTACK SHARK X820 ULTRA (white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094428 | 6972792471297 | Wireless Keyboard ATTACK SHARK X820 ULTRA (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094429 | 6972792471280 | Wireless Keyboard ATTACK SHARK X820 ULTRA (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094430 | 6972792471242 | Wireless Keyboard ATTACK SHARK X820 ULTRA (grey and black) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094427 | 6972792471303 | Klávesnica ATTACK SHARK X820 ULTRA (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094428 | 6972792471297 | Bezdrôtová klávesnica ATTACK SHARK X820 ULTRA Tri-mode (moonlight) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094429 | 6972792471280 | Bezdrôtová klávesnica ATTACK SHARK X820 ULTRA 2.4G+BT (sivo-žltá) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094430 | 6972792471242 | Klávesnica ATTACK SHARK X820 ULTRA (moonlight) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094431 | 6972792471570 | Wireless Keyboard ATTACK SHARK X85 (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094432 | 6972792471594 | Wireless Keyboard ATTACK SHARK X85 (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094433 | 6972792470320 | Wireless Keyboard ATTACK SHARK X85 (white and purple) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -471,6 +471,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 096395 | 5905156114067 | Metal Cutting Disc HILDA MC04 4" | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096396 | 5905156114050 | Metal flap disc HILDA MG04, 4" | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096397 | 5905156114043 | Metal grinding disc HILDA MGT04 4" | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096597 | 6941565993281 | Solárny kábel DJI POWER MC4 na XT60 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096718 | 6952344249475 | Xenónový blesk GODOX A2 pre smartfóny (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096719 | 6952344249482 | Xenónový blesk GODOX A2 pre smartfóny (biely) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096720 | 6952344216477 | Všestranná lampa GODOX AD400Pro II | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -621,7 +622,5 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 097133 | 6976654463260 | Thermal Label Printer XPRINTER MP2, USB+BT (gold) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 097134 | 6974657415361 | Portable printer A4 XPRINTER P83 thermal, USB+BT (grey) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 097219 | 5905156115392 | Inspection camera 3in1 INSKAM Y101 3.9mm | nulová/neplatná cena |  | 0.00 € |  |  |
-| 035845 | 6941565916839 | Luminiscenčná letová mapa DJI RoboMaster TT | zmena ceny > 5x oproti minulému importu | 801.00 € | 102.50 € | 1/7.8x |  |
-| 061857 | 6976788020391 | Joyroom PN-14F2 Starry Case pre iPhone 14 Pro (ružové) | zmena ceny > 5x oproti minulému importu | 16.00 € | 3.10 € | 1/5.2x |  |
-| 083142 | 0810098388061 | Sedátko FUNWATER SOP1820001 pre SUP dosku | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 16.00 € | 1/9.0x | 13 |
-| 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 8.10 € | 1/17.8x | 13 |
+| 083142 | 0810098388061 | Sedátko FUNWATER SOP1820001 pre SUP dosku | cena mimo 8x rozsah mediánu kategórie | 151.90 € | 16.90 € | 1/9.0x | 13 |
+| 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 151.90 € | 8.50 € | 1/17.9x | 13 |
