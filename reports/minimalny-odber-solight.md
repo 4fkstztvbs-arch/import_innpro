@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-26 21:29 UTC.
+Kontrola z 2026-11-27 02:11 UTC.
 
-Solight pri **480** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **479** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -45,6 +45,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `P97` | Solight rozbočovač, 2x 10 A, biely, vypínač | 10 | 100 |
 | `WZ414-1` | Solight LED žiarovka reflektorová, R50, 5W, E14, 4000K, 440l | 10 | 100 |
 | `WZ505-2` | Solight LED žiarovka, klasický tvar, 10W, E27, 3000K, 270°,  | 10 | 100 |
+| `WZ314A-1` | Solight LED žiarovka, bodová , 3W, GU10, 3000K, 260lm, biela | 10 | 100 |
 | `WZ319A-1` | Solight LED žiarovka, bodová , 7W, GU10, 4000K, 595lm, biela | 10 | 100 |
 | `WZ425-1` | Solight LED žiarovka, miniglobe, 8W, E14, 3000K, 720lm, biel | 10 | 100 |
 | `WZ423-1` | Solight LED žiarovka, sviečka, 8W, E14, 3000K, 720lm | 10 | 100 |
@@ -138,7 +139,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WL114-1` | Solight LED svietidlo s karabínou, 30lm, COB LED, 2x CR2032  | 5 | 96 |
 | `WO903-1` | Solight montážne klipy na inštaláciu LED panelov 595x595 mm  | 5 | 100 |
 | `WH26` | Solight LED čelové COB svietidlo, 3W, modrá, 3x AAA | 5 | 100 |
-| `1V52-WW` | Solight LED vianočná reťaz, hviezdy, 1,5m, 10x LED, 2x AA, ž | 5 | 40 |
 | `5B102` | Solight vypínač Slim č. 1 jednopólový, biely | 5 | 120 |
 | `PP01` | Solight predlžovací prívod, 3 zásuvky, biely, 1,5 m | 5 | 50 |
 | `PF51` | Solight flexo šnúra, 2m, 2 x 0,75mm2, čierna, plochá, vypína | 5 | 100 |
@@ -426,7 +426,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PO62` | Solight prepäťová ochrana, 150J, 6 zásuviek, 1,5m, biela | 2 | 40 |
 | `P99B-PD20` | Solight rozbočovač s USB A+C rychlonabíjačkou 20W PD, 2 x 10 | 2 | 100 |
 | `P97-PD20` | Solight rozbočovač 2 x 16A, USB A+C rychlonabíjačka 20W PD,  | 2 | 100 |
-| `1V253` | Solight LED zimná dedinka, modulárna, 14x prvkov, 10x LED, 2 | 2 | 24 |
 | `WD240-W` | Solight LED mini panel kúpeľňový 2v1, 3CCT, podhľadový / pri | 2 | 40 |
 | `PP13` | Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 5m | 2 | 40 |
 | `HN18` | Solight vonkajšia anténa, DVB-T2, 11dB | 2 | 1 |
