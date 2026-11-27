@@ -1,0 +1,195 @@
+{
+ "id": "Z-20261127-obsah-davka5",
+ "datum": "2026-11-27",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 5 (27. 11., 18:10): 15 produktov Edifier (R990BT, MR4, D12, S3000 PRO V23, Hecate G2000 biele, e25HD ×2, NeoBuds Pro 3, MR5, X5 Pro, QR30 čierne, S880DB MKII biele, R1280T biele, R20BT ×2). Nové slovenské krátke popisy; u R990BT aj nový slovenský dlhý popis (pôvodný bol anglický) a meta, u MR4 meta. Produkty bez načítaného detailu používajú len údaje z názvu alebo variantu.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "6aa161e2-92c5-11f1-a377-bc2411833e01",
+   "model": "Edifier R990BT čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "krátky popis, meta a dlhý popis (pôvodne anglický) nanovo po slovensky; originál dlhého popisu nie je uložený, dá sa získať z feedu INNPRO"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "40932c6e-92c5-11f1-9f5a-bc2411833e01",
+   "model": "Edifier MR4 biele",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "2×21 W, Monitor/Music, TRS/RCA/AUX; meta opravená"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "41b33210-92c5-11f1-9dfe-bc2411833e01",
+   "model": "Edifier D12 hnedý",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "BT 5.0, 2×35 W RMS, kino/hudba"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "54be3cf6-92c5-11f1-bd6e-bc2411833e01",
+   "model": "Edifier S3000 PRO V23 hnedé",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "planárny výškový menič, AptX HD, USB/opt/koax/XLR"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "42ee17d0-92c5-11f1-b1f7-bc2411833e01",
+   "model": "Edifier Hecate G2000 biele",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "32 W (len z názvu)"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "6497c0e8-92c5-11f1-a8bb-bc2411833e01",
+   "model": "Edifier e25HD červené",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "74 W, BT 5.3 (z názvu)"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "64ae52cc-92c5-11f1-b406-bc2411833e01",
+   "model": "Edifier e25HD biele",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "74 W, BT 5.3 (z názvu)"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "c159d24e-92c5-11f1-ae9c-bc2411833e01",
+   "model": "Edifier NeoBuds Pro 3",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "ANC −50 dB, LHDC 5.0/LDAC, IP54, 36 h"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "c16f59a2-92c5-11f1-8830-bc2411833e01",
+   "model": "Edifier MR5 biele",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "110 W RMS, BT 6.0 LDAC, XLR/TRS"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "c555fbe8-92c5-11f1-9932-bc2411833e01",
+   "model": "Edifier X5 Pro 2025 čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "ANC −48 dB, BT 6.0, 48 h, IP55"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "a2534fe2-92c5-11f1-a63f-bc2411833e01",
+   "model": "Edifier QR30 čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "30 W, BT, USB-A (z názvu)"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "1c948cf6-9b6a-11f1-87eb-bc24110eff41",
+   "model": "Edifier S880DB MKII biele",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "podľa variantu tmavé drevo"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "0e5f9a18-9b6a-11f1-9680-bc24110eff41",
+   "model": "Edifier R1280T biele",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "42 W, RCA (z názvu)"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "f2fb97a6-92c5-11f1-ac93-bc2411833e01",
+   "model": "Edifier R20BT čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "5 W RMS, BT 6.0 (z názvu)"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "f307ab0e-92c5-11f1-b66c-bc2411833e01",
+   "model": "Edifier R20BT biele",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "5 W RMS, BT 6.0 (z názvu)"
+    }
+   }
+  }
+ ],
+ "overenie": "updatedFields potvrdené pri každom zápise.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
