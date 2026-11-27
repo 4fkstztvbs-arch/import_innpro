@@ -1,0 +1,195 @@
+{
+ "id": "Z-20261127-obsah-davka3",
+ "datum": "2026-11-27",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 3 (27. 11., 14:10): 15 produktov Edifier (ES850NB ×2, WH950NB ×2, Hecate G2000 PRO ×2, W800BT SE ×2, WH700NB Pro, S880DB MKII, Comfo Flex, SW8, QR65 ×2, e25HD čierne). Nové slovenské krátke popisy; meta opravená u WH950NB. W800BT Pro béžové už malo kvalitný popis, preskočené. QR65 a e25HD len z údajov v názve.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "a273f562-92c5-11f1-b498-bc2411833e01",
+   "model": "Edifier ES850NB čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (kopia začiatku dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "Čierne slúchadlá ES850NB s hybridným ANC do −45 dB, LDAC, BT 5.4 multipoint, výdrž až 92 h."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "a27ef480-92c5-11f1-805a-bc2411833e01",
+   "model": "Edifier ES850NB slonovinové",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (kopia začiatku dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "Slonovinové slúchadlá ES850NB (rovnaké parametre)."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "c5f017b4-92c5-11f1-bcdf-bc2411833e01",
+   "model": "Edifier WH950NB čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (kopia začiatku dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "Hybridné ANC 8 úrovní do −49 dB, BT 5.4, multipoint, až 80 h; meta opravená."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "c5e18e4c-92c5-11f1-9479-bc2411833e01",
+   "model": "Edifier WH950NB béžové",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (kopia začiatku dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "To isté, béžové; meta opravená."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "c1a83506-92c5-11f1-aec0-bc2411833e01",
+   "model": "Edifier Hecate G2000 PRO čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (kopia začiatku dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "64 W, 7.1 surround, RGB, BT 5.4/USB-C/USB-A/AUX."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "c1b647a4-92c5-11f1-8ee0-bc2411833e01",
+   "model": "Edifier Hecate G2000 PRO biele",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (kopia začiatku dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "To isté, biele."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "8d350f10-92c5-11f1-9c44-bc2411833e01",
+   "model": "Edifier W800BT SE čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (kopia začiatku dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "BT 5.4, AAC/SBC, herný režim 0,06 s, až 45 h, 15 min = 8 h."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "8d2abc90-92c5-11f1-9418-bc2411833e01",
+   "model": "Edifier W800BT SE biele",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (kopia začiatku dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "To isté, biele."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "8d4adafc-92c5-11f1-8134-bc2411833e01",
+   "model": "Edifier WH700NB Pro čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (kopia začiatku dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "Hybridné ANC do −43 dB, BT 5.4, 56 h bez ANC / 35 h s ANC, Hi-Res."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "d42dfa62-92c5-11f1-9ceb-bc2411833e01",
+   "model": "Edifier S880DB MKII tmavé drevo",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (kopia začiatku dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "88 W RMS, BT 5.3 LDAC, USB-C/optický/koaxiálny/2× line, SUB OUT, OLED."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "a23d2078-92c5-11f1-94d8-bc2411833e01",
+   "model": "Edifier Comfo Flex čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (kopia začiatku dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "Otvorené, LDAC, BT 5.4 multipoint, 10 h + 30 h, IP55."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "826ceba2-92c5-11f1-ab26-bc2411833e01",
+   "model": "Edifier Airpulse SW8 čierny",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (kopia začiatku dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "8\" subwoofer, trieda D, 160 W RMS, RCA/LFE."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "54d8f122-92c5-11f1-9891-bc2411833e01",
+   "model": "Edifier QR65 čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (kopia začiatku dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "70 W, BT 5.3 (len z názvu)."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "54e34c6c-92c5-11f1-9bec-bc2411833e01",
+   "model": "Edifier QR65 biele",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (kopia začiatku dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "70 W, BT 5.3 (len z názvu)."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "64a3b826-92c5-11f1-9588-bc2411833e01",
+   "model": "Edifier e25HD čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (kopia začiatku dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "74 W, BT 5.3 (len z názvu)."
+    }
+   }
+  }
+ ],
+ "overenie": "updatedFields potvrdené pri každom zápise.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
