@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600852,
+    "nextCardNumber": 202600861,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -5108,6 +5108,60 @@
         "nazov": "Tašky na tříděný odpad SIXTOL SX4211 SORT EASY 3 SLIM, 18x30x40 cm, 3 x",
         "dodavatel": "atos",
         "code": "TOC-SX4211"
+      },
+      "6971636401094": {
+        "kod": "202600852",
+        "nazov": "Hyper PLA Yellow Filament",
+        "dodavatel": "innpro",
+        "code": "064731"
+      },
+      "6971636401155": {
+        "kod": "202600853",
+        "nazov": "Hyper PLA Green Filament",
+        "dodavatel": "innpro",
+        "code": "064732"
+      },
+      "6971636401285": {
+        "kod": "202600854",
+        "nazov": "Hyper PLA Brown Filament",
+        "dodavatel": "innpro",
+        "code": "064734"
+      },
+      "6971636405634": {
+        "kod": "202600855",
+        "nazov": "Hyper PLA white Filament",
+        "dodavatel": "innpro",
+        "code": "064739"
+      },
+      "6974944466052": {
+        "kod": "202600856",
+        "nazov": "StreetGrip Kit Telesin GoPro",
+        "dodavatel": "innpro",
+        "code": "080676"
+      },
+      "6933582314071": {
+        "kod": "202600857",
+        "nazov": "Filament PLA Classic",
+        "dodavatel": "innpro",
+        "code": "085091"
+      },
+      "6933582314088": {
+        "kod": "202600858",
+        "nazov": "Filament PLA Classic",
+        "dodavatel": "innpro",
+        "code": "085092"
+      },
+      "6935750535202": {
+        "kod": "202600859",
+        "nazov": "Uni- T Sound Level Meter",
+        "dodavatel": "innpro",
+        "code": "084998"
+      },
+      "0671891193098": {
+        "kod": "202600860",
+        "nazov": "Fanttik E2 Ultra Mini Electric",
+        "dodavatel": "innpro",
+        "code": "083579"
       }
     }
   },
