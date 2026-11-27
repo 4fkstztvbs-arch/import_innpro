@@ -1,0 +1,195 @@
+{
+ "id": "Z-20261127-obsah-davka4",
+ "datum": "2026-11-27",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 4 (27. 11., 16:10): 15 produktov OneOdio (A10, A10 ANC biele, A71D, A71 ×2, Pro50 sivé, Pro30, Pro10/Pro-10 ×5, OpenRock S2, Link 10, Studio Max 2). Nové slovenské krátke popisy; meta opravená u A10. Pro-50 čierne už malo kvalitný popis.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "4dd2644e-92c5-11f1-9a93-bc2411833e01",
+   "model": "OneOdio A10 čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "ANC 35 dB, 45 h, USB-C; meta opravená."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "4de6cbb4-92c5-11f1-9679-bc2411833e01",
+   "model": "OneOdio A71D čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "Odnímateľný mikrofón, 40 mm, skladacie."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "4e322db6-92c5-11f1-a6cc-bc2411833e01",
+   "model": "OneOdio Pro50 sivé",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "50 mm, dvojitý konektor (podľa variantu Pro-50)."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "4e3c4044-92c5-11f1-a9e4-bc2411833e01",
+   "model": "OneOdio Pro30 strieborné",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "50 mm, Shareport, 3,5/6,35 mm."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "4df0952c-92c5-11f1-b038-bc2411833e01",
+   "model": "OneOdio A71 hnedé",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "40 mm neodym, 2 káble."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "8bf0bbe0-92c5-11f1-854c-bc2411833e01",
+   "model": "OneOdio A71 čierno-červené",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "podľa variantu A71 hnedé."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "4e463b26-92c5-11f1-b122-bc2411833e01",
+   "model": "OneOdio Pro10 červené",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "50 mm (z názvu)."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "514224e8-92c5-11f1-af46-bc2411833e01",
+   "model": "OneOdio Pro10 sivé",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "50 mm (z názvu)."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "514d43f0-92c5-11f1-b40e-bc2411833e01",
+   "model": "OneOdio Pro10 ružovo-zlaté",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "50 mm (z názvu)."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "ffea7c58-b7b3-11f1-a79e-bc2411e8af0e",
+   "model": "OneOdio Pro-10 modré",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "50 mm, Shareport (z názvu)."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "ffef1d8a-b7b3-11f1-a894-bc2411e8af0e",
+   "model": "OneOdio Pro-10 čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "50 mm, Shareport (z názvu)."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "ce174a48-92c5-11f1-945d-bc2411833e01",
+   "model": "OneOdio OpenRock S2",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "BT 6.0, LDAC, 8 h/32 h, IPX5."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "f0d12cd4-92c5-11f1-ae43-bc2411833e01",
+   "model": "OneOdio OpenRock Link 10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "USB-C, AI mikrofón."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "360dda4a-92c6-11f1-95ae-bc2411833e01",
+   "model": "OneOdio Studio Max 2",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "9 ms, LDAC, BT 6.0, 120 h."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "9ce4b2da-92c5-11f1-8550-bc2411833e01",
+   "model": "OneOdio A10 ANC biele",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu) alebo prázdny; originál neuložený.",
+     "po": "konzervatívne, len z názvu."
+    }
+   }
+  }
+ ],
+ "overenie": "updatedFields potvrdené pri každom zápise.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
