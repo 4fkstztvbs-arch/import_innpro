@@ -1,0 +1,83 @@
+{
+  "id": "Z-20261127-obsah-davka1",
+  "datum": "2026-11-27",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 1 (27. 11., 10:10): len 5 produktov namiesto 15, pretože Shoptet API opakovane vracalo chyby 500/502/405 (načítanie detailu R1280DB a ďalších zlyhalo viackrát). Spracované: Edifier ES60, ES20 (béžový a čierny), R1280T, OneOdio Pro C. OneOdio A6 (čierne a biele) a A1 Pro už majú kvalitný krátky popis a meta (z iného zdroja), preskočené.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002201617",
+      "guid": "9c7fcadc-92ac-11f1-8210-bc2411833e01",
+      "model": "Edifier ES60",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený alebo český krátky popis (kopia začiatku dlhého popisu alebo text dodávateľa).",
+          "po": "Prenosný Bluetooth reproduktor Edifier ES60 s výkonom 34 W RMS, Bluetooth 5.4 a USB-C audio vstupom. Krytie IP66, frekvenčný rozsah 58 Hz–20 kHz, výdrž až 9 h a zabudovaný mikrofón."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "045437",
+      "guid": "4e1b4f56-92c5-11f1-9441-bc2411833e01",
+      "model": "OneOdio Pro C čierne",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený alebo český krátky popis (kopia začiatku dlhého popisu alebo text dodávateľa).",
+          "po": "Bezdrôtové slúchadlá OneOdio Pro C s Bluetooth 5.2, výdržou až 110 hodín a zabudovaným mikrofónom. Káblové pripojenie cez 3,5 mm jack, skladací dizajn a mäkké náušníky."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta s koncovkou alebo nedokonalým textom.",
+          "po": "Bezdrôtové slúchadlá OneOdio Pro C s Bluetooth 5.2, výdržou až 110 hodín, mikrofónom a káblovým pripojením. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002201616",
+      "guid": "ac700c04-92ac-11f1-876b-bc2411833e01",
+      "model": "Edifier ES20 béžový",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený alebo český krátky popis (kopia začiatku dlhého popisu alebo text dodávateľa).",
+          "po": "Kompaktný Bluetooth reproduktor Edifier ES20 v béžovej farbe s výkonom 6 W RMS, Bluetooth 5.4 a krytím IP67. Výdrž až 15 h, zabudovaný mikrofón na hovory a možnosť stereo párovania."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "cd227040-92ac-11f1-ba7e-bc2411833e01",
+      "model": "Edifier ES20 čierny",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený alebo český krátky popis (kopia začiatku dlhého popisu alebo text dodávateľa).",
+          "po": "Kompaktný Bluetooth reproduktor Edifier ES20 v čiernej farbe s výkonom 6 W RMS, Bluetooth 5.4 a krytím IP67. Výdrž až 15 h, zabudovaný mikrofón na hovory a možnosť stereo párovania."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "026368",
+      "guid": "394bb8c2-92c5-11f1-b900-bc2411833e01",
+      "model": "Edifier R1280T hnedé",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený alebo český krátky popis (kopia začiatku dlhého popisu alebo text dodávateľa).",
+          "po": "Hnedé stereo reproduktory Edifier R1280T 2.0 s celkovým výkonom 42 W (2 × 21 W RMS), 4″ basovým reproduktorom s basreflexom a dvoma vstupmi RCA. Regulácia basov a výšok, diaľkový ovládač v balení."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta s koncovkou alebo nedokonalým textom.",
+          "po": "Hnedé stereo reproduktory Edifier R1280T 2.0 so 4″ wooferom, výkonom 42 W, vstupmi RCA a ovládaním basov a výšok. Objednajte na PremiumStore.sk."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
