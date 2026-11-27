@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-26 21:19 UTC.
+Kontrola z 2026-11-27 00:10 UTC.
 
-InnPro pri **394** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **396** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -41,7 +41,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `030694` | Filter PGYTECH VND 2-5 stop pre DJI Mavic 3 / Mavic 3 CINE ( | — | 4 |
 | `032351` | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 | — | 3 |
 | `031871` | Plávajúci ručný grip Telesin pre akčné a športové kamery (GP | — | 4 |
-| `035799` | Súprava príslušenstva DREAME pre modely D9 Pro/D9 Max/L10 Pr | — | 5 |
 | `035742` | Vertikálny úložný držiak pre vysávač Dreame P10/P10Pro | — | 5 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
@@ -53,11 +52,10 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `037421` | Hliníkové paličky na ovládače Sunnylife pre  DJI RC / DJI RC | — | 5 |
 | `037456` | Držiak Sunnylife AirTag pre drony | — | 5 |
 | `037507` | Puzdro na batérie Sunnylife pre DJI Mini 3 Pro/Mini 4 Pro  M | — | 5 |
-| `038492` | Sonoff 5V USB Zasilacz (Type-E/ F) | — | 5 |
 | `038335` | Snímač teploty a vlhkosti Sonoff THS01, RJ9 | — | 5 |
 | `060290` | Baseus Matné puzdro pre iPhone 13 PRO (čierne) + tvrdené skl | — | 5 |
 | `039235` | Tvrdené sklo Joyroom JR-P03 pre Apple iPhone 14 Plus 6,7 " | — | 5 |
-| `038964` | Baseus Crystal Tvrdené sklo odolné voči prachu 0,3 mm pre iP | — | 3 |
+| `038964` | Baseus Crystal Tvrdené sklo odolné voči prachu 0,3 mm pre iP | — | 2 |
 | `038947` | Baseus Glitter Priehľadné puzdro a sada tvrdeného skla pre i | — | 5 |
 | `038946` | Baseus Glitter Priehľadné puzdro a sada tvrdeného skla pre i | — | 5 |
 | `040287` | Prepravné puzdro Sunnylife pre DJI Osmo Mobile 6 | — | 5 |
@@ -69,7 +67,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `043228` | Sáčky na psie exkrementy PetKit - 8 roliek | — | 5 |
 | `044828` | Joyroom JR-14S1 čierne puzdro pre iPhone 14 | — | 5 |
 | `044806` | Joyroom JR-G04 Glass iPhone 14 Pro Max 6.7 (ochrana očí) | — | 5 |
-| `044441` | Baseus Crystal Tvrdené sklo 0,3 mm pre tablet Huawei MatePad | — | 5 |
+| `044441` | Baseus Crystal Tvrdené sklo 0,3 mm pre tablet Huawei MatePad | — | 4 |
 | `046683` | Vodotesné puzdro pre relé Sonoff IP66 | — | 5 |
 | `047961` | Inteligentný spínací modul WiFi Avatto WSM16-W1 TUYA | — | 5 |
 | `044357` | Kempingová lampa Superfire T51, USB-C | — | 5 |
@@ -133,6 +131,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `063431` | Silikónové bezpečnostné puzdro pre Puluz Insta360 GO 3 s kry | — | 5 |
 | `063488` | Selfie tyč Puluz pre športové fotoaparáty (čierna) | — | 5 |
 | `061847` | Joyroom PN-14L2 Puzdro Dancing Circle pre iPhone 14 Pro (mod | — | 5 |
+| `061862` | Joyroom PN-14F4 Starry Case pre iPhone 14 Pro (zelené) | — | 5 |
 | `063754` | Rozširujúci ochranný adaptér PULUZ pre OSMO Pocket 3 | — | 5 |
 | `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
@@ -147,7 +146,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `066874` | Multifunctional Adapter Mount SUNNYLIFE for DJI Avata 2 | — | 5 |
 | `067464` | Silicone Protective Case PULUZ for DJI RC 2 (grey) | — | 5 |
 | `067463` | Silicone protective case PULUZ for DJI RC 2 (black) | — | 5 |
-| `066276` | Lens Protector Nillkin for Samsung Galaxy S24+ (3 Pieces) | — | 5 |
+| `066276` | Lens Protector Nillkin for Samsung Galaxy S24+ (3 Pieces) | — | 4 |
 | `067767` | Anti-glare lens and gimbal cover Sunnylife for DJI Avata 2 | — | 5 |
 | `067770` | Protective case Sunnylife for Insta360 X4 | — | 5 |
 | `066322` | Case Nillkin Super Frosted Shield Pro for Samsung Galaxy A15 | — | 5 |
@@ -191,7 +190,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071867` | Sunnylife protective case for 3 batteries for DJI Neo | — | 5 |
 | `071892` | Sunnylife overlay for DJI Neo | — | 5 |
 | `071893` | Sunnylife tempered glass for DJI Action 5 Pro | — | 5 |
-| `072355` | Chladiaci ventilátor Darkflash DR08 (čierny) | — | 5 |
+| `072586` | Vention KUHV0-40 Puzdro pre iPhone 16 ProMax MagSafe (fialov | — | 5 |
 | `069348` | Decorative cover / cap for T5 SONOFF Cartoon 1C touch switch | — | 5 |
 | `069349` | Decorative cover / cap for T5 SONOFF Cartoon 2C touch switch | — | 5 |
 | `069350` | Decorative cover / cap for T5 SONOFF Cartoon 3C touch switch | — | 5 |
@@ -244,13 +243,12 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `080663` | Silikónový kryt s objektívom PULUZ DJI Osmo 360 (sivý) | — | 5 |
 | `080664` | PULUZ silikónový kryt objektívu DJI Osmo 360 (čierny) | — | 5 |
 | `080679` | Telesin DJI Osmo 360 sada ochranných skiel | — | 5 |
-| `080743` | Sunnylife BK03 rýchloupínač pre OP 3 (ružový) | — | 5 |
 | `080742` | Sunnylife BK03 rýchloupínač pre OP 3 (čierny) | — | 5 |
+| `080737` | Základňa Sunnylife / základňa pre kameru OSMO 360 (oranžová) | — | 5 |
 | `080739` | Ochranné puzdro Sunnylife s popruhom a šnúrkou pre Osmo Pock | — | 5 |
 | `080728` | Držiak Sunnylife na vztlak pre športové kamery | — | 5 |
 | `080584` | Kryt nástenného spínača SONOFF E1GS (s N) | — | 5 |
 | `080586` | Rám pre dvojitý spínač Orb SONOFF EF2G | — | 5 |
-| `080587` | Rám pre trojitý prepínač Orb SONOFF EF3G | — | 5 |
 | `081353` | Sonoff Basic R5 Gen5 WiFi Smart Switch (10A, Matter) | — | 5 |
 | `081547` | Sunnylife tvrdené sklo (2 kusy) pre Osmo Nano | — | 5 |
 | `081548` | Silikónový opasok Sunnylife pre zariadenie Osmo Nano (čierny | — | 5 |
@@ -313,6 +311,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `086452` | Filtračné čerpadlo SUNSUN YQP-300F | — | 5 |
 | `086461` | Filtračné čerpadlo SUNSUN JP-032F | — | 5 |
 | `086462` | Filtračné čerpadlo SUNSUN JP-033F | — | 5 |
+| `086463` | Filtračné čerpadlo SUNSUN CHJ-502 | — | 5 |
 | `086537` | Vnútorný filter SUNSUN HN-011 | — | 5 |
 | `086477` | Povrchový skimmer SUNSUN JY-03 | — | 5 |
 | `086551` | Vlnový generátor SUNSUN JVP-110 | — | 5 |
@@ -336,7 +335,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088952` | Holografická samolepiaca fólia HTVRONT, 30,5 cm x 90 cm (ruž | — | 5 |
 | `088953` | Holografická samolepiaca fólia HTVRONT, 30,5 cm × 90 cm (tyr | — | 5 |
 | `088954` | Holografická samolepiaca fólia HTVRONT, 30,5 cm x 90 cm (ruž | — | 5 |
-| `088955` | Holografická samolepiaca fólia HTVRONT, 30,5 cm × 90 cm (str | — | 5 |
+| `088955` | Holografická samolepiaca fólia HTVRONT, 30,5 cm × 90 cm (str | — | 4 |
 | `088956` | Samolepiaca fólia HTVRONT v odtieni Chrome Metallic, 30,5 cm | — | 5 |
 | `088957` | Samolepiaca fólia HTVRONT v odtieni Chrome Metallic, 30,5 cm | — | 5 |
 | `088958` | Samolepiaca fólia HTVRONT Chrome, 30,5 cm x 90 cm (ružové zl | — | 5 |
@@ -365,6 +364,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089623` | Ochranná fólia z tvrdeného skla Puluz 9H pre GoPro HERO 12/1 | — | 5 |
 | `089627` | Silikónové puzdro Puluz pre GoPro HERO 4K 2024 | — | 5 |
 | `089630` | Držiak Puluz na riadidlá pre akčné kamery so závitom na stat | — | 4 |
+| `089633` | Tvrdené sklo Puluz pre GoPro Hero11 Black Mini (číre) | — | 5 |
 | `089639` | Silikónové puzdro Puluz pre DJI Osmo 360 (čierne) | — | 5 |
 | `089640` | Puzdro Puluz 3 v 1 pre DJI OSMO Pocket 3 | — | 5 |
 | `089643` | Silikónové puzdro Puluz pre Insta360 GO 3S (čierne) | — | 3 |
@@ -386,9 +386,11 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089897` | Univerzálny držiak na telefón Sunnylife s klipom | — | 5 |
 | `087714` | Držiak Cycplus Z4 pre cyklopočítač | — | 5 |
 | `089382` | Tepelná etiketa NIIMBOT EW50*30-225 | — | 5 |
-| `093248` | Sada veľkostí EVEN REALITIES R1 | — | 5 |
+| `091927` | Sunnylife Pocket 4P – ochranné sklo na displej a diaľkový ov | — | 5 |
+| `091928` | Sunnylife Pocket 4P/4/3 – tvrdené ochranné sklo, balenie po  | — | 5 |
+| `091929` | Ochranná fólia Sunnylife Insta360 Luna Ultra, balenie po 2 k | — | 5 |
 | `089389` | Čelovka SUPERFIRE HL106 | — | 5 |
-| `089386` | Čelovka SUPERFIRE HL05-L | — | 5 |
+| `089386` | Čelovka SUPERFIRE HL05-L | — | 4 |
 | `089385` | Svetlo SUPERFIRE F1-X | — | 5 |
 | `093393` | UV baterka Supfire S11-H, 365 nm, USB-C | — | 5 |
 | `093563` | Popruh na prilbu SJCAM | — | 5 |
