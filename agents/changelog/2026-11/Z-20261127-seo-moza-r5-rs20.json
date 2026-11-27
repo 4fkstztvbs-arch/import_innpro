@@ -1,0 +1,32 @@
+{
+  "id": "Z-20261127-seo-moza-r5-rs20",
+  "datum": "2026-11-27",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "MOZA R5 RS20: titulok a meta začínajú dopytovým výrazom MOZA R5, údaje 5,5 Nm z popisu (dotaz moza r5).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "073677",
+      "guid": "9e1ecb5e-92c5-11f1-a92e-bc2411833e01",
+      "url": "https://www.premiumstore.sk/gaming-set-base-r5-steering-wheel-es-pedals-srp-lite-table-clamp-moza-racing-r5-rs20--pc-/",
+      "polia": {
+        "metaTitle": {
+          "pred": "Simulačná súprava MOZA Racing R5 RS20 s volantom, pedálmi",
+          "po": "MOZA R5 Bundle RS20: Direct Drive 5,5 Nm, volant a pedále"
+        },
+        "metaDescription": {
+          "pred": "Simulačná súprava Moza Racing R5 RS20 s volantom: priamy pohon Direct Drive. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+          "po": "MOZA R5 Bundle RS20 pre PC: základňa Direct Drive 5,5 Nm, volant ES, pedále SR-P Lite a stolový držiak. Vrátenie do 14 dní."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-27",
+    "ok": true,
+    "poznamka": "product_update potvrdil metaTitle, metaDescription."
+  }
+}
