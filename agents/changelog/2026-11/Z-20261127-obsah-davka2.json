@@ -1,0 +1,211 @@
+{
+  "id": "Z-20261127-obsah-davka2",
+  "datum": "2026-11-27",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 2 (27. 11., 12:10): 14 produktov Edifier (ES300 čierny a biely, S300 béžový, hnedý a čierny orech, ES60 biely, R1280T čierne, M60 čierne, dub a biele, QR30 biele, MP330 čierny, hnedý a slonovinový). Nové slovenské krátke popisy, oprava meta u S300, R1280T čierne a M60. Dlhé popisy kvalitné slovenské, ponechané. Farebné varianty bez načítaného detailu používajú údaje z variantu rovnakého modelu. W830NB už mal kvalitný popis.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "a59b5492-92c5-11f1-b768-bc2411833e01",
+      "model": "Edifier ES300 čierny",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis (kopia začiatku dlhého popisu výrobcu).",
+          "po": "Čierny Bluetooth reproduktor Edifier ES300 s výkonom 60 W RMS, AirPlay 2, LDAC a Hi-Res Audio, batéria 5200 mAh."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "a5a64988-92c5-11f1-9a7e-bc2411833e01",
+      "model": "Edifier ES300 biely",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis (kopia začiatku dlhého popisu výrobcu).",
+          "po": "Biely Bluetooth reproduktor Edifier ES300 s výkonom 60 W RMS, AirPlay 2, LDAC a Hi-Res Audio, batéria 5200 mAh."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "c5969fcc-92c5-11f1-9bfc-bc2411833e01",
+      "model": "Edifier S300 béžový",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis (kopia začiatku dlhého popisu výrobcu).",
+          "po": "Béžový Bluetooth reproduktor Edifier S300 s výkonom 80 W RMS, LDAC, AirPlay 2, Hi-Res Audio."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta s koncovkou z textu výrobcu.",
+          "po": "Béžový Bluetooth reproduktor Edifier S300 s výkonom 80 W RMS, Bluetooth 5.4, LDAC, AirPlay 2 a Hi-Res Audio. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "c5a12438-92c5-11f1-b96f-bc2411833e01",
+      "model": "Edifier S300 hnedý",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis (kopia začiatku dlhého popisu výrobcu).",
+          "po": "Hnedý Bluetooth reproduktor Edifier S300 s výkonom 80 W RMS, LDAC, AirPlay 2, Hi-Res Audio."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta s koncovkou z textu výrobcu.",
+          "po": "Hnedý Bluetooth reproduktor Edifier S300 s výkonom 80 W RMS, Bluetooth 5.4, LDAC, AirPlay 2 a Hi-Res Audio. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "c5ab6434-92c5-11f1-9515-bc2411833e01",
+      "model": "Edifier S300 čierny orech",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis (kopia začiatku dlhého popisu výrobcu).",
+          "po": "Bluetooth reproduktor Edifier S300 (čierny orech) s výkonom 80 W RMS, LDAC, AirPlay 2, Hi-Res Audio."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta s koncovkou z textu výrobcu.",
+          "po": "Bluetooth reproduktor Edifier S300 (čierny orech) s výkonom 80 W RMS, Bluetooth 5.4, LDAC, AirPlay 2 a Hi-Res Audio. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "a58464b2-92c5-11f1-a4eb-bc2411833e01",
+      "model": "Edifier ES60 biely",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis (kopia začiatku dlhého popisu výrobcu).",
+          "po": "Biely prenosný reproduktor Edifier ES60 s výkonom 34 W RMS, Bluetooth 5.4, IP66, výdrž až 9 h (údaje z čierneho variantu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "b82341ba-92c5-11f1-9ab4-bc2411833e01",
+      "model": "Edifier R1280T čierne",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis (kopia začiatku dlhého popisu výrobcu).",
+          "po": "Čierne stereo reproduktory Edifier R1280T 2.0 s výkonom 42 W, 4″ woofer, vstupy RCA (údaje z hnedého variantu)."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta s koncovkou z textu výrobcu.",
+          "po": "Čierne stereo reproduktory Edifier R1280T 2.0 so 4″ wooferom, výkonom 42 W, vstupmi RCA a ovládaním basov a výšok. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "8d759b2a-92c5-11f1-a50a-bc2411833e01",
+      "model": "Edifier M60 čierne",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis (kopia začiatku dlhého popisu výrobcu).",
+          "po": "Čierne stolové reproduktory Edifier M60 2.0 s výkonom 66 W RMS, Hi-Res Audio, USB-C, Bluetooth 5.3 a LDAC."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta s koncovkou z textu výrobcu.",
+          "po": "Čierne reproduktory Edifier M60 2.0 s výkonom 66 W RMS, USB-C, Bluetooth 5.3, LDAC a Hi-Res Audio. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "8f0ffa66-92c5-11f1-83ff-bc2411833e01",
+      "model": "Edifier M60 dub",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis (kopia začiatku dlhého popisu výrobcu).",
+          "po": "Stolové reproduktory Edifier M60 2.0 v dekore dub s výkonom 66 W RMS, USB-C, Bluetooth 5.3, LDAC."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta s koncovkou z textu výrobcu.",
+          "po": "Reproduktory Edifier M60 2.0 (dub) s výkonom 66 W RMS, USB-C, Bluetooth 5.3, LDAC a Hi-Res Audio. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "8f1a1e06-92c5-11f1-bbd0-bc2411833e01",
+      "model": "Edifier M60 biele",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis (kopia začiatku dlhého popisu výrobcu).",
+          "po": "Biele stolové reproduktory Edifier M60 2.0 s výkonom 66 W RMS, USB-C, Bluetooth 5.3, LDAC."
+        },
+        "metaDescription": {
+          "pred": "Pôvodná meta s koncovkou z textu výrobcu.",
+          "po": "Biele reproduktory Edifier M60 2.0 s výkonom 66 W RMS, USB-C, Bluetooth 5.3, LDAC a Hi-Res Audio. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "a268c93a-92c5-11f1-a5a3-bc2411833e01",
+      "model": "Edifier QR30 biele",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis (kopia začiatku dlhého popisu výrobcu).",
+          "po": "Biele stolové reproduktory Edifier QR30 s výkonom 30 W RMS, Bluetooth 5.4 s multipointom, USB-A, AUX, svetelné efekty."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "d40c3e36-92c5-11f1-bd09-bc2411833e01",
+      "model": "Edifier MP330 čierny",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis (kopia začiatku dlhého popisu výrobcu).",
+          "po": "Čierny retro prenosný reproduktor Edifier MP330 s výkonom 40 W RMS, Bluetooth 6.0, Hi-Res Audio, výdrž až 19 h."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "d401d860-92c5-11f1-875f-bc2411833e01",
+      "model": "Edifier MP330 hnedý",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis (kopia začiatku dlhého popisu výrobcu).",
+          "po": "Hnedý retro prenosný reproduktor Edifier MP330 s výkonom 40 W RMS, Bluetooth 6.0, Hi-Res Audio, výdrž až 19 h (údaje z čierneho variantu)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "",
+      "guid": "d416accc-92c5-11f1-a624-bc2411833e01",
+      "model": "Edifier MP330 slonovinový",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pôvodný skrátený krátky popis (kopia začiatku dlhého popisu výrobcu).",
+          "po": "Slonovinový retro prenosný reproduktor Edifier MP330 s výkonom 40 W RMS, Bluetooth 6.0, Hi-Res Audio, výdrž až 19 h (údaje z čierneho variantu)."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
