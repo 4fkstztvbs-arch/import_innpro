@@ -1,0 +1,195 @@
+{
+ "id": "Z-20261128-obsah-davka1",
+ "datum": "2026-11-28",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 1 (28. 11., 10:10): 15 produktov (Edifier R2750DB MKII ×2, S355DB ×2, M90 ×2, R1700BT, Airpulse A80, T5s, X5 Pro svetlomodré, W830NB krémové, P12; OneOdio Link 20, Fusion A70 ×2). Nové slovenské krátke popisy. MR 4.5 čierne už malo kvalitný popis, preskočené. Produkty bez načítaného detailu používajú len údaje z názvu alebo variantu.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "f3149d0a-92c5-11f1-b754-bc2411833e01",
+   "model": "Edifier R2750DB MKII čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), prázdny alebo chýba; originál neuložený.",
+     "po": "144 W RMS, BT 6.0 LDAC, HDMI eARC"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "f322998c-92c5-11f1-a020-bc2411833e01",
+   "model": "Edifier R2750DB MKII hnedé",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), prázdny alebo chýba; originál neuložený.",
+     "po": "podľa čierneho variantu"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "f3c6de3e-92c5-11f1-ab3e-bc2411833e01",
+   "model": "Edifier S355DB čierny",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), prázdny alebo chýba; originál neuložený.",
+     "po": "150 W RMS, bezdrôtový 8\" subwoofer"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "f2dce856-92c5-11f1-b168-bc2411833e01",
+   "model": "Edifier S355DB hnedý",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), prázdny alebo chýba; originál neuložený.",
+     "po": "podľa čierneho variantu"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "f2e73914-92c5-11f1-84a9-bc2411833e01",
+   "model": "Edifier M90 biele",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), prázdny alebo chýba; originál neuložený.",
+     "po": "100 W RMS, BT 6.0 LDAC"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "f2f1780c-92c5-11f1-b664-bc2411833e01",
+   "model": "Edifier M90 čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), prázdny alebo chýba; originál neuložený.",
+     "po": "podľa bieleho variantu"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "fe5fa4c0-92c5-11f1-ac40-bc2411833e01",
+   "model": "Edifier R1700BT biele",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), prázdny alebo chýba; originál neuložený.",
+     "po": "66 W, BT 5.1 (pôvodne bez krátkeho popisu; dlhý popis je prázdny, len odkaz na dokument)"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "5b22c024-a1b3-11f1-880f-bc24110eff41",
+   "model": "Edifier Airpulse A80 hnedé",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), prázdny alebo chýba; originál neuložený.",
+     "po": "100 W, XMOS, BT 5.0"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "700efe2e-bdfd-11f1-a734-bc24110eff41",
+   "model": "Edifier T5s čierny",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), prázdny alebo chýba; originál neuložený.",
+     "po": "70 W RMS, 8\"; pôvodný popis nesprávne uvádzal hnedý"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "0d3eebdc-ad7d-11f1-a514-bc2411e8af0e",
+   "model": "Edifier X5 Pro svetlomodré",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), prázdny alebo chýba; originál neuložený.",
+     "po": "ANC 48 dB, 48 h (z názvu)"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "5ff22bce-b3c6-11f1-b510-bc2411833e01",
+   "model": "Edifier W830NB krémové",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), prázdny alebo chýba; originál neuložený.",
+     "po": "ANC, 94 h (z názvu)"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "5b2f01a4-a1b3-11f1-a7e1-bc24110eff41",
+   "model": "Edifier P12 hnedé",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), prázdny alebo chýba; originál neuložený.",
+     "po": "pasívne (z názvu)"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "f0dddc7c-92c5-11f1-abc6-bc2411833e01",
+   "model": "OneOdio OpenRock Link 20 čierne",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), prázdny alebo chýba; originál neuložený.",
+     "po": "otvorené bezdrôtové (z názvu)"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "8c106602-92c5-11f1-9b08-bc2411833e01",
+   "model": "OneOdio Fusion A70 strieborno-hnedé",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), prázdny alebo chýba; originál neuložený.",
+     "po": "BT 5.2, 72 h (z názvu)"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "8c059eb6-92c5-11f1-9cde-bc2411833e01",
+   "model": "OneOdio Fusion A70 čierno-červené",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), prázdny alebo chýba; originál neuložený.",
+     "po": "BT 5.2, 72 h (z názvu)"
+    }
+   }
+  }
+ ],
+ "overenie": "updatedFields potvrdené pri každom zápise.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
