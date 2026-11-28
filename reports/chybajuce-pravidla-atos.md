@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — atos
 
-Kontrola z 2026-11-27 02:44 UTC.
+Kontrola z 2026-11-28 02:35 UTC.
 
 **1 ciest bez pravidla, 151 produktov bez kategórie.**
 
@@ -9,4 +9,4 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 
 | Cesta z feedu | Produktov | Príklady |
 |---|---|---|
-| `Druhy > BLACK FRIDAY` | 151 | ORNO OR-GM-9048/B Zapuštěná zásuvka s výklopným víkem a USB; Prodlužovací kabel na bubnu 50m ORNO OR-AE-13301/50M; UPS VOLT Micro 850VA 480W 9Ah POČÍTAČOVÝ UPS; Meteorologická stanice GARNI 612 Precise; Meteorologická stanice GARNI 615W Precise |
+| `Druhy > BLACK FRIDAY` | 151 | Konvice filtrační TEESA TSA0101; Budík digitální TechnoLine WT 745W; Prodlužovací kabel EMOS P19425 na bubnu 25 m / 4 zásuvky / červený / PVC / 230 V / 1,5 mm2; TechniSat DIGITRADIO 10 C; Pec na pizzu TEESA TSA3238 SUPREME+ |
