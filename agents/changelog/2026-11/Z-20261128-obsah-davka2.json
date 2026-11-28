@@ -1,0 +1,195 @@
+{
+ "id": "Z-20261128-obsah-davka2",
+ "datum": "2026-11-28",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 2 (28. 11., 12:10): 15 produktov Catlink (toalety BayMax, BayMax Lite, Scoop Robot Pro, Scooper Pro Ultra, Open X ×2; fontány Pure 3 a Pure 2 Lite; dávkovače F04 Pro a STD; schodíky a vrecká). Nové slovenské krátke popisy; u F04 Pro a STD nahradený zástupný text brak_long_desc, u BayMax Lite nový slovenský dlhý popis a meta (pôvodný bol anglický). Produkty bez načítaného detailu používajú len údaje z názvu.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "d44d3e42-b6ea-11f1-9ecb-bc2411e8af0e",
+   "model": "Catlink BayMax",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), anglický, prázdny alebo zástupný text; originál neuložený.",
+     "po": "7 l, 3 režimy, 1,5–10 kg"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "d4b4fb68-b6ea-11f1-9b78-bc2411e8af0e",
+   "model": "Catlink Pure 3",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), anglický, prázdny alebo zástupný text; originál neuložený.",
+     "po": "2,3 l, 5000 mAh, 150 dní"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "d548d04a-b6ea-11f1-a552-bc2411e8af0e",
+   "model": "Catlink F04 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), anglický, prázdny alebo zástupný text; originál neuložený.",
+     "po": "pôvodný krátky aj dlhý popis boli zástupný text brak_long_desc; nový krátky a stručný dlhý popis len z názvu a meta, parametre treba doplniť z feedu"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "04c417d0-b6eb-11f1-800d-bc2411e8af0e",
+   "model": "Catlink Scoop Robot Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), anglický, prázdny alebo zástupný text; originál neuložený.",
+     "po": "15 l, 2 AI kamery, 35 dB"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "d54d0368-b6ea-11f1-a787-bc2411e8af0e",
+   "model": "Catlink F04 STD",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), anglický, prázdny alebo zástupný text; originál neuložený.",
+     "po": "ako F04 Pro (zástupný text nahradený)"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "d7212430-b6ea-11f1-81d2-bc2411e8af0e",
+   "model": "Catlink BayMax Lite",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), anglický, prázdny alebo zástupný text; originál neuložený.",
+     "po": "krátky popis, meta a dlhý popis (pôvodne anglický) po slovensky; originál dlhého popisu nie je uložený, dá sa získať z feedu INNPRO"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "e28b903a-b6ea-11f1-a3b9-bc2411e8af0e",
+   "model": "Catlink Scooper Pro Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), anglický, prázdny alebo zástupný text; originál neuložený.",
+     "po": "Full HD kamera, 13 l"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "d0cdbf6c-b6ea-11f1-8c51-bc2411e8af0e",
+   "model": "Catlink Scooper vrecká 2×20",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), anglický, prázdny alebo zástupný text; originál neuložený.",
+     "po": "z názvu"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "d0d21134-b6ea-11f1-b874-bc2411e8af0e",
+   "model": "Catlink Scooper schodíky PP",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), anglický, prázdny alebo zástupný text; originál neuložený.",
+     "po": "z názvu"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "d37c23fc-b6ea-11f1-ae97-bc2411e8af0e",
+   "model": "Catlink Scooper schodíky sivé",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), anglický, prázdny alebo zástupný text; originál neuložený.",
+     "po": "z názvu"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "d4648ffc-b6ea-11f1-be05-bc2411e8af0e",
+   "model": "Catlink BayMax schodíky",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), anglický, prázdny alebo zástupný text; originál neuložený.",
+     "po": "z názvu"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "d5439fbc-b6ea-11f1-9178-bc2411e8af0e",
+   "model": "Catlink BayMax vrecká 2 ks",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), anglický, prázdny alebo zástupný text; originál neuložený.",
+     "po": "z názvu"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "04d1c0ec-b6eb-11f1-9d76-bc2411e8af0e",
+   "model": "Catlink Pure 2 Lite",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), anglický, prázdny alebo zástupný text; originál neuložený.",
+     "po": "2,6 l (z názvu)"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "ea816d1e-b6ea-11f1-8ed5-bc2411e8af0e",
+   "model": "Catlink Open X biela",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), anglický, prázdny alebo zástupný text; originál neuložený.",
+     "po": "z názvu"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "",
+   "guid": "ea87243e-b6ea-11f1-9e45-bc2411e8af0e",
+   "model": "Catlink Open X sivá",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pôvodný krátky popis (skrátená kopia dlhého popisu výrobcu), anglický, prázdny alebo zástupný text; originál neuložený.",
+     "po": "z názvu"
+    }
+   }
+  }
+ ],
+ "overenie": "updatedFields potvrdené pri každom zápise.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
