@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-28 02:04 UTC.
+Kontrola z 2026-11-28 12:33 UTC.
 
-InnPro pri **398** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **397** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -52,7 +52,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `037421` | Hliníkové paličky na ovládače Sunnylife pre  DJI RC / DJI RC | — | 5 |
 | `037456` | Držiak Sunnylife AirTag pre drony | — | 5 |
 | `037507` | Puzdro na batérie Sunnylife pre DJI Mini 3 Pro/Mini 4 Pro  M | — | 5 |
-| `038492` | Sonoff 5V USB Zasilacz (Type-E/ F) | — | 2 |
 | `038335` | Snímač teploty a vlhkosti Sonoff THS01, RJ9 | — | 5 |
 | `060290` | Baseus Matné puzdro pre iPhone 13 PRO (čierne) + tvrdené skl | — | 5 |
 | `039235` | Tvrdené sklo Joyroom JR-P03 pre Apple iPhone 14 Plus 6,7 " | — | 5 |
