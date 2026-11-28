@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-27 02:11 UTC.
+Kontrola z 2026-11-28 01:59 UTC.
 
-Solight pri **479** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **482** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -240,6 +240,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WN900` | Solight náhradný akumulátor typ 18650, 3,7V, Li-Ion, 2200mAh | 3 | 400 |
 | `TE09` | Solight teplomer, teplota, veľký displej, dátum, čas, biely | 3 | 40 |
 | `WM501` | Solight LED pásik pre TV, 100cm, USB, vypínač, studená biela | 3 | 50 |
+| `1V53-WW` | Solight LED vonkajšia vianočná reťaz, 50LED, 5m, 8 funkcií,  | 3 | 20 |
 | `CN03` | Solight anténny adaptér, s napájací výhybkou, 100mA | 3 | 100 |
 | `WL17` | Solight LED kovové svietidlo malé, 50lm, 1W LED, čierna, 1 x | 3 | 288 |
 | `5B114` | Solight vypínač Slim č. 7 krížový, biely | 3 | 120 |
@@ -319,8 +320,10 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PS04` | Solight predlžovací prívod - spojka, 1 zásuvka, 5m, 3 x 1mm2 | 3 | 40 |
 | `SSC1902-S` | Solight USB-C/Lightning kábel, USB-C konektor - Lightning ko | 3 | 100 |
 | `PP12` | Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 3m | 3 | 40 |
+| `1V57-WW` | Solight LED vonkajšia vianočná reťaz, 100LED, 10m, 3m prívod | 3 | 24 |
 | `P69` | Solight dvojzásuvka do vlhka, IP44, čierna | 3 | 50 |
 | `PP71` | Solight predlžovací prívod, 6 zásuviek, biely, vypínač, 2m | 3 | 50 |
+| `1V57-W` | Solight LED vonkajšia vianočná reťaz, 100LED, 10m, 3m prívod | 3 | 24 |
 | `SSC2001` | Solight magnetický Lightning kábel, USB 2.0 A konektor - Lig | 3 | 100 |
 | `SSC2101` | Solight magnetický USB-C 3.1 kábel, USB-C konektor - USB-C k | 3 | 100 |
 | `SSC2201` | Solight magnetický USB-C/Lightning kábel, USB-C konektor - L | 3 | 100 |
