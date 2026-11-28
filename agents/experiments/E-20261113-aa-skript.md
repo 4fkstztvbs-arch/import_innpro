@@ -26,3 +26,8 @@ Obe vetvy sú rovnaké, takže rozdelenie návštevníkov má byť blízko 50 : 
 ## Vyhodnotenie
 
 Dopĺňa meranie: `node agents/tools/experiment-stats.js ab data.json`, podiel vetiev, rozdiel konverzie, súbežné vplyvy.
+
+## Priebeh vyhodnotenia
+
+- 2026-11-28 (meranie): A/A nie je vyhodnotený. Rozdelenie vetiev A/B a konverzia podľa `experiment_id` `aa-20261112` vyžadujú GA4 dáta podľa vlastného parametra `variant`, a tie cez dostupné nástroje (OpenSEO key events, ecommerce, Search Console) nezískame. Verdikt zostáva prázdny.
+- Potrebné na vyhodnotenie: GA4 prieskum (Explorations) s dimenziou `variant` a udalosťou `ps_experiment` za 13. až 27. 11., alebo export takéhoto prehľadu do súkromného priečinka. Potom sa spustí `node agents/tools/experiment-stats.js ab data.json`.
